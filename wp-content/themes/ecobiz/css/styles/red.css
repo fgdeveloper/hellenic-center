@@ -1,0 +1,58 @@
+body { 
+  background-color: #C71400;
+}
+a,a:link,a:visited {
+  color:#DE000F;
+  text-decoration:none;
+}
+#slide-wrapper {
+  border-top: 4px solid #D11320;
+  border-bottom: 2px solid #D11320;
+  background: #BA1300;
+}
+.featuresbox,
+.quotebox {
+  background-color: #DB2935;
+  background-image: url(red/red.jpg);
+  background-position:  bottom center;
+  background-repeat:  repeat-x;
+  border-bottom: 2px solid #D11320;  
+}
+.featuresbox ul li {
+  background: url(red/divider-red.png) center left no-repeat;
+}
+.mainbox h4,
+.mainbox2 h4 {
+  color: #DE000F;
+  margin-bottom: 10px;
+}
+.mainbox h4 a,
+.mainbox2 h4 a {
+  color: #DE000F;
+}
+#page-heading {
+  border-top: 4px solid #D11320;
+  border-bottom: 2px solid #D11320;
+  background: #BA1300;
+}
+.jqueryslidemenu ul li.current_page_item a, .jqueryslidemenu ul li.current_page_parent a,.jqueryslidemenu ul li.current_page_ancestor a {
+  color: #DE000F;
+}
+.jqueryslidemenu ul li a:hover{
+  color: #DE000F;
+}
+.jqueryslidemenu ul li ul li a:hover{ /*sub menus hover style*/
+  color: #DE000F;
+}
+a.button {
+  color: #666666;  
+}
+.wpapi_pagination a:hover{
+  background: #DE000F;
+}
+.wpapi_pagination .current{
+  background: #DE000F;
+}
+.nivo-caption a {
+  color: #ffffff; 
+}

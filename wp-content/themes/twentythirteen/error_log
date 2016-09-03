@@ -1,0 +1,4 @@
+[13-Jan-2014 05:09:40 America/Denver] PHP Fatal error:  Call to undefined function get_header() in /home4/hellenj7/public_html/wp-content/themes/twentythirteen/404.php on line 10
+[30-Oct-2014 01:45:49 America/Denver] PHP Fatal error:  Call to undefined function get_header() in /home4/hellenj7/public_html/wp-content/themes/twentythirteen/404.php on line 10
+[26-Apr-2016 16:05:33 America/Denver] PHP Fatal error:  Call to undefined function get_header() in /home4/hellenj7/public_html/wp-content/themes/twentythirteen/404.php on line 10
+[29-Jun-2016 05:18:09 America/Denver] PHP Fatal error:  Call to undefined function get_header() in /home4/hellenj7/public_html/wp-content/themes/twentythirteen/404.php on line 10

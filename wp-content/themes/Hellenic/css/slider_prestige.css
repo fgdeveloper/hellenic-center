@@ -1,0 +1,188 @@
+/**********************************************************************
+* PRESTIGE WORDPRESS EDITION 
+* (Ideal For Business And Personal Use: Portfolio or Blog)   
+* 
+* File name:   
+*      slider_prestige.css
+* Brief:       
+*      CSS code
+* Author:      
+*      DigitalCavalry
+* Author URI:
+*      http://themeforest.net/user/DigitalCavalry
+* Contact:
+*      digitalcavalry@gmail.com 
+**********************************************************************/ 
+                                                                        
+/*************************************************
+    HOMEPAGE FEATURES TEXT SLIDER CSS
+**************************************************/
+
+#features
+{
+    height:328px; 
+    width:1000px;
+    margin:auto;
+}
+
+#text-feature-container 
+{
+    float:left; 
+    width:428px;
+    height:298px; 
+    padding:25px 10px 0px 40px;
+    position: relative;
+    overflow:hidden;
+}
+
+#text-feature-container .text-feature 
+{
+    opacity:0.0;
+    filter:alpha(opacity=0); /* IE */
+    position:absolute;
+    left:428px;
+    top:30px;
+    width:428px;
+    height:255px;
+    padding-top:10px;
+}
+
+#text-feature-container .text-feature h1
+{
+   font: 43px "Arial MS";
+   position:relative;
+   z-index:1;
+   opacity:0.0;
+   filter:alpha(opacity=0); /* IE */      
+}
+
+#text-feature-container .text-feature p.home-slider
+{
+    color:#111;
+    font:15px/18px Verdana;
+    font-weight:normal;
+    text-indent:0px;
+}
+
+#text-feature-container .read-more
+{ 
+    text-decoration:none;
+    font:14px Verdana;  
+    color:#777; 
+    line-height:12px;
+    padding-left:0px;
+    cursor:pointer;  
+}
+
+#text-feature-container .read-more:hover 
+{ 
+    color:#000; 
+    cursor:pointer;
+}
+
+/*************************************************
+    HOMEPAGE IMAGE FADER/MOVER SLIDER CSS
+**************************************************/
+
+#fader-slider
+{
+    width:510px; 
+    float:left;
+    padding: 27px 0px 0px 12px;
+}
+
+#fader-slider .slides-wrapper
+{ 
+    width:476px; 
+    height:243px; 
+    float:left;
+}
+
+#fader-slider .slides-container
+{ 
+    width:460px; 
+    height:227px;
+    position: relative;
+    overflow: hidden;
+    left:7px;
+    padding:7px 0px 7px;
+}
+
+#fader-slider .slides-container .slide
+{
+    position: absolute;
+    opacity: 0.0;
+    filter:alpha(opacity=0); /* for IE */ 
+    width:460px;
+    height:227px;
+    display:block;
+}
+
+#fader-slider .slides-container .slide img
+{
+    border:none;    
+}
+
+#fader-slider .thumbs-container
+{
+    width:324px; 
+    height:34px; 
+    float:left; 
+    overflow: hidden;
+    padding-top:0px;
+    margin-left:0px;
+}
+
+#fader-slider .thumbs-container  .thumb
+{
+    width: 40px;
+    height: 37px;
+    cursor: pointer;
+    float:left;
+    margin-right:1px;
+    background-image:url(../img/slider_prestige/thumb_background.png);
+    background-position:-5px -2px;
+    padding-left:7px;
+}
+
+#fader-slider .thumbs-container .image
+{
+    position:absolute;
+}
+
+
+#fader-slider .control-panel
+{
+    float:right; 
+    width:38px;
+    margin-right:44px;
+}
+
+#fader-slider .control-panel #prev
+{
+    float:left; 
+    background-image:url(../img/slider_prestige/button_prev_off.png); 
+    width:10px; 
+    height:8px; 
+    cursor:pointer;
+}
+
+#fader-slider .control-panel #play
+{
+    float:left;  
+    width:8px; 
+    height:8px; 
+    cursor:pointer;
+    background-image:url(../img/slider_prestige/button_pause_off.png);
+    margin-left:5px;
+}
+
+#fader-slider .control-panel #next
+{
+    float:left; 
+    background-image:url(../img/slider_prestige/button_next_off.png); 
+    width:10px; 
+    height:8px; 
+    cursor:pointer; 
+    margin-left:5px;
+}

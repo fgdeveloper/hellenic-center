@@ -1,0 +1,1 @@
+[27-Oct-2013 20:49:48] PHP Warning:  include() [<a href='function.include'>function.include</a>]: Failed opening 'Zend/Loader.php' for inclusion (include_path='.:/usr/lib64/php:/usr/share/pear') in /home4/hellenj7/public_html/wp-content/plugins/contact-form-7-to-database-extension/CFDBCheckZendFramework.php on line 29

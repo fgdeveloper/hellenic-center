@@ -1,0 +1,138 @@
+/********************************************************************
+    File:   
+        slider_video.css
+    Brief:  
+        -
+    Author:
+        DigitalCavalry
+    Author URI:
+        http://themeforest.net/user/DigitalCavalry
+*********************************************************************/
+#video-slider-wrapper 
+{  
+    width:920px;
+    height:270px;
+    margin-top:25px;
+    margin-bottom:35px;
+    margin-left:auto;
+    margin-right:auto;
+    border:0px solid red;
+}
+
+#video-slider {
+    width:920px; 
+    height:270px; 
+    overflow:hidden; 
+    background-color:transparent; 
+    position:relative;
+    border:none;           
+}
+
+#video-slider .video-slide 
+{
+    width:480px;  
+    height:270px; 
+    position: absolute;  
+    right:0px; 
+    top:0px;
+    background-color:black;    
+    display:none;
+}
+
+#video-slider .text-slide 
+{
+    width:400px;  
+    height:270px; 
+    position: absolute;  
+    left:0px; 
+    top:0px;
+    background-color:transparent;
+    display:none;     
+}
+
+
+#video-slider .text-slide h1
+{
+   padding-top:10px;
+   font: 43px "Arial MS";
+   position:relative;
+   opacity:1.0;
+   filter:alpha(opacity=0); /* IE */      
+}
+
+#video-slider .text-slide p
+{
+    color:#eee;
+    font:15px/18px Verdana;
+    font-weight:normal;
+    text-indent:0px;
+}
+
+#video-slider .text-slide .read-more
+{ 
+    text-decoration:none;
+    font:14px Verdana;  
+    color:#999; 
+    line-height:12px;
+    padding-left:0px;
+    cursor:pointer;  
+}
+
+#video-slider .text-slide .read-more:hover 
+{ 
+    color:#eee; 
+    cursor:pointer;
+}
+
+
+#video-slider .text-slide p.photo-author 
+{
+    color: #777;
+    font: normal 9px Verdana;
+    margin: 0px 0px 5px;
+    text-decoration: none;
+    text-indent: 0px;
+}
+
+#video-slider .control-panel
+{
+    position:absolute; 
+    width:38px;
+    margin-right:44px;
+    left:0px;
+    bottom:0px;
+    z-index:10;
+}
+
+#video-slider .control-panel #prev
+{
+    float:left; 
+    background-image:url(../img/slider_video/button_prev_off.png); 
+    width:10px; 
+    height:8px; 
+    cursor:pointer;
+}
+
+#video-slider .control-panel #play
+{
+    float:left;  
+    width:8px; 
+    height:8px; 
+    cursor:pointer;
+    background-image:url(../img/slider_video/button_pause_off.png);
+    margin-left:5px;
+}
+
+#video-slider .control-panel #next
+{
+    float:left; 
+    background-image:url(../img/slider_video/button_next_off.png); 
+    width:10px; 
+    height:8px; 
+    cursor:pointer; 
+    margin-left:5px;
+}
+
+
+
+

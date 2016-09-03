@@ -1,0 +1,9 @@
+[08-Dec-2013 11:01:10] PHP Fatal error:  Call to undefined function  get_header() in /home4/hellenj7/public_html/wp-content/themes/twentyeleven/404.php on line 10
+[09-Dec-2013 08:47:31] PHP Fatal error:  Call to undefined function  get_header() in /home4/hellenj7/public_html/wp-content/themes/twentyeleven/404.php on line 10
+[09-Dec-2013 13:37:36] PHP Fatal error:  Call to undefined function  get_header() in /home4/hellenj7/public_html/wp-content/themes/twentyeleven/404.php on line 10
+[09-Dec-2013 15:40:03] PHP Fatal error:  Call to undefined function  get_header() in /home4/hellenj7/public_html/wp-content/themes/twentyeleven/404.php on line 10
+[13-Jan-2014 05:09:40 America/Denver] PHP Fatal error:  Call to undefined function get_header() in /home4/hellenj7/public_html/wp-content/themes/twentyeleven/404.php on line 10
+[30-Oct-2014 01:45:49 America/Denver] PHP Fatal error:  Call to undefined function get_header() in /home4/hellenj7/public_html/wp-content/themes/twentyeleven/404.php on line 10
+[21-Jul-2015 11:51:39 America/Denver] PHP Fatal error:  Call to undefined function get_header() in /home4/hellenj7/public_html/wp-content/themes/twentyeleven/404.php on line 10
+[26-Apr-2016 16:05:32 America/Denver] PHP Fatal error:  Call to undefined function get_header() in /home4/hellenj7/public_html/wp-content/themes/twentyeleven/404.php on line 10
+[06-Jul-2016 12:12:38 America/Denver] PHP Fatal error:  Call to undefined function get_header() in /home4/hellenj7/public_html/wp-content/themes/twentyeleven/404.php on line 10

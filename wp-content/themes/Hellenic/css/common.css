@@ -1,0 +1,1708 @@
+/**********************************************************************
+* PRESTIGE WORDPRESS EDITION 
+* (Ideal For Business And Personal Use: Portfolio or Blog)   
+* 
+* File name:   
+*      common.css
+* Brief:       
+*      CSS code                          
+* Author:      
+*      DigitalCavalry
+* Author URI:
+*      http://themeforest.net/user/DigitalCavalry
+* Contact:
+*      digitalcavalry@gmail.com 
+**********************************************************************/ 
+
+/****************************************************
+    DEFAULT CSS
+*****************************************************/
+
+* 
+{
+    margin:0px;
+    padding:0px;
+    background-repeat: no-repeat;
+    
+}
+
+html, body {
+    background-position: 50% 0%;
+    height:auto;
+    background-color:RGB(255,255,255);
+    background-repeat: no-repeat;
+    background-image:url(../img/backgrounds/Background_addPages-top.jpg);
+    background-image: url(../img/backgrounds/LeatherBusiness_DarkLeather&Wood_addPages.jpg);
+    margin:auto;
+    margin-top:0px;
+    padding-top:0px;
+    color:#666666;
+    font: normal 15px/18px Tenderness;	
+}
+
+h1
+{	
+    color: #FFE570;
+    font: 34px Verdana;
+    letter-spacing:2px;
+    margin-bottom:10px;
+    line-height:30px;
+    color:#FFE570;
+}
+
+h2
+{
+    color: #FFE570;
+    font: 27px Verdana;
+    letter-spacing:2px;
+    margin-bottom:10px;
+    line-height:25px;
+}
+
+h3
+{
+    color: #FFE570;
+    font: 22px Verdana;
+    letter-spacing:2px;
+    margin-bottom:10px;
+    font-weight:bold;
+    line-height:18px;
+}
+
+h4
+{
+    color: #FFE570;
+    font: 18px Verdana;
+    letter-spacing:2px;
+    margin-bottom:10px;
+    font-weight:bold;
+}
+
+h5
+{
+    color: #FFE570;
+    font: 16px Verdana;
+    letter-spacing:2px;
+    margin-bottom:10px;
+    font-weight:bold;
+    text-transform: uppercase;
+}
+
+h6
+{
+    color: #FFE570;
+    font: 14px Verdana;
+    letter-spacing:1px;
+    margin-bottom:10px;
+    font-weight:bold;
+    text-transform: uppercase;
+}
+
+h1.white, h2.white, h3.white, h4.white, h5.white, h6.white
+{
+    color:#222222;
+} 
+
+h1 span, h2 span
+{
+    display:block;
+    color:#666;
+    margin-top:0px;
+    font: normal 16px/16px 'Lucida Grande','Lucida Sans Unicode',Tahoma,Arial,san-serif;     
+}
+
+h3 span, h4 span
+{                                                          
+    display:block;
+    color:#666;
+    margin-top:0px; 
+    font: normal 14px/14px 'Lucida Grande','Lucida Sans Unicode',Tahoma,Arial,san-serif;     
+}
+
+p code
+{
+    padding-top: 0px;
+    padding-right: 3px;
+    padding-bottom: 1px;
+    padding-left: 3px;
+    background-color: #EEE;
+    border:1px dotted #D0D0D0; 
+    color:#756022;
+    font-family:Tenderness;
+    -moz-border-radius:2px;
+    -webkit-border-radius:2px;
+    border-radius:2px;        
+}
+
+strong
+{
+    font-weight:bold;
+}
+
+em
+{
+    font-style:italic;
+}
+
+abbr
+{
+    border-bottom:1px solid #666666;
+    text-transform: uppercase;
+}  
+                                              
+
+hr
+{
+    margin:0px;
+    padding:0px;
+    border:none;
+    height:0px;
+    border-top:1px solid #202020;
+    border-bottom:1px solid #0F0F0F;
+    border-color:rgba(64, 64, 64, 0.25) rgba(0, 0, 0, 0.0) rgba(32, 32, 32, 0.25) rgba(0, 0, 0, 0.0); 
+    margin-bottom:10px;
+    margin-top:-4px;
+    display:block;
+    background-color:transparent;   
+}
+
+p 
+{ 
+    text-decoration:none; 
+    font:12px/18px Tenderness;
+    margin:0px 0px 15px;
+    text-indent:0px;
+}
+
+a
+{
+    color:#FFE570;
+    text-decoration:none;
+    background-repeat: no-repeat;
+    background-position: 0px 0px;    
+}
+
+a:hover
+{
+    color:#FFC602; 
+    text-decoration:underline;
+}
+
+a.email
+{
+    padding:1px 0px 1px 19px;
+    background-image: url(../img/common_files/links/email.png);
+
+}
+
+a.download
+{
+    padding:1px 0px 1px 19px;
+    background-image: url(../img/common_files/links/download.png);   
+}
+
+a.pdf
+{
+    padding:1px 0px 1px 19px;
+    background-image: url(../img/common_files/links/pdf.png);
+}
+
+a.word
+{
+    padding:1px 0px 1px 19px;
+    background-image: url(../img/common_files/links/word.png);
+}
+
+a.zip
+{
+    padding:1px 0px 1px 19px;
+    background-image: url(../img/common_files/links/zip.png);
+}
+
+a.file
+{
+    padding:1px 0px 1px 19px;
+    background-image: url(../img/common_files/links/document.png);
+    padding-top:1px;
+    padding-bottom:1px;    
+}
+
+a.files
+{
+    padding:1px 0px 1px 19px;    
+    background-image: url(../img/common_files/links/documents.png);
+}
+
+a.music
+{
+    padding:1px 0px 1px 19px;    
+    background-image: url(../img/common_files/links/music.png);
+}
+
+a.rar
+{
+    padding:1px 0px 1px 19px;    
+    background-image: url(../img/common_files/links/rar.png);
+}
+
+a img
+{
+    border:none;
+}
+
+h1 a:hover, 
+h2 a:hover, 
+h3 a:hover, 
+h4 a:hover, 
+h5 a:hover, 
+h6 a:hover
+{
+    text-decoration:none;    
+}
+
+a.img-ballon
+{
+    padding:1px 0px 1px 18px;    
+    background-image: url(../img/common_files/links/imgballon.png);    
+}
+
+.pu_img
+{
+    cursor:pointer;
+}
+
+/****************************************************
+    ANNOUNCEMENT BAR CSS
+*****************************************************/
+#announcement-bar
+{
+    position:fixed;
+    bottom:0px;
+    left:0px;
+    width:100%;
+    height:24px;
+    z-index:500;
+    background-color:#000000;
+    background-image:none;
+    background-repeat:repeat;
+    background-attachment:scroll;
+    background-position:0% 0%;
+    text-align:center;
+}
+
+/****************************************************
+    GRAPHICS DARK SPLITERS CSS
+*****************************************************/
+
+.dcs-page-spliter-dark-small
+{
+    width:auto;
+    height:25px;        
+    margin:0px;
+    padding:0px;    
+    background-image:url(../img/common_files/Spliter_horizontal_w407.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    clear: both;
+}
+
+.dcs-page-spliter-dark-medium
+{
+    width:auto;
+    height:25px;
+    margin:0px;
+    padding:0px;
+    background-image:url(../img/common_files/Spliter_horizontal_w550.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    clear: both;    
+}
+
+
+.dcs-page-spliter-dark-large
+{
+    width:auto;
+    height:25px;
+    margin:0px;
+    padding:0px;
+    background-image:url(../img/common_files/Spliter_horizontal_w700.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    clear: both;    
+}
+
+/****************************************************
+    xxx CSS
+*****************************************************/
+
+
+p.author 
+{
+    font:bold 11px Verdana;  
+    line-height: 20px; 
+    color:#FFE570;
+    text-align: right;
+    padding-right: 15px;
+    margin:3px 0px 0px;
+}
+
+p.authorTitle
+{
+    font: 9px Verdana;  
+    line-height: 9px; 
+    color:#666;
+    text-align: right;
+    padding-right: 15px;
+    margin-top: 0px;
+}
+
+p.photo-author 
+{ 
+    text-decoration:none; 
+    font:9px Verdana;
+    color:#777; 
+    margin:0px 0px 5px;
+    text-indent: 0px;
+}
+
+.spanBold
+{
+    font-weight: bold;
+}
+
+.gold
+{
+    color: #FFE570;
+}
+
+.silver
+{
+    color: #999;
+}
+
+.dark
+{
+    color: #555;
+}
+
+.clear-both
+{
+    clear:both;
+    height:1px;
+    background-color:transparent;
+}
+
+.float-right
+{
+    float:right;
+}
+
+.float-left
+{
+    float:left;
+}
+
+/*********************************************************************
+    NAVIGATION TREE CSS
+**********************************************************************/   
+
+.navigation-tree-container
+{
+    width:920px; 
+    padding:33px 40px 8px; 
+    margin:auto;
+    margin-bottom: 20px;
+    color:#666;
+    font:12px Verdana;
+    background-image:url(../img/common_files/Spliter_NavigationTree_dark_350x34.png);
+    background-position: 0px bottom;
+}
+
+.navigation-tree-container .selected 
+{ 
+    text-decoration:none;
+    font:12px Verdana;  
+    color:#FFE570; 
+    line-height:12px;
+    cursor:default;
+}
+
+.navigation-tree-container .link 
+{ 
+    text-decoration:none;
+    font:12px Verdana;  
+    color:#666; 
+    line-height:12px;
+    cursor:pointer; 
+}
+
+.navigation-tree-container .link:hover 
+{ 
+    color:#FFC602; 
+    cursor:pointer;
+}
+
+/*********************************************************************
+    xxx CSS
+**********************************************************************/  
+
+#content
+{
+    width:920px; 
+    padding:10px 38px 10px 39px; 
+    margin:auto;
+	/*background-color:#e7e7e7;*/
+	
+	/*background: -moz-linear-gradient(top,  transparent 10%, #f1f1f1 100%) !important;
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0.2, transparent), color-stop(1, #f1f1f1)) !important;    
+    filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='transparent', endColorstr='#f1f1f1') !important;*/
+	
+	/*background-image:url(../img/common_files/sidebar_bg.png);
+    background-repeat: repeat-y;
+    background-position: 0% 0%;*/
+	
+	border-left:1px solid #DDD;
+	border-right:1px solid #DDD;
+	/*border-color:rgba(64, 64, 64, 0.25) rgba(0, 0, 0, 0.05) rgba(32, 32, 32, 0.25) rgba(0, 0, 0, 0.05);*/
+}
+
+.faded
+{
+    opacity:1.0;
+    filter:alpha(opacity=100); 
+}
+
+.faded-in
+{
+    opacity:0.5;
+    filter:alpha(opacity=50); 
+}
+
+.async-img
+{
+    background-color:#F9F9F9;
+    background-image:url('../img/ajax/6w.gif');
+    background-position:center center;
+}
+
+.async-img-s
+{
+    background-color:#F9F9F9;
+    background-image:url('../img/ajax/6ws.gif');
+    background-position:center center;
+}
+
+.async-img-none
+{
+   background-color:#F9F9F9;     
+}
+
+.page-width-600
+{
+    width:600px; 
+    float:right; 
+    padding-left:30px;
+    
+    background-image:url(../img/common_files/sidebar_bg.png);
+    background-repeat: repeat-y;
+    background-position: 0% 0%;    
+}
+
+.page-width-600-left
+{
+    width:600px;        
+    float:left; 
+    padding-right:30px;
+    
+    background-image:url(../img/common_files/sidebar_bg.png);
+    background-repeat: repeat-y;
+    background-position: 100% 0%;       
+}
+
+.page-width-920
+{
+    width:920px;  
+    padding-top:10px;
+    margin-bottom: 0px;
+}
+
+.page-extra-920
+{
+    width:920px;  
+    padding-top:0px;
+    margin-bottom: 20px;
+}
+
+.page-extra-slider-920
+{
+    width:920px;  
+    padding-top:0px;
+    margin-left:auto;
+    margin-right:auto;
+    margin-bottom:0px;
+}
+
+.page-width-920 .page-links,
+.page-width-920 .blog-pagination 
+{
+    background-image: url(../img/common_files/Spliter_BlogPostTop_border_920.png);
+}
+
+.page-width-600 .page-links,
+.page-width-600-left .page-links,
+.page-width-600 .blog-pagination,
+.page-width-600-left .blog-pagination 
+{
+    background-image: url(../img/common_files/Spliter_BlogPostTop_border.png);   
+}
+
+/*******************************************************************
+    INPUT CSS
+********************************************************************/
+
+input[type=text],
+input[type=password]  
+{  
+    background-color: transparent; 
+    background-image:url(../img/common_files/smallFormBackground.png);
+    background-repeat: repeat-x; 
+    padding: 3px 6px 3px 5px; 
+    border-top:1px solid #fff; 
+    border-left:1px solid #fff; 
+    border-bottom:1px solid #fff; 
+    border-right:1px solid #fff;  
+    font:12px Verdana; 
+    color:#000;
+} 
+
+/*******************************************************************
+    COMMON FORM CSS (used for email sending and post comments)
+********************************************************************/
+
+.common-form
+{  
+    background-image:url(../img/common_files/Spliter_BlogPostTop_border.png);
+    background-position:center 25px;
+    margin-top: 30px;
+    margin-bottom:10px;
+}  
+
+.common-form form
+{
+    margin:0px;
+}                 
+
+.page-width-920 .common-form 
+{
+    background-image:url(../img/common_files/Spliter_BlogPostTop_border_920.png);     
+}
+
+.common-form h4
+{
+    text-align:center;
+    margin-bottom:20px;
+    margin-top: 0px;
+}
+
+.common-form h3
+{
+    text-align:left;
+    margin-bottom:20px;
+    margin-top: 0px;
+}
+
+.common-form .text-ctrl-full 
+{ 
+    background-color: transparent; 
+    background-image:url(../img/common_files/smallFormBackground.png);
+    background-repeat: repeat-x; 
+    padding: 3px 6px 3px 5px; 
+    border:1px solid #FFF;
+    margin-top:5px; 
+    font:12px Verdana; 
+    color:#222;
+    width: 830px;   
+}
+
+.common-form .text-ctrl-long 
+{ 
+    background-color: transparent; 
+    background-image:url(../img/common_files/smallFormBackground.png);
+    background-repeat: repeat-x; 
+    padding: 3px 6px 3px 5px; 
+    border:1px solid #FFF;  
+    margin-top:5px; 
+    font:12px Verdana; 
+    color:#222;
+    width: 510px;   
+}
+
+.common-form .text-ctrl-tiny 
+{ 
+    background-color: transparent; 
+    background-image:url(../img/common_files/smallFormBackground.png);
+    background-repeat: repeat-x; 
+    padding: 3px 6px 3px 5px; 
+	border:1px solid #FFF;	
+    margin-top:5px; 
+    font:12px Verdana; 
+    color:#222;
+    width: 200px;   
+}
+
+.common-form .text-ctrl-small 
+{ 
+    background-color: transparent; 
+    background-image:url(../img/common_files/smallFormBackground.png);
+    background-repeat: repeat-x; 
+    padding: 3px 6px 3px 5px; 
+    border:1px solid #FFF;  
+    margin-top:5px; 
+    font:12px Verdana; 
+    color:#222;
+    width: 300px;   
+}
+
+.common-form .text-ctrl-short 
+{ 
+    background-color: transparent; 
+    background-image:url(../img/common_files/smallFormBackground.png);
+    background-repeat: repeat-x; 
+    padding: 3px 6px 3px 5px; 
+    border:1px solid #FFF;  
+    margin-top:5px; 
+    font:12px Verdana; 
+    color:#222;
+    width: 50px;   
+}
+
+.common-form .textarea-ctrl 
+{ 
+    background-color: transparent; 
+    background-image:url(../img/common_files/textBoxBackground.png);
+    background-repeat: repeat-x; 
+    padding: 5px 6px 3px 5px; 
+    border:1px solid #FFF;  
+    margin-top:5px; 
+    font:12px Verdana;  
+    color:#222;
+    height: 140px;
+    width: 80%;
+    max-height: 140px;
+    max-width: 80%;  
+}
+
+.common-form p
+{
+    text-indent: 0px;
+    margin-bottom: 0px;
+    font-size:11px;
+    margin-top:10px;
+}
+
+.common-form span.required
+{
+    color:#555555;
+}
+
+.common-form span.result
+{
+    color:#666;
+    visibility:hidden;
+    display: block;
+    font-size:11px;    
+}
+
+.common-form .send-email-btn
+{
+    text-decoration:none;
+    font:14px Verdana;
+    font-weight:bold;
+    color:#FFE570; 
+    line-height:20px;
+    padding-right:2px;
+    padding-left:2px;
+    cursor:pointer;
+    margin-right: 4px;
+    background-color: transparent;
+    border:none;  
+}
+
+.common-form .send-comment-btn
+{
+    text-decoration:none;
+    font:14px Verdana;
+    font-weight:bold;
+    color:#FFE570; 
+    line-height:20px;
+    padding-left:0px;
+    cursor:pointer;
+    margin-right:0px;
+    background-color: transparent;
+    border:none; 
+}
+
+.common-form .send-btn
+{
+    text-decoration:none;
+    font:14px Verdana;
+    font-weight:bold;
+    color:#FFE570; 
+    line-height:20px;
+    cursor:pointer;
+    margin-right: 4px;
+    margin-top: 15px;
+    background-color: transparent;
+    border:none;   
+}
+
+.common-form .search-btn
+{
+    text-decoration:none;
+    font:14px Verdana;
+    font-weight:bold;
+    color:#FFE570; 
+    line-height:20px;
+    cursor:pointer;
+    margin-right: 4px;
+    margin-top: 15px;
+    background-color: transparent;
+    border:none;   
+}
+      
+.common-form .send-comment-btn:hover,
+.common-form .send-email-btn:hover, 
+.common-form .send-btn:hover,
+.common-form .search-btn:hover  
+{ 
+    color:#FFC602; 
+}
+
+.common-form .search-type
+{
+    background-color: transparent;
+}
+
+.common-form .search-type-label
+{
+    background-color: transparent;
+    font:11px/18px Verdana;
+    color:#888888;    
+}
+
+.common-form .cbox
+{
+    margin-right:5px;
+    background-image:url(../img/common_files/checkbox_no.png);
+    background-position:0px 0px;
+    background-repeat:no-repeat;
+    padding-left:16px;
+    padding-bottom:4px;
+    cursor:pointer;
+}
+
+.common-form .cbox-selected
+{
+    margin-right:5px;
+    background-image:url(../img/common_files/checkbox_yes.png);
+    background-position:0px 0px;
+    background-repeat:no-repeat;
+    padding-left:16px;
+    padding-bottom:4px; 
+    cursor:pointer;         
+}
+ 
+
+/*****************************************************
+* QUOTES CSS 
+******************************************************/
+blockquote
+{
+    margin:auto;
+    margin-top:0px;
+    margin-bottom:15px;
+    
+    font:italic 16px Georgia;  
+    letter-spacing:0px;
+    line-height: 20px; 
+    color:#999;
+    text-align: left;
+    margin-top: 0px; 
+    background-repeat: no-repeat;          
+}
+
+blockquote .bcimg
+{
+    float:left;
+    border:1px solid #F5F5F5;
+    background-color:#F9F9F9;
+    padding:3px;
+    line-height:1px;
+    margin-right:15px;
+    margin-bottom:10px;
+}
+
+blockquote.framed
+{
+    background: -moz-linear-gradient(top,  #ececec 20%, #e3e3e3 100%) !important;
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0.2, #ececec), color-stop(1, #e3e3e3)) !important;    
+    filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#ececec', endColorstr='#e3e3e3') !important;
+    
+    border:1px solid #EFEFEF;
+    padding:3px;        
+    
+    -moz-border-radius:3px;
+    -webkit-border-radius:3px;
+    border-radius:3px;
+    
+    padding:15px;   
+}
+
+blockquote p
+{
+    font:italic 16px Georgia;  
+    letter-spacing:1px;
+    line-height: 20px; 
+    color:#999;
+    text-align: left;
+    margin-bottom: 0px;
+    margin-top: 0px; 
+    background-repeat: no-repeat;  
+}
+
+blockquote span.author
+{
+    font:bold 11px Verdana;  
+    line-height: 20px; 
+    color:#FFE570;
+    text-align: right;
+    padding-right: 15px;
+    margin:3px 0px 0px;
+    display:block;    
+}  
+
+blockquote span.authortitle
+{
+    font: 9px Verdana;  
+    line-height: 9px; 
+    color:#666;
+    text-align: right;
+    padding-right: 15px;
+    margin-top: 0px;
+    display:block;   
+}  
+
+
+
+/*********/
+ul.thumbList
+{
+    margin-top:0px;
+    list-style-type:none;
+    padding-left: 25px;
+    padding-top: 0px;
+    /*background-image:url(../img/common_files/Spliter_BlogPostTop_574width.png);
+    background-position: top;*/
+}
+
+ul.thumbList li 
+{
+    list-style-position: inside; 
+    text-decoration:none; 
+    font: 10px Verdana; 
+    color:#fff; 
+    line-height:15px; 
+    margin-top:2px;
+    display: block;
+    height: 60px;
+    margin-bottom: 20px;
+    padding-bottom: 0px;
+    padding-top: 14px;
+    background-image:url(../img/common_files/Spliter_BlogPostTop_574width.png);
+    background-position: top;
+    /*background-image:url(../img/common_files/Spliter_BlogPostTop_border.png);
+    background-position: bottom;*/
+}
+
+ul.thumbList a.thumb:hover 
+{
+    opacity:0.55;
+    filter:alpha(opacity=55); /*IE*/
+}
+
+ul.thumbList a 
+{
+    width: 60px;
+    height: 60px;
+    display: block;
+    margin-right: 10px;
+    float: left;
+}
+
+ul.thumbList p 
+{
+    font: 10px Verdana; 
+    color:#FFF; 
+    line-height:10px;
+    display:inline;
+}
+
+
+ul.thumbList2
+{
+    margin-top:0px;
+    list-style-type:none;
+    padding-left: 25px;
+    padding-top: 0px;
+    /*background-image:url(../img/common_files/Spliter_BlogPostTop_574width.png);
+    background-position: top;*/
+}
+
+ul.thumbList2 li 
+{
+    list-style-position: inside; 
+    text-decoration:none; 
+    font: 10px Verdana; 
+    color:#fff; 
+    line-height:15px; 
+    margin-top:2px;
+    display: block;
+    height: 60px;
+    margin-bottom: 20px;
+    padding-bottom: 0px;
+    padding-top: 14px;
+    background-image:url(../img/common_files/Spliter_BlogPostTop_574width.png);
+    background-position: top;
+    /*background-image:url(../img/common_files/Spliter_BlogPostTop_border.png);
+    background-position: bottom;*/
+}
+
+ul.thumbList2 a.thumb 
+{
+    width: 60px;
+    height: 60px;
+    display: block;
+    margin-right: 10px;
+    padding-top: 3px;
+    float: left;
+}
+
+ul.thumbList2 a.thumb:hover 
+{
+    opacity:0.55;
+    filter:alpha(opacity=55); /*IE*/
+}
+
+ul.thumbList2 p 
+{
+    font: 10px/9px Verdana; 
+    color:#FFF; 
+    display:inline;
+}
+
+ul.thumbList2 h5 
+{
+    margin: 0px 0px 1px;
+    color: #FFE570;
+    text-transform: uppercase;
+    
+}
+
+ul.thumbList2 a.link 
+{
+    font:11px Verdana;  
+}
+
+.imageRowList
+{
+    width: 590px;
+    background-image:url(../img/common_files/Spliter_BlogPostTop_574width.png);
+    background-position: top;
+    padding: 10px 5px 0px;
+    cursor: default;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.imageRowList a
+{
+    width: 60px;
+    height: 60px;
+    margin: 0px 1px 0px;
+    cursor: pointer;
+}
+
+.imageRowList a:hover
+{
+    opacity:0.55;
+    filter:alpha(opacity=55); /*IE*/
+}
+
+
+/**********************************
+    HEADER CONTAINAR CSS 
+***********************************/
+
+#header-container
+{
+    height:127px; 
+    width:1000px;
+    margin:auto;
+    position:relative;
+    z-index:50;
+}
+
+#header-container  .logo
+{
+    border:none; 
+    position:absolute; 
+    padding-top:12px;
+    background-image:url(../img/temp_files/prestige_logo_big.png);
+    background-position: bottom;
+    height:92px;
+    width:200px;
+    left:50px;
+    top:0px;
+    z-index:10;
+}
+
+/**********************************
+    HEADER ICONS CSS 
+***********************************/
+
+#header-container  #icons
+{
+    position:absolute;
+    right:40px;
+    top:10px;
+    text-align: right;
+}
+
+#header-container #icons .icon  
+{
+    border:0px;
+    height:45px;
+    width:45px;
+    float:right;
+    background-position: 0px 0px; 
+    opacity:0.8;
+    filter:alpha(opacity=100);
+    position:relative;
+    right:-7px;
+	display:inline-block;
+}
+
+#header-container #icons .icon img
+{
+    border:none;
+	width:45px;
+	height:45px;
+}
+
+#header-container #icons .desc
+{
+    display: none;
+    float:right;  
+    font: 10px/10px Verdana;  
+    color: #333; 
+    text-align: right;
+    cursor: default;
+    padding:2px 6px 2px 6px;
+    background-color:#FFF;
+    
+    -moz-border-radius:3px;
+    -webkit-border-radius:3px;
+    border-radius:3px;
+    position: relative;
+    top:8px;
+    opacity:0.7;
+    filter:alpha(opacity=70);    
+}
+
+/**********************************
+    WP CUSTOM MENU CSS 
+***********************************/
+#custom-menu-navigation
+{
+    margin-bottom:0px;
+    position:absolute;
+    right:75px;
+    bottom:18px;
+    height:15px;
+    list-style-image:none;
+    list-style-position:outside;
+    list-style-type:none;
+    z-index:50;      
+}
+
+#custom-menu-navigation a.top 
+{ 
+    text-decoration:none; 
+    float:left;
+    margin-right:11px;
+    margin-left:11px;
+    color:#888888;
+    font: 19px Trebuchet MS, Helvetica, sans-serif;
+    letter-spacing:1px;
+    font-weight:normal;     
+}
+
+#custom-menu-navigation a.top:hover
+{
+    color:#FFFFFF;
+}  
+
+#custom-menu-navigation li.arrow-down 
+{
+    background-image: url('../img/common_files/grey_arrowhead_down.png');
+    background-position: 100% 55%;
+    margin-right: 7px;
+}
+
+/* Horizontall organizer */
+#custom-menu-navigation li 
+{
+    float: left;
+    list-style: none;
+    list-style-image:none;
+    list-style-position:outside;
+    list-style-type:none;
+    padding:0px;
+    margin-right:0px;
+    margin-left:0px;
+    position:relative;
+    z-index:30;
+}
+
+/* Styles for next <a> elements after top <a> elements. */
+#custom-menu-navigation li a 
+{
+    z-index: 10;
+    height: 32px;
+    display: block;
+    float:left;
+    color:#fff;
+    text-decoration:none;
+    font-weight:bold;
+    overflow: hidden;
+    line-height:27px;
+    position:relative;
+    font:10px Verdana;
+}
+
+#custom-menu-navigation li li a 
+{
+    z-index: 10;
+    height: 50px;
+    display: block;
+    float:left;
+    color:#fff;
+    text-decoration:none;
+    font-weight:bold;
+    overflow: hidden;
+    line-height:50px;
+    padding:0px 20px 0px;
+    position:relative;
+}
+
+#custom-menu-navigation li a:hover 
+{
+    color:#fff;
+}
+
+#custom-menu-navigation ul 
+{
+    display:none;
+    left:0px;
+    position:absolute;
+    top:32px;
+    width:200px;
+}
+
+#custom-menu-navigation ul 
+{
+    margin:0px;
+    padding:0px;
+    list-style-type:none;
+    list-style-position:outside;
+    /*background-color:#000;*/
+    background-color:transparent;
+    opacity:0.95;
+    filter:alpha(opacity=96); /*IE*/
+    border-left:1px solid #EEE;
+    border-right:0px solid #000;
+    border-top:0px solid #222222;
+}
+
+#custom-menu-navigation ul li 
+{
+    background-color:#FFF;
+    /*background-image:url(../img/common_files/Spliter_BlogPostTop_574width.png);*/
+    background-image:url(../img/common_files/mainMenuBackground_transparent.png);
+    background-position: -50px top;
+    background-repeat: repeat-x;
+    margin:0px;
+}
+
+#custom-menu-navigation li ul a 
+{
+    width:180px;
+    height:auto;
+    float:left;
+    display:block;
+    padding:10px;
+    border-bottom:0px solid #111;
+    color:#666;
+    text-decoration:none;
+    line-height:10px;
+}
+
+#custom-menu-navigation li ul a.arrow-right 
+{
+    background-image: url('../img/common_files/grey_arrowhead_next.png');
+    background-position: 97% 50%;
+}
+
+#custom-menu-navigation li ul a.arrow-right:hover 
+{
+    background-color:#111;
+    background-image: url('../img/common_files/grey_arrowhead_next.png');
+    background-position: 97% 50%;
+    color:#fff;
+}
+
+#custom-menu-navigation li ul a:hover 
+{
+    background-color:#f6f6f6;
+    color:#fff;
+}
+
+#custom-menu-navigation ul ul 
+{
+    top:0px;
+}
+#custom-menu-navigation li ul ul 
+{
+    left:200px;
+}
+#custom-menu-navigation li:hover ul ul, 
+#custom-menu-navigation li:hover ul ul ul, 
+#custom-menu-navigation li:hover ul ul ul ul,
+#custom-menu-navigation li:hover ul ul ul ul ul 
+{
+    display:none;
+}
+#custom-menu-navigation li:hover ul, 
+#custom-menu-navigation li li:hover ul, 
+#custom-menu-navigation li li li:hover ul, 
+#custom-menu-navigation li li li li:hover ul,
+#custom-menu-navigation li li li li li:hover ul  
+{
+    display:block;
+}
+
+
+/**********************************
+    MAIN MENU CSS 
+***********************************/
+
+#navigation 
+{
+    margin-bottom:0px;
+    position:absolute;
+    right:75px;
+    bottom:18px;
+    height:15px;
+    list-style-image:none;
+    list-style-position:outside;
+    list-style-type:none;
+    z-index:50;   
+}
+
+#navigation a.top 
+{ 
+    text-decoration:none; 
+    float:left;
+    margin-right:11px;
+    margin-left:11px;
+    color:#888888;
+    font: 19px Trebuchet MS, Helvetica, sans-serif;
+    letter-spacing:1px;
+    font-weight:normal;     
+}
+
+#navigation a.top:hover
+{
+    color:#FFFFFF;
+} 
+
+#navigation a.top-selected
+{
+    text-decoration:none; 
+    float:left;
+    margin-right:11px;
+    margin-left:11px;    
+    color:#FFFFFF;
+    font: 19px Trebuchet MS, Helvetica, sans-serif;
+    letter-spacing:1px;
+    font-weight:normal;
+        
+}
+
+#navigation a.top-selected:hover
+{
+    color:#FFFFFF;    
+}
+
+/* Horizontall organizer */
+#navigation li 
+{
+    float: left;
+    list-style: none;
+    list-style-image:none;
+    list-style-position:outside;
+    list-style-type:none;
+    padding:0px;
+    margin-right:0px;
+    margin-left:0px;
+    position:relative;
+    z-index:30;
+}
+
+/* Styles for next <a> elements after top <a> elements. */
+#navigation li a 
+{
+    z-index: 10;
+    height: 32px;
+    display: block;
+    float:left;
+    color:#fff;
+    text-decoration:none;
+    font-weight:bold;
+    overflow: hidden;
+    line-height:27px;
+    position:relative;
+    font:10px Verdana;
+}
+
+#navigation li.arrow-down 
+{
+    background-image: url('../img/common_files/grey_arrowhead_down.png');
+    background-position: 100% 55%;
+    margin-right: 7px;
+}
+ 
+#navigation li li a 
+{
+    z-index: 10;
+    height: 50px;
+    display: block;
+    float:left;
+    color:#fff;
+    text-decoration:none;
+    font-weight:bold;
+    overflow: hidden;
+    line-height:50px;
+    padding:0px 20px 0px;
+    position:relative;
+}
+
+#navigation li a:hover 
+{
+    color:#fff;
+}
+
+#navigation ul 
+{
+    display:none;
+    left:0px;
+    position:absolute;
+    top:32px;
+    width:200px;
+}
+
+#navigation ul 
+{
+    margin:0px;
+    padding:0px;
+    list-style-type:none;
+    list-style-position:outside;
+    /*background-color:#000;*/
+    background-color:transparent;
+    opacity:0.95;
+    filter:alpha(opacity=96); /*IE*/
+    border-left:1px solid #EEE;
+    border-right:0px solid #000;
+    border-top:0px solid #222222;
+}
+
+#navigation ul li 
+{
+    background-color:#FFF;
+    /*background-image:url(../img/common_files/Spliter_BlogPostTop_574width.png);*/
+    background-image:url(../img/common_files/mainMenuBackground_transparent.png);
+    background-position: -50px top;
+    background-repeat: repeat-x;
+    margin:0px;
+}
+
+#navigation li ul a 
+{
+    width:180px;
+    height:auto;
+    float:left;
+    display:block;
+    padding:10px;
+    border-bottom:0px solid #111;
+    color:#333;
+    text-decoration:none;
+    line-height:10px;
+}
+
+#navigation li ul a:hover 
+{
+    background-color:#111;
+    color:#fff;
+}
+
+#navigation li ul a.arrow-right 
+{
+    background-image: url('../img/common_files/grey_arrowhead_next.png');
+    background-position: 97% 50%;
+}
+
+#navigation li ul a.arrow-right:hover 
+{
+    background-color:#111;
+    background-image: url('../img/common_files/grey_arrowhead_next.png');
+    background-position: 97% 50%;
+    color:#fff;
+}
+
+
+#navigation ul ul 
+{
+    top:0px;
+}
+#navigation li ul ul 
+{
+    left:200px;
+}
+#navigation li:hover ul ul, 
+#navigation li:hover ul ul ul, 
+#navigation li:hover ul ul ul ul,
+#navigation li:hover ul ul ul ul ul 
+{
+    display:none;
+}
+#navigation li:hover ul, 
+#navigation li li:hover ul, 
+#navigation li li li:hover ul, 
+#navigation li li li li:hover ul,
+#navigation li li li li li:hover ul 
+{
+    display:block;
+}
+
+
+/**********************************
+    FOOTER CSS 
+***********************************/
+
+#footer
+{
+    background-image:url(../img/backgrounds/Background_footer_BrownLeather.jpg); 
+    background-position: left top;
+    min-height:185px; 
+    width:998px; 
+    margin:auto;
+    margin-bottom: 20px;
+    margin-top:10px;
+    clear:both;
+    position: relative;
+    left:0px;
+    padding-top:45px;
+}
+
+
+#footer .links-info-container
+{
+    padding:0px 40px 0px;
+    width:920px;
+    margin-bottom:40px;
+}
+
+
+#footer .links-info-container  a
+{
+    color:#555;
+    font:11px/20px Verdana;
+}
+
+#footer .links-info-container a:hover
+{
+    color:#000;
+}
+
+
+#footer .links-info-container .links
+{
+    width:139px; 
+    margin-right:24px; 
+    border-left:0px solid #111; 
+    padding:3px 0px 3px 10px;
+    float:left;
+    background-image:url(../img/common_files/Spliter_Footer.png);
+    background-position: left 0px;
+}
+
+#footer .links-info-container .info
+{
+    width:213px; 
+    border-left:0px solid #222; 
+    padding:3px 0px 3px 10px;
+    float:left;
+    background-image:url(../img/common_files/Spliter_Footer.png);
+    background-position: left 0px;
+}
+
+#footer .links-info-container .info p
+{
+    color: #777;
+    margin: 0px;
+    font:11px/16px Verdana;
+    text-indent:0px;
+}      
+
+#footer-bottom
+{    
+    padding:6px 40px 60px;
+    width:920px;
+    text-align:center;
+    margin:auto;
+    color:#666;
+    font:10px Verdana;
+    background-image:url(../img/common_files/Spliter_BlogPostTop_border.png);
+    background-position: top;
+}
+
+#footer-bottom img
+{
+    border:none;
+}
+
+/********************************************************
+  WIDDGETIZED FOOTER CSS
+*********************************************************/
+#widgetized-footer
+{
+    border:0px solid red;
+    width:870px;
+    margin:auto;
+    margin-top:0px;
+    margin-bottom:20px;
+    padding:0px;
+}
+
+#widgetized-footer .widget-divider-bottom-half 
+{
+    background:none;
+}
+
+#widgetized-footer .sidebar
+{
+    width:265px;
+    float:left;
+    padding:0px;
+    padding-right:25px;
+    margin:0px;
+    margin-right:0px;
+    background-color:transparent;
+}
+
+#widgetized-footer .sidebar-last
+{
+    width:265px;
+    float:right;
+    padding:0px;
+    padding-right:25px; 
+    margin:0px;
+    background-color:transparent;    
+}
+
+/********************************************************
+  SIDEBAR CSS
+*********************************************************/
+
+.sidebar-container
+{
+    float:left; 
+    width:265px; 
+    padding: 12px 24px 0px 0px;
+    
+
+}
+
+.sidebar-container-right
+{
+    float:right; 
+    width:265px; 
+    padding: 12px 0px 0px 24px;
+}
+
+/********************************************************
+  HOMEPAGE SLOGAN CSS
+*********************************************************/
+
+#homepage-slogan
+{
+    width:920px;
+    margin:auto; 
+    text-align:center; 
+    padding-top:20px;
+    margin-bottom:40px;
+    cursor:default;
+}
+
+#homepage-slogan .text
+{
+    text-decoration:none;
+    font:italic 23px Georgia; 
+    letter-spacing:2px; 
+    color:#888; 
+}
+
+#homepage-slogan .author
+{
+    text-decoration:none;
+    font:bold italic 10px/10px Verdana; 
+    letter-spacing:2px; 
+    color:#999;
+    display: block;
+    float: right;
+    margin-top: 4px; 
+    padding-right: 50px;
+}
+
+#homepage-slogan-empty
+{
+    width:920px;
+    margin:auto;
+    height:20px; 
+    cursor:default;
+}
+
+.latestEventHome
+{
+    width:600px; 
+    padding-top:4px; 
+    padding-bottom:26px;
+    padding-right:0px;
+    background-image:url(../img/common_files/Spliter_BlogPostTop.png);
+    background-position: top right;
+}
+
+
+
+
+

@@ -1,0 +1,7333 @@
+/**********************************************************************
+* PRESTIGE WORDPRESS EDITION 
+* (Ideal For Business And Personal Use: Portfolio or Blog)   
+* 
+* File name:   
+*      addpages.css
+* Brief:       
+*      CSS code                          
+* Author:      
+*      DigitalCavalry
+* Author URI:
+*      http://themeforest.net/user/DigitalCavalry
+* Contact:
+*      digitalcavalry@gmail.com 
+**********************************************************************/ 
+
+.dcs-scode
+{
+    padding-top: 0px;
+    padding-right: 3px;
+    padding-bottom: 1px;
+    padding-left: 3px;
+    background-color: #EEE;
+    border:1px dotted #D0D0D0; 
+    color:#756022;
+    font-family:monospace;
+    -moz-border-radius:2px;
+    -webkit-border-radius:2px;
+    border-radius:2px;            
+}
+
+.dcs-small
+{   
+    font:10px/10px Verdana;
+    color:#555555;
+    padding:0px;
+    margin:0px;
+}  
+
+.dcs-lb-player
+{
+    display:none;
+}
+
+/*********************************************************************
+    DCS GALLERY THUMBS CSS
+**********************************************************************/
+.dcs-ngg-auto-gallery
+{
+    margin-bottom:15px;
+}
+
+.dcs-ngg-auto-gallery .thumb-wrapper
+{
+    float:left;     
+}  
+
+.dcs-ngg-auto-gallery .thumb-wrapper h3,
+.dcs-ngg-auto-gallery .thumb-wrapper h4 
+{
+    margin-top:10px;
+    margin-bottom:5px;
+} 
+
+.dcs-ngg-auto-gallery .thumb-wrapper p
+{
+    font-size:11px;
+    line-height:14px;
+    margin-bottom:0px;
+} 
+
+.dcs-ngg-auto-gallery .thumb
+{    
+    position: relative;
+}
+
+.dcs-ngg-auto-gallery .loader
+{
+    margin:0px;
+    padding:0px;
+    display:block;
+}
+
+.dcs-ngg-auto-gallery .triger
+{
+    display:block;
+    z-index:5;
+    position: absolute;
+    left:3px;
+    top:3px;
+    background-color:white;
+    opacity:0.0;
+    filter:alpha(opacity=0);
+}   
+
+.dcs-ngg-auto-gallery img
+{
+    margin:0px;
+    padding:0px;
+}
+
+/*********************************************
+* DCS SIGNATURE CSS
+**********************************************/
+
+.dcs-signature
+{
+    position:relative;
+    text-align:right;
+}
+
+.dcs-signature .desc
+{    
+}
+
+.dcs-signature .name
+{
+    font:bold 11px/16px Verdana;
+    display: block;  
+    text-align: right;  
+}
+
+.dcs-signature a.name
+{
+    text-decoration:none;
+}  
+
+.dcs-signature a.name:hover
+{
+    text-decoration:none;
+}  
+
+.dcs-signature .title
+{
+    font:bold 9px/14px Verdana; 
+    color:#666666;
+    display: block;   
+    text-align: right;
+}
+
+/*********************************************
+* DCS BAR HEADER CSS
+**********************************************/
+.dcs-bar-header
+{
+    height:40px;
+    padding-top:10px;
+    background-image:url(../img/common_files/bar_heading.png);
+    background-position:left top;
+    background-repeat:repeat-x;    
+    background-color:#FFFFFF;
+    overflow:hidden;
+    position:relative;
+    margin:0px 0px 15px 0px;   
+}
+
+.dcs-bar-header .over
+{
+    height:50px;
+    width:100%;
+    background-image:url(../img/common_files/bar_heading.png);
+    background-position:left top;
+    background-repeat:repeat-x;    
+    background-color:transparent;
+    z-index:5; 
+    position:absolute;
+    left:0px;
+    top:0px;
+    display: block;   
+}
+
+.dcs-bar-header h1,  
+.dcs-bar-header h2
+{
+    text-align:center;
+    margin:0px;
+}
+
+.dcs-bar-header-small
+{
+    height:27px;
+    padding-top:8px;
+    background-image:url(../img/common_files/bar_heading_small.png);
+    background-position:left top;
+    background-repeat:repeat-x;    
+    background-color:#FFFFFF;
+    overflow:hidden;
+    position:relative;
+    margin:0px 0px 15px 0px;   
+}
+
+.dcs-bar-header-small .over
+{
+    height:35px;
+    width:100%;
+    background-image:url(../img/common_files/bar_heading_small.png);
+    background-position:left top;
+    background-repeat:repeat-x;    
+    background-color:transparent;
+    z-index:5; 
+    position:absolute;
+    left:0px;
+    top:0px;   
+    display: block;
+}
+
+.dcs-bar-header-small h3,
+.dcs-bar-header-small h4  
+{
+    text-align:center;
+    margin:0px;
+}
+
+
+/*********************************************
+* PRESTIGE BUTTONS CSS
+**********************************************/
+a.big-button1-link
+{
+
+    background-image:url('../img/common_files/btn/big_btn1_right.png'); 
+    background-position: right top; 
+    padding-right: 15px; 
+    display: inline-block; 
+    height:63px; 
+    color:#888;    
+}
+
+a.big-button1-link:hover
+{
+
+    color:#FFF;
+    text-decoration:none;
+    
+}
+
+a.big-button1-link span
+{
+
+    background-image:url('../img/common_files/btn/big_btn1_left.png'); 
+    background-position: left top; 
+    padding-left: 25px; 
+    padding-right: 10px; 
+    display: inline-block; 
+    height:63px; 
+    font: 25px/60px Verdana;
+    
+}
+
+a.small-button1-link
+{
+
+    background-image:url('../img/common_files/btn/small_btn1_right.png'); 
+    background-position: right top; 
+    padding-right: 7px; 
+    display: inline-block; 
+    height:30px; 
+    color:#888;
+    
+}
+
+a.small-button1-link:hover
+{
+
+    color:#FFF;
+    text-decoration:none; 
+    
+}
+
+a.small-button1-link span
+{
+
+    background-image:url('../img/common_files/btn/small_btn1_left.png'); 
+    background-position: left top; 
+    padding-left: 17px; 
+    padding-right: 10px; 
+    display: inline-block; 
+    height:30px; 
+    font: 14px/30px Verdana;
+    
+}
+
+a.big-button2-link
+{
+
+    background-image:url('../img/common_files/btn/big_btn2_right.png'); 
+    background-position: right top; 
+    padding-right: 5px; 
+    display: inline-block; 
+    height:43px; 
+    color:#000;
+    background-color: #777700;
+    
+}
+
+a.big-button2-link:hover
+{
+
+    color:#FFF;
+    background-color: #000000;
+    text-decoration:none; 
+    
+}
+
+a.big-button2-link span
+{
+
+    background-image:url('../img/common_files/btn/big_btn2_left.png'); 
+    background-position: left top; 
+    padding-left: 15px; 
+    padding-right: 10px; 
+    display: inline-block; 
+    height:43px; 
+    font: bold 20px/43px Arial;
+    text-transform: uppercase;
+    
+}
+
+a.small-button2-link
+{
+
+    background-image:url('../img/common_files/btn/small_btn2_right.png'); 
+    background-position: right top; 
+    padding-right: 3px; 
+    display: inline-block; 
+    height:25px; 
+    color:#000;
+    background-color: #777700;
+    
+}
+
+a.small-button2-link:hover
+{
+
+    color:#FFF;
+    background-color: #000000;
+    text-decoration:none; 
+    
+}
+
+a.small-button2-link span
+{
+
+    background-image:url('../img/common_files/btn/small_btn2_left.png'); 
+    background-position: left top; 
+    padding-left: 13px; 
+    padding-right: 10px; 
+    display: inline-block; 
+    height:25px; 
+    font: bold 14px/25px Arial;
+    text-transform: uppercase;
+    
+}
+
+/*********************************************
+* NEXT PREV POST PANEL CSS
+**********************************************/
+.npp-panel
+{
+    height:25px;
+    position:relative;
+    border:0px solid #222222; 
+    margin-bottom:5px;   
+}
+
+.npp-panel .data
+{
+    display:none;   
+}
+
+.npp-panel .next-btn-disabled, 
+.npp-panel .next-btn
+{
+    width:20px;
+    height:20px;
+    background-image:url(../img/common_files/next.png);
+    background-position:left top;
+    background-repeat:no-repeat;
+    display:block;
+    opacity:0.7;
+    filter:alpha(opacity=70);
+    position:absolute;
+    right:0px;
+    bottom:0px;
+    cursor:pointer;
+}
+
+.npp-panel .next-btn-disabled
+{
+    opacity:0.3;
+    filter:alpha(opacity=30);
+    cursor:auto;    
+}
+
+.npp-panel .next-btn:hover
+{
+    opacity:1.0;
+    filter:alpha(opacity=100);    
+}
+
+.npp-panel .prev-btn-disabled,
+.npp-panel .prev-btn
+{
+    width:20px;
+    height:20px;
+    background-image:url(../img/common_files/prev.png);
+    background-position:left top;
+    background-repeat:no-repeat;
+    display:block;
+    opacity:0.7;    
+    filter:alpha(opacity=70);
+    position:absolute;
+    right:20px;
+    bottom:0px; 
+    cursor:pointer;    
+}
+
+.npp-panel .prev-btn-disabled
+{
+    opacity:0.3;
+    filter:alpha(opacity=30);
+    cursor:auto;    
+}
+
+.npp-panel .prev-btn:hover
+{
+    opacity:1.0;
+    filter:alpha(opacity=100);    
+}
+
+.npp-panel .title
+{
+    position:absolute;
+    left:0px;
+    bottom:4px;
+    width:520px;
+    color:#666;
+    font-size:11px;
+    line-height:11px;
+}
+
+/*********************************************
+* SILVER TABLE CSS
+**********************************************/
+
+.dc-table
+{
+    margin:auto;
+    margin-top:0px;
+    text-align: center;    
+}
+
+.dc-table thead
+{
+    background-color: #E8E8E8;
+    background-image:url(../img/common_files/Spliter_BlogPostTop_574width.png);
+}
+
+.dc-table thead th
+{
+    
+    font:11px Verdana;
+    padding: 5px 12px 5px;
+    color: #B83912;
+}
+
+.dc-table tbody tr
+{
+    
+}
+
+.dc-table tbody td
+{
+    padding: 3px 15px 3px;
+    background-image:url(../img/common_files/Spliter_BlogPostTop_574width.png);
+    background-position: 50% 0%;
+    background-color: #F9F9F9;
+    background-repeat: repeat-x;
+    color:#555;
+    text-align:center; 
+}
+
+.dc-table tbody td.left
+{
+    text-align:left;    
+}
+
+.dc-table tbody td.center
+{
+    text-align:center;    
+}
+
+.dc-table tfoot th
+{
+    background-color: #FBFBFB;
+    font:11px Verdana; 
+}
+
+/*********************************************
+* PRESS TABLE CSS
+**********************************************/
+
+.dc-press-table  
+{
+    border-collapse:collapse;
+    font-family: 'MS P Gothic', sans-serif;
+}
+
+.dc-press-table th 
+{
+    text-align:left; 
+    border:1px solid #BBBBBB;
+    background-color:#E8E8E8;
+    font-weight:normal;
+    vertical-align:top;
+    color: #B83912; 
+    padding:8px;  
+}
+.dc-press-table td 
+{
+    vertical-align:top;
+    border:1px solid #BBBBBB;
+    text-align:left;
+    padding:8px;
+    padding-left:15px;
+    background-color:#F8F8F8; 
+}
+
+
+
+/*********************************************
+* SHORTCODE TABLE CSS
+**********************************************/
+
+.dc-shortcode-table
+{ 
+    background-color: transparent;
+    border-collapse: collapse;
+    margin-bottom:15px;     
+    width:100%;      
+}
+
+.dc-shortcode-table th
+{ 
+    background-color:#F5F5F5;
+    vertical-align:middle;
+    text-align:left;
+    color:#756022;
+    font-weight:normal;
+    padding:3px 10px 3px 10px;     
+    border:1px solid #DDDDDD;
+    font-size:11px;
+    font-family:monospace;
+    width:80px;      
+}
+
+.dc-shortcode-table td   
+{
+    padding:8px 15px 8px 15px;
+    border:1px solid #DDDDDD;
+    padding-right:10px;
+    font-size:12px;
+    color:#555555;
+    font-family: arial;
+}
+
+.dc-shortcode-table td strong
+{
+    color:#111111;
+}
+
+/*********************************************
+* DCS FANCY HEADER
+**********************************************/
+
+.dcs-fancy-header span
+{
+    font:11px/14px Helvetica;
+    letter-spacing:1.4px;
+    padding:4px 12px 4px 12px;
+    text-transform:uppercase;
+    background-color:#DDDDDD;
+    color:#333333;       
+}
+
+.dcs-player
+{
+    background-color: transparent;
+}
+
+.dcs-player .loader
+{    
+    display: block;
+}
+
+.dcs-player p
+{
+    font:10px/10px Verdana;
+    color:#888888;
+    margin:6px 0px 0px 0px;
+    padding-bottom: 6px;
+    background-image:url(../img/common_files/Spliter_BlogPostTop_border.png);
+    background-position:-240px bottom;     
+}
+
+/*********************************************
+* DCS SIMILAR POSTS
+**********************************************/
+.dcs-related-posts
+{
+    border:0px dashed #444444;
+    padding-top:10px;
+}
+
+.dcs-related-posts h3,
+.dcs-related-posts h4,
+.dcs-related-posts h5,
+.dcs-related-posts h6   
+{
+    margin:0px;
+    padding:0px;
+    text-align:left;
+    color:#888888;
+} 
+
+.dcs-related-posts ul
+{
+    margin:auto;
+    margin-top:10px;
+    list-style-position: inside;
+    list-style-type: none;
+}
+
+.dcs-related-posts ul li
+{
+    display:block;
+    float:left;
+    margin-right:14px;
+    width:138px;
+    margin-bottom:10px;
+}
+
+.dcs-related-posts ul li.last
+{
+    margin-right:0px;    
+}
+
+.dcs-related-posts .loader
+{
+    display:block;
+    width:130px;
+    height:100px;
+    overflow:hidden;   
+}
+
+.dcs-related-posts .image
+{
+    width:130px;
+    height:100px;    
+    position:relative;     
+} 
+
+.dcs-related-posts .image:hover > .zoom 
+{
+    display:block;   
+}
+
+.dcs-related-posts .image .zoom
+{
+    width:16px;
+    height:16px;
+    position:absolute;
+    right:6px;
+    bottom:6px;
+    opacity:0.5;
+    filter:alpha(opacity=50);
+    border:0px solid red;
+    display:none;
+    z-index:2;
+    background-image:url(../img/common_files/zoom2.png);
+}
+
+.dcs-related-posts .image .zoom:hover
+{
+    opacity:0.8;
+    filter:alpha(opacity=80);    
+}
+
+
+.dcs-related-posts p
+{
+    color:#CCCCCC;
+    margin:6px 0px 0px 0px;
+    padding:0px 0px 0px 4px;
+    font:11px/14px Verdana;
+}
+
+/*********************************************
+* DCS NEWS TOP
+**********************************************/
+
+.dcs-news-top .content
+{
+    background-image:url(../img/common_files/Spliter_BlogPostTop_574width.png); 
+    padding-top: 5px;
+    background-position: center top;
+}
+
+.dcs-news-top .content h2
+{
+    margin-top:5px;
+}
+
+.dcs-news-top .content h2 a
+{
+   color:inherit;
+   text-decoration: none;  
+}
+
+.dcs-news-top .content  a.more-link 
+{
+    font:12px/12px Verdana;  
+    cursor:pointer;
+    text-decoration: none;
+}
+
+.dcs-news-top .content  a.more-link:hover 
+{ 
+    text-decoration: underline; 
+}
+
+.dcs-news-top .content .comments
+{
+    background-image:url(../img/icons/Comments.png); 
+    margin-right:12px; 
+    width:46px; 
+    height:37px; 
+    color:#000; 
+    font:11px Verdana, Arial, Helvetica, sans-serif; 
+    font-weight: bold;                
+    padding-top:13px; 
+    text-align:center; 
+    line-height:15px;
+    padding-left:29px;
+    float:right;
+    letter-spacing:-1px;
+    display:block;
+    text-decoration:none;
+}
+
+
+.dcs-news-top .content .info
+{
+    width: 510px;    
+    font: 12px/15px Arial;
+    color:#888;
+    margin:2px 0px 7px;    
+}
+
+.dcs-news-top .content .info a
+{
+    cursor:pointer;
+    color:#666;
+    font: 11px/12px Arial;
+    text-transform: uppercase;
+    letter-spacing: 0.2px;
+    text-decoration:none;
+}
+
+.dcs-news-top .content .info a:hover
+{
+    color:#000;
+    text-decoration:underline;
+}
+
+.dcs-news-top .content .info span
+{
+   color:#666;  
+}
+
+.dcs-news-top .content .info .date
+{
+    background-color: #e5e5e5;
+    padding: 1px 1px 0px 1px;
+    margin-right: 0px;
+}
+
+.dcs-news-top .content .info .date:hover
+{
+    text-decoration:none; 
+} 
+
+.dcs-news-top .content .info .date-left
+{
+    background-image:url(../img/common_files/round_left.png);
+    background-position: left;
+    padding:1px 0px 0px 7px;
+    margin-right: 0px;
+}
+
+.dcs-news-top .content .info .date-right
+{
+    background-image:url(../img/common_files/round_right.png);
+    background-position: right;
+    padding:1px 0px 0px 7px;
+    margin-right: 5px;
+}
+
+.dcs-news-top .content .info .author
+{
+    padding: 0px 3px 0px;
+}
+
+/********************************************
+*  DCS BANER SLIDER CAPS
+*********************************************/
+
+.dcs-banner-slider
+{
+    position:relative; 
+    margin:0px auto 15px auto;
+    overflow:hidden;
+    padding-bottom:20px;            
+}
+
+.dcs-banner-slider .slides-wrapper
+{
+    border:1px solid #DDDDDD;
+    position:relative;      
+    overflow:hidden; 
+}
+
+.dcs-banner-slider .data
+{
+    display:none;
+}
+
+.dcs-banner-slider .slide
+{
+    background-color:#F9F9F9;
+    position:absolute;
+    left:0px;
+    top:0px; 
+    width:20px;
+    height:20px;
+    display:none;      
+}
+
+.dcs-banner-slider .loader 
+{
+    display:block;
+    background-color:#F9F9F9;
+}
+
+.dcs-banner-slider .description
+{
+    background-color:#F9F9F9;
+    position:absolute;
+    width:200px;
+    height:10px;
+    z-index:5;
+    padding:5px 0px 5px 5px;
+    left:0px;
+    bottom:0px;
+    font:10px/10px Verdana;
+    color:#555555;
+    text-align: left;
+    opacity:0.7;
+    filter:alpha(opacity=70); 
+           
+}
+
+/********************************************
+*  DCS DROP CAPS
+*********************************************/
+
+.dcs-dropcap1
+{
+    display:block;
+    float:left;
+    font-size:38px;
+    margin:0px 10px -8px 0px;
+    padding:0px;
+    text-align:center;
+}
+
+.dcs-dropcap2
+{
+    display:block;
+    float:left;
+    font-size:52px;
+    margin:0px 12px -8px 0px;
+    padding:0px;
+    text-align:center; 
+}
+
+
+.dcs-dropcap3
+{
+    display:block;
+    float:left;
+    font-size:24px;
+    line-height:40px;
+    width:40px;
+    text-align: center;
+    margin:4px 8px 0 0;
+    -moz-border-radius: 25px;
+    -webkit-border-radius:25px;
+    border-radius:25px;
+    background-color:#EDEDED;
+}
+
+.dcs-dropcap4
+{
+    display:block;
+    float:left;
+    font-size:38px;
+    line-height:64px;
+    width:64px;
+    text-align: center;
+    margin:4px 10px 0px 0px;
+    -moz-border-radius: 30px;
+    -webkit-border-radius:30px;
+    border-radius:30px;
+    background-color:#EDEDED;    
+}
+
+.dcs-dropcap5
+{
+    display:block;
+    float:left;
+    font-size:25px;
+    line-height:40px;
+    padding-top: 0px;
+    width:40px;
+    text-align: center;
+    margin:4px 10px 0 0;
+    background-color:#EDEDED; 
+}
+
+.dcs-dropcap6
+{
+    display:block;
+    float:left;
+    font-size:44px;
+    line-height:60px;
+    padding-bottom:0px;
+    width:60px;
+    text-align: center;
+    margin:4px 10px 0 0;
+    background-color:#EDEDED; 
+} 
+
+.dcs-dropcap7
+{
+    display:block;
+    float:left;
+    font-size:24px;
+    line-height:40px;
+    width:40px;
+    text-align: center;
+    margin:4px 8px 0 0;
+    -moz-border-radius: 25px;
+    -webkit-border-radius:25px;
+    border-radius:25px;
+    
+    background: -moz-linear-gradient(top,  #F5F5F5 20%, #D0D0D0 100%) !important;
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0.2, #F5F5F5), color-stop(1, #D0D0D0)) !important;    
+    filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#F0F0F5', endColorstr='#D0D0D0') !important;     
+}
+
+.dcs-dropcap8
+{
+    display:block;
+    float:left;
+    font-size:38px;
+    line-height:64px;
+    width:64px;
+    text-align: center;
+    margin:4px 10px 0px 0px;
+    -moz-border-radius: 30px;
+    -webkit-border-radius:30px;
+    border-radius:30px;
+    
+    background: -moz-linear-gradient(top,  #F5F5F5 20%, #D0D0D0 100%) !important;
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0.2, #F5F5F5), color-stop(1, #D0D0D0)) !important;    
+    filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#F0F0F5', endColorstr='#D0D0D0') !important;     
+}
+
+
+.dcs-dropcap9
+{
+    display:block;
+    float:left;
+    font-size:25px;
+    line-height:40px;
+    padding-top: 0px;
+    width:40px;
+    text-align: center;
+    margin:4px 8px 0 0;
+    
+    background: -moz-linear-gradient(top,  #F5F5F5 20%, #D0D0D0 100%) !important;
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0.2, #F5F5F5), color-stop(1, #D0D0D0)) !important;    
+    filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#F0F0F5', endColorstr='#D0D0D0') !important;     
+}
+
+.dcs-dropcap10
+{
+    display:block;
+    float:left;
+    font-size:44px;
+    line-height:60px;
+    padding-bottom: 0px;
+    width:60px;
+    text-align: center;
+    margin:4px 8px 0 0;
+    
+    background: -moz-linear-gradient(top,  #F5F5F5 20%, #D0D0D0 100%) !important;
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0.2, #F5F5F5), color-stop(1, #D0D0D0)) !important;    
+    filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#F0F0F5', endColorstr='#D0D0D0') !important;     
+}
+
+
+/********************************************
+*  DCS ABS FLAT TABS CSS
+*********************************************/
+
+/* dcs abs tab flat */
+.dcs-tabs-abs-flat
+{
+    margin-bottom:0px;       
+    position: relative;
+}
+
+.dcs-tabs-abs-flat .default
+{
+    display:none;
+}
+
+.dcs-tabs-abs-flat ul.panel
+{
+    list-style-position:inside;
+    list-style-type:none;    
+}
+
+.dcs-tabs-abs-flat ul.panel li
+{
+    float:left;
+    padding:5px 12px 5px 12px;
+    background-color:#d4d4d4;
+    text-transform: uppercase;
+    font:11px/11px Verdana; 
+    cursor:pointer;
+    color:#666;   
+	border:1px solid #ccc;
+    background-image:url(../img/common_files/tab_bg.png);
+    background-position: left top;
+    background-repeat: repeat-x;      
+}
+
+.dcs-tabs-abs-flat ul.panel li.selected
+{
+    color:#111;
+    background-image:url(../img/common_files/tab_bg_selected.png);
+    background-position: left top;
+    background-repeat: repeat-x;
+    border-color: #eee;
+}
+
+.dcs-tabs-abs-flat ul.panel li:hover
+{
+    color:#111;    
+    background-image:url(../img/common_files/tab_bg_selected.png);
+    background-position: left top;
+    background-repeat: repeat-x; 
+    
+    border-color: #eee;         
+}
+
+.dcs-tabs-abs-flat .border
+{
+    border:1px solid #101010;
+    border-color: #eee;
+}
+
+.dcs-tabs-abs-flat .tab-content
+{
+    display:none;
+    padding:5px 0px 0px 0px;
+    position:absolute;
+}  
+
+/********************************************
+*  DCS TABS CSS
+*********************************************/
+
+/* dcs tab flat */
+.dcs-tabs-flat
+{
+    margin-bottom:15px;       
+    position: relative;
+}
+
+.dcs-tabs-flat .default
+{
+    display:none;
+}
+
+.dcs-tabs-flat ul.panel
+{
+    list-style-position:inside;
+    list-style-type:none;    
+}
+
+.dcs-tabs-flat ul.panel li
+{
+    float:left;
+    padding:5px 12px 5px 12px;
+    background-color:#d4d4d4;
+    text-transform: uppercase;
+    font:11px/11px Verdana; 
+    cursor:pointer;
+    color:#666;   
+    border-top:1px solid #ccc;         
+    border-right:1px solid #ccc;
+    background-image:url(../img/common_files/tab_bg.png);
+    background-position: left top;
+    background-repeat: repeat-x;      
+}
+
+.dcs-tabs-flat ul.panel li.selected
+{
+    color:#000;
+    background-image:url(../img/common_files/tab_bg_selected.png);
+    background-position: left top;
+    background-repeat: repeat-x;
+}
+
+.dcs-tabs-flat ul.panel li:hover
+{
+    color:#000;    
+    background-image:url(../img/common_files/tab_bg_selected.png);
+    background-position: left top;
+    background-repeat: repeat-x;          
+}
+
+.dcs-tabs-flat .tab-content
+{
+    display:none;
+    padding:0px 0px 0px 0px;
+}  
+
+/********************************************
+*  NEWS SLIDER CSS
+*********************************************/
+.news-slider
+{
+    border:0px solid blue;
+    margin-bottom:30px;
+    padding:15px 0px 0px 0px;
+    background-image:url(../img/common_files/Spliter_BlogPostTop_border.png);
+    background-position: top;    
+}
+
+.news-slider-head
+{
+    color:#888888;
+    margin-bottom:5px;    
+}
+
+.news-slider .slides-wrapper
+{
+    width:600px;
+    height:270px;
+    position: relative;
+    margin-bottom:5px;
+    overflow: hidden;     
+}
+
+.news-slider .slide
+{
+    width:600px;
+    height:270px;
+    position: absolute;
+    left:600px;
+    top:0px;
+}
+
+.news-slider .loader
+{
+    width:600px;
+    height:270px;
+    display:block;
+}  
+
+.news-slider .slide h2
+{
+    position:absolute;
+    left:0px;
+    bottom:0px;
+    z-index:1;
+    padding:10px;
+    background-color:#FFF;
+    
+    opacity:0.92;
+    filter:alpha(opacity=92);    
+}
+
+.news-slider ul
+{
+    list-style-position:inside;
+    list-style-type:none;
+}
+
+.news-slider ul li
+{
+    display:block;
+    padding:4px 6px 5px 6px;
+    cursor:pointer;
+    background-color:transparent;
+    border:1px solid #bbb;
+    float:left;
+    color:#666;
+    font:11px/11px Verdana;
+    margin-right:3px;
+    
+    -moz-border-radius: 2px;
+    -webkit-border-radius:2px;
+    border-radius:2px;    
+}
+
+.news-slider ul li.selected
+{
+    background-color:#ddd;
+    color:#FFE570;
+    border:1px solid #bbb; 
+}
+
+.news-slider ul li.selected:hover
+{
+    border:1px solid #bbb; 
+}
+
+.news-slider ul li:hover
+{
+    border:1px solid #000;
+    color:#000;
+}
+
+/********************************************
+*  NEWS CALENDAR CSS
+*********************************************/
+.news-archive-bar
+{
+    margin-top:0px;    
+}
+
+.news-archive-for
+{
+    color:#888888;
+    float:left;
+    margin-top:2px;
+    margin-bottom:0px;
+}
+
+.news-archive-reset
+{
+    margin:0px;
+    padding:0px;
+    font:9px/10px Verdana;
+    color:#999;
+    text-transform:uppercase;
+}
+
+.news-archive-reset:hover 
+{
+    text-decoration:none;
+}
+
+#news-calendar
+{
+    background-color:transparent;    
+}
+
+#news-calendar .page
+{
+    background-color:transparent;
+    padding-left:10px;
+    padding-right:10px;
+    display:none;
+}
+
+#news-calendar table.days
+{
+    list-style-position: inside;
+    list-style-type: none;
+    margin:10px 0px 0px 0px;
+    border-collapse:separate;
+    width:100%;
+    border:2px solid transparent;
+}
+
+#news-calendar table.days td.name   
+{
+    font:9px/10px Verdana;
+    color:#CAB388;
+	color:#978055;
+    text-align:center;
+    padding:2px 0px 2px 0px;         
+}
+
+#news-calendar table.days td.today,  
+#news-calendar table.days td.day   
+{
+    width:16px;
+    padding:2px 4px 4px 4px;
+    font:10px/11px Verdana;
+    border:1px solid #ddd;
+    margin-right:2px;
+    margin-bottom:2px;
+    color:#666;
+    text-align:center;    
+}
+
+#news-calendar table.days td.dayoff   
+{
+    width:16px;
+    padding:2px 4px 4px 4px;
+    font:10px/11px Verdana;
+    border:1px solid #eee;
+    margin-right:2px;
+    margin-bottom:2px;
+    color:#333333;
+    text-align:center;    
+}
+
+#news-calendar table.days td.today
+{
+    border:1px solid #550000;
+    color:#000;
+}
+
+#news-calendar table.days td.today a,   
+#news-calendar table.days td.day a
+{
+    cursor:pointer;
+}
+
+#news-calendar .info
+{
+    background-color:transparent;
+    position:relative; 
+}
+
+#news-calendar .info h6 a
+{
+    cursor:pointer;
+}
+
+#news-calendar .info .month
+{
+    text-align: center;
+    margin:0px;
+    padding:0px;
+}
+
+#news-calendar .info .prevoff
+{
+    text-transform:uppercase;
+    position:absolute;
+    left:0px;
+    top:2px;
+    font:10px Verdana;
+    color:#ccc; 
+}
+
+#news-calendar .info .nextoff
+{
+    text-transform:uppercase;
+    position:absolute;
+    right:0px;
+    top:2px;
+    font:10px Verdana;
+    color:#ccc;  
+}
+
+#news-calendar .info .prev
+{
+    text-transform:uppercase;
+    position:absolute;
+    left:0px;
+    top:2px;
+    font:10px Verdana;
+    color:#666;
+    cursor:pointer;    
+}
+
+#news-calendar .info .prev:hover
+{
+   color:#000; 
+}
+
+#news-calendar .info .next
+{
+    text-transform:uppercase;
+    position:absolute;
+    right:0px;
+    top:2px;
+    font:10px Verdana;
+    color:#666;
+    cursor:pointer;    
+}
+
+#news-calendar .info .next:hover
+{
+   color:#000; 
+}
+
+/********************************************
+*  NEWS FEATURED POST CSS
+*********************************************/
+.featured-news
+{
+    background-color:transparent;    
+    margin-bottom:30px;    
+}
+
+.featured-news .head
+{
+    color:#888888;
+    margin-bottom:5px;    
+}
+
+.featured-news .photo
+{
+    margin-bottom: 5px;
+    padding:15px 0px 0px;
+    background-image:url(../img/common_files/Spliter_BlogPostTop_border.png);
+    background-position: top;
+    width:600px;  
+    font:9px/12px Verdana; 
+    color:#666; 
+    text-align:right; 
+    margin:0px 0px 10px;
+    margin-left:auto;
+    margin-right:auto;  
+}
+
+.featured-news .photo p
+{
+    margin-top:3px;
+    font-size:10px;
+    margin-bottom:0px;
+    text-align: center;      
+}
+    
+.featured-news .photo a.image
+{
+    width:600px;
+    height:270px;
+    display: block;
+    margin-bottom: 3px;
+    background-color:#000000;    
+}
+
+.featured-news .photo a.image img
+{
+    border:none;   
+}
+
+.featured-news .infobar 
+{
+    background-color: transparent;
+    font: 12px/15px Arial;
+    color:#333;
+    margin:2px 0px 7px;      
+}
+
+.featured-news .content
+{
+    background-image:url(../img/common_files/Spliter_BlogPostTop_574width.png); 
+    padding-top: 5px;
+    background-position: center top;
+}
+
+.featured-news .content h2
+{
+    margin-top:5px;
+}
+
+.featured-news .content .comments
+{
+    background-image:url(../img/icons/Comments.png); 
+    margin-right:12px; 
+    width:46px; 
+    height:37px; 
+    color:#777; 
+    font:11px Verdana, Arial, Helvetica, sans-serif; 
+    font-weight: bold;                
+    padding-top:13px; 
+    text-align:center; 
+    line-height:15px;
+    padding-left:29px;
+    float:right;
+    letter-spacing:-1px;
+    display:block;
+    text-decoration:none;
+}
+
+.featured-news .infobar a
+{
+    cursor:pointer;
+    color:#777;
+    font: 11px/12px Arial;
+    text-transform: uppercase;
+    letter-spacing: 0.2px;
+    text-decoration:none;
+}
+
+.featured-news .infobar a:hover
+{
+    color:#000;
+    text-decoration:underline;
+}
+
+.featured-news .infobar  span
+{
+   font: 11px/12px Arial; 
+   color:#555;  
+}
+
+
+
+.featured-news .infobar .comments:hover
+{
+    text-decoration:none;
+}
+
+.featured-news .infobar  .date
+{
+    background-color: #e5e5e5;
+    padding: 1px 1px 0px 1px;
+    margin-right: 0px;
+    text-transform: uppercase;
+}
+
+.featured-news .infobar  .date:hover
+{
+    text-decoration:none; 
+} 
+
+.featured-news .infobar  .date-left
+{
+    background-image:url(../img/common_files/round_left.png);
+    background-position: left;
+    padding:1px 0px 0px 7px;
+    margin-right: 0px;
+}
+
+.featured-news .infobar  .date-right
+{
+    background-image:url(../img/common_files/round_right.png);
+    background-position: right;
+    padding:1px 0px 0px 7px;
+    margin-right: 5px;
+}
+
+/********************************************
+*  NEWS PAGE CSS
+*********************************************/
+
+.news-page
+{
+    background: transparent;
+    padding-bottom:20px;
+}
+
+.news-page .item
+{
+    margin-bottom:0px;    
+}
+
+.news-page .item  .leftcontent
+{
+    float:left;
+    width:190px;  
+    border:0px solid red;
+    font: 11px/15px Arial;
+    color:#000; 
+}
+
+.news-page .item  .leftcontent  .category
+{
+    text-transform:uppercase;
+}
+
+
+.news-page .item  .leftcontent  .rate
+{
+    color:#000;
+    padding-right:1px;    
+}
+
+.news-page .item  .leftcontent  .votes
+{
+    color:#444444;
+    font: 11px/15px Arial;    
+}
+
+.news-page .item  .leftcontent  .ratesep
+{
+    color:#333;
+    font: 11px/15px Arial;   
+}
+
+.news-page .item  .leftcontent  .maxrate
+{
+    color:#000;
+    font: 11px/15px Arial;
+    padding-left:1px;     
+}
+
+.news-page .item  .leftcontent a
+{
+    font: 11px/12px Arial; 
+    color:#666;
+    cursor:pointer;
+}
+
+.news-page .item  .leftcontent a:hover
+{
+    color:#000;
+    text-decoration:none;
+}
+
+.news-page .item .image-loader
+{
+    width:180px;
+    height:100px;
+    display:block;    
+}
+
+.news-page .item .image
+{
+    width:180px;
+    height:100px;
+    margin-bottom:5px;
+    position: relative;
+}
+
+.news-page .item .image:hover > .zoom 
+{
+    display:block;   
+}
+
+.news-page .item .image .zoom
+{
+    width:16px;
+    height:16px;
+    position:absolute;
+    right:6px;
+    bottom:6px;
+    opacity:0.5;
+    filter:alpha(opacity=50);
+    border:0px solid red;
+    display:none;
+    z-index:2;
+    background-image:url(../img/common_files/zoom2.png);
+}
+
+.news-page .item .image .zoom:hover
+{
+    opacity:0.8;
+    filter:alpha(opacity=80);    
+}
+
+.news-page .item .content
+{
+    float:right;
+    width:395px;
+    font:11px/16px Verdana;
+}
+
+.news-page .item .content p
+{
+    font:11px/16px Verdana;
+}
+
+.news-page .item .content .infobar 
+{   
+    font: 11px/15px Arial;
+    color:#222;
+    margin:2px 0px 7px;    
+}
+
+.news-page .item .content .infobar  span.when
+{
+   color:#888;
+   float:right;
+   text-transform: uppercase;  
+}
+
+.news-page .item .content .infobar  a
+{
+    cursor:pointer;
+    color:#444;
+    font: 11px/12px Arial;
+    text-transform: uppercase;
+    letter-spacing: 0.2px;
+    text-decoration:none;
+}
+
+.news-page .item .content .infobar  a:hover
+{
+    color:#fff;
+    text-decoration:underline;
+}
+
+.news-page .item .content .infobar  span
+{
+   color:#444;  
+}
+
+.news-page .item .content .infobar  .date
+{
+    background-color: #e5e5e5;
+    padding: 1px 1px 0px 1px;
+    margin-right: 0px;
+    text-transform: uppercase;
+}
+
+.news-page .item .content .infobar  .date:hover
+{
+    text-decoration:none; 
+} 
+
+.news-page .item .content .infobar  .date-left
+{
+    background-image:url(../img/common_files/round_left.png);
+    background-position: left;
+    padding:1px 0px 0px 7px;
+    margin-right: 0px;
+}
+
+.news-page .item .content .infobar  .date-right
+{
+    background-image:url(../img/common_files/round_right.png);
+    background-position: right;
+    padding:1px 0px 0px 7px;
+    margin-right: 5px;
+}
+
+
+/********************************************
+*  DCS SHORTCODES
+*********************************************/
+
+.dcs-sicon
+{
+    background-position:left top;
+    display:inline-block;
+    width:16px;
+    height:16px;
+    position: relative;
+    top:3px;
+}
+
+.dcs-rounded-box
+{
+    padding:0px;
+    margin:0px;
+    
+    border:1px solid #181818;
+    background-color:transparent;
+    position: relative;                        
+}
+
+/********************************************
+*  DCS SHORTCODES
+*********************************************/
+.dcs-button
+{
+    border:1px solid #181818;     
+    
+    -moz-border-radius:3px;
+    -webkit-border-radius:3px;
+    border-radius:3px;
+    
+    display:inline-block;
+    padding-left:18px;
+    padding-right:18px;
+    padding-top:8px;
+    padding-bottom:8px;
+    
+    background: -moz-linear-gradient(top,  #010101 50%, #101010 100%) !important;
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0.5, #010101), color-stop(1, #101010)) !important;    
+    filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#010101', endColorstr='#101010') !important;
+    
+    text-shadow: #333333 0px -1px 0px;
+    letter-spacing: 1px;
+    cursor:pointer; 
+    border-color:rgba(16, 16, 16, 0.1) rgba(64, 64, 64, 0.1) rgba(255, 255, 255, 0.12) rgba(64, 64, 64, 0.1);
+    
+    -moz-box-shadow:0px 1px 2px #151515;
+    box-shadow:0px 1px 2px #151515;
+    -webkit-box-shadow:0px 1px 2px #151515;
+    -o-box-shadow:0px 1px 2px #151515;             
+}
+
+.dcs-button:hover
+{
+    text-decoration:none;
+}
+
+.dcs-button span.small
+{
+    font: 12px/12px "helvetica neue",Helvetica,Arial,Verdana,sans-serif;
+    margin:0px;
+    padding:0px;
+    text-transform:uppercase;
+    cursor:pointer;
+    color:#BBBBBB;
+}
+
+.dcs-button span.big
+{
+    font: 16px/16px "helvetica neue",Helvetica,Arial,Verdana,sans-serif;
+    color:#BBBBBB;
+    margin:0px;
+    cursor:pointer; 
+}
+
+.framed
+{	
+	background: -moz-linear-gradient(top,  #f5f5f5 20%, #eeeeee 100%) !important;
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0.2, #f5f5f5), color-stop(1, #eeeeee)) !important;    
+    filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#f5f5f5', endColorstr='#eeeeee') !important;
+    
+    border:1px solid #ddd;
+    padding:3px;        
+    
+    -moz-border-radius:3px;
+    -webkit-border-radius:3px;
+    border-radius:3px;  
+}
+
+
+.rounded-borders-1 
+{
+    -moz-border-radius:1px;
+    -webkit-border-radius:1px;
+    border-radius:1px;      
+}
+
+.rounded-borders-2 
+{
+    -moz-border-radius:2px;
+    -webkit-border-radius:2px;
+    border-radius:2px;      
+}
+
+.rounded-borders-3 
+{
+    -moz-border-radius:3px;
+    -webkit-border-radius:3px;
+    border-radius:3px;      
+}
+
+.rounded-borders-4
+{
+    -moz-border-radius:4px;
+    -webkit-border-radius:4px;
+    border-radius:4px;      
+}
+
+.rounded-borders-5
+{
+    -moz-border-radius:5px;
+    -webkit-border-radius:5px;
+    border-radius:5px;      
+}
+
+.rounded-borders-6
+{
+    -moz-border-radius:6px;
+    -webkit-border-radius:6px;
+    border-radius:6px;      
+}
+
+.rounded-borders-7
+{
+    -moz-border-radius:7px;
+    -webkit-border-radius:7px;
+    border-radius:7px;      
+}
+
+.rounded-borders-8
+{
+    -moz-border-radius:8px;
+    -webkit-border-radius:8px;
+    border-radius:8px;      
+}
+
+.rounded-borders-9
+{
+    -moz-border-radius:9px;
+    -webkit-border-radius:9px;
+    border-radius:9px;      
+}
+
+.rounded-borders-10
+{
+    -moz-border-radius:10px;
+    -webkit-border-radius:10px;
+    border-radius:10px;      
+}
+
+.rounded-borders-11
+{
+    -moz-border-radius:11px;
+    -webkit-border-radius:11px;
+    border-radius:11px;      
+}
+
+.rounded-borders-12
+{
+    -moz-border-radius:12px;
+    -webkit-border-radius:12px;
+    border-radius:12px;      
+}
+
+.dc-opacity-100 { opacity:1.0; filter:alpha(opacity=100); }
+.dc-opacity-99 { opacity:0.99; filter:alpha(opacity=99); } 
+.dc-opacity-98 { opacity:0.98; filter:alpha(opacity=98); }
+.dc-opacity-97 { opacity:0.97; filter:alpha(opacity=97); }
+.dc-opacity-96 { opacity:0.96; filter:alpha(opacity=96); }
+.dc-opacity-95 { opacity:0.95; filter:alpha(opacity=95); }
+.dc-opacity-94 { opacity:0.94; filter:alpha(opacity=94); }
+.dc-opacity-93 { opacity:0.93; filter:alpha(opacity=93); }
+.dc-opacity-92 { opacity:0.92; filter:alpha(opacity=92); }
+.dc-opacity-91 { opacity:0.91; filter:alpha(opacity=91); }
+.dc-opacity-90 { opacity:0.9; filter:alpha(opacity=90); }
+.dc-opacity-85 { opacity:0.85; filter:alpha(opacity=85); }
+.dc-opacity-80 { opacity:0.8; filter:alpha(opacity=80); }
+.dc-opacity-75 { opacity:0.75; filter:alpha(opacity=75); }
+.dc-opacity-70 { opacity:0.7; filter:alpha(opacity=70); }    
+    
+.framed-white
+{
+    background-color:#EEEEEE;
+    
+    border:1px solid #FFFFFF;
+    padding:3px;        
+    
+    -moz-border-radius:3px;
+    -webkit-border-radius:3px;
+    border-radius:3px;  
+}
+
+.framed-dark
+{
+    background-color:#111111;
+    border:1px solid #000000;
+    padding:3px;        
+    
+    -moz-border-radius:3px;
+    -webkit-border-radius:3px;
+    border-radius:3px;  
+}
+
+.framed-black
+{
+    border:1px solid #ddd;
+    -moz-border-radius:3px;
+    -webkit-border-radius:3px;
+    border-radius:3px;
+    
+    background: -moz-linear-gradient(top,  #f5f5f5 20%, #eeeeee 100%) !important;
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0.2, #f5f5f5), color-stop(1, #eeeeee)) !important;    
+    filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#f5f5f5', endColorstr='#eeeeee') !important; 
+}
+
+
+
+/*********************************************************************
+    POPUP HEADER SEARCH CSS
+**********************************************************************/
+#header-search-btn
+{
+    width:20px;
+    height:20px;
+    position:absolute;
+    right:40px;
+    bottom:8px;
+    display:block;
+    border:0px solid red;
+    cursor:pointer; 
+    
+    -moz-border-radius:3px;
+    -webkit-border-radius:3px;
+    border-radius:3px;
+    padding:2px 6px 2px 6px;
+    
+    background-color:#eeeeee; 
+    opacity:0.7;
+    filter:alpha(opacity=70);     
+}
+
+#header-search-btn img
+{
+    width:20px;
+    height:20px;
+    cursor: pointer;
+} 
+
+#header-search-popup
+{
+    position:absolute;
+    left:300px;
+    top:30px;
+    width:160px;
+    z-index:60;
+    display: none;
+    
+    
+    padding:10px;
+
+    border:1px solid #ffffff;
+    -moz-border-radius:3px;
+    -webkit-border-radius:3px;
+    border-radius:3px;
+    
+    background: -moz-linear-gradient(top,  #f5f5f5 20%, #eeeeee 100%) !important;
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0.2, #f5f5f5), color-stop(1, #eeeeee)) !important;    
+    filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#f5f5f5', endColorstr='#eeeeee') !important;  
+  
+    color:#ffffff;
+    
+    -moz-box-shadow:1px 1px 4px #ccc;
+    box-shadow:1px 1px 4px #ccc;
+    -webkit-box-shadow:1px 1px 4px #ccc;
+    -o-box-shadow:1px 1px 4px #ccc;     
+}
+
+#header-search-popup input[type=text]
+{
+    width:146px;
+    font-size:11px;    
+}
+
+/*********************************************************************
+    POPUP LOGIN CSS
+**********************************************************************/
+#header-login-panel
+{
+    padding:2px 6px 2px 6px;
+    height:10px;
+    border:1px solid transparent;
+    position: absolute;
+    right:40px;
+    top:70px;
+    z-index:30;
+    line-height:10px;
+    font: normal 10px/10px Verdana; 
+    color:#444444;
+    text-align:right;
+    border:0px solid yellow;
+    
+    -moz-border-radius:3px;
+    -webkit-border-radius:3px;
+    border-radius:3px;
+    
+    background-color:white; 
+    opacity:0.7;
+    filter:alpha(opacity=70);   
+} 
+
+#header-login-panel a,
+#header-login-panel span
+{
+    text-shadow:#dddddd 0px -1px 0px; 
+}
+    
+#header-login-panel span
+{
+    color:#666666;
+} 
+
+#header-login-panel span.user
+{
+    /*color:#FFE570; */
+    color:#000000;
+} 
+
+#header-login-panel a, 
+#header-login-panel span.sign-in
+{
+    margin-top:0px;
+    color:#666666;
+    font: normal 10px/10px Verdana;
+    line-height:10px;
+    cursor:pointer;
+}
+
+#header-login-panel a:hover,
+#header-login-panel span.sign-in:hover
+{
+    color:#000000;
+    text-decoration:none;
+    padding-left:8px;
+    background-image: url('../img/common_files/white_arrowhead.png');
+    background-position:left center;
+}
+
+
+#login-popup
+{
+    position:absolute;
+    left:300px;
+    top:30px;
+    width:200px;
+    z-index:60;
+    display: none;
+    
+    
+    padding:10px;
+    padding-top:15px;
+
+    border:1px solid #ffffff;
+    -moz-border-radius:3px;
+    -webkit-border-radius:3px;
+    border-radius:3px;
+    
+    background: -moz-linear-gradient(top,  #f5f5f5 20%, #eeeeee 100%) !important;
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0.2, #f5f5f5), color-stop(1, #eeeeee)) !important;    
+    filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#f5f5f5', endColorstr='#eeeeee') !important;  
+  
+    color:#444444;
+    
+    -moz-box-shadow:1px 1px 4px #ccc;
+    box-shadow:1px 1px 4px #ccc;
+    -webkit-box-shadow:1px 1px 4px #ccc;
+    -o-box-shadow:1px 1px 4px #ccc;    
+}
+
+
+
+#login-popup .close
+{
+    position:absolute;
+    cursor: pointer;
+    top:10px;
+    right:10px;
+    width:10px;
+    height:10px;
+    background-repeat: no-repeat;
+    background-position: left top;
+    background-image:url(../img/common_files/close.png);
+}
+
+#login-popup p.label
+{
+    margin-top:0px;
+    margin-bottom:5px;
+    color:#FFE570;
+    font: normal 10px/10px Verdana;
+    line-height:10px;
+}
+
+#login-popup a
+{
+    margin-top:0px;
+    color:#666666;
+    font: normal 10px/10px Verdana;
+    line-height:10px;
+}
+
+#login-popup a:hover
+{
+    color:#000000;
+    text-decoration:none;
+}
+
+#login-popup a.help
+{
+    cursor:help;
+}
+
+
+#login-popup input[type=text],
+#login-popup input[type=password]
+{
+    width:186px;
+    margin-bottom:8px;
+    font-size:11px;    
+}
+
+#login-popup .send-btn
+{
+    text-decoration:none;
+    font:12px Verdana;
+    font-weight:bold;
+    color:#FFE570; 
+    line-height:14px;
+    cursor:pointer;
+    margin-right: 4px;
+    margin-top:2px;
+    border:none;
+    background-color: transparent;
+    float:right;  
+}
+      
+#login-popup .send-btn:hover 
+{ 
+    color:#FFC602; 
+}
+
+
+/*********************************************************************
+    DCS GALLERY THUMBS CSS
+**********************************************************************/
+.dcs-gallery-thumbs
+{
+    margin-bottom:15px;
+}
+
+.dcs-gallery-thumbs .thumb
+{
+    float:left;
+    position: relative;
+}
+
+.dcs-gallery-thumbs .loader
+{
+    margin:0px;
+    padding:0px;
+    display:block;
+}
+
+.dcs-gallery-thumbs .triger
+{
+    display:block;
+    z-index:5;
+    position: absolute;
+    left:3px;
+    top:3px;
+    background-color:green;
+    opacity:0.0;
+    filter:alpha(opacity=0);
+}   
+
+.dcs-gallery-thumbs img
+{
+    margin:0px;
+    padding:0px;
+}
+
+/*********************************************************************
+    DCS SLIDERS CSS
+**********************************************************************/
+
+/* circle gallery big */
+.dcs-circle-gallery-big
+{
+    position: relative;
+    width:900px;
+    height:420px;
+    border:0px solid #CCCCCC;
+    margin:auto;
+    overflow:hidden;
+    margin-top:20px;
+    margin-bottom:20px;
+}
+
+.dcs-circle-gallery-big .slide
+{
+    width:450px;
+    height:300px;
+    border:1px solid #C8C8C8;
+    padding:5px;
+    background-color:#F9F9F9;
+    position:absolute;
+    left:0px;
+    top:0px;  
+    display:block;
+    background-image:url('6w.gif');
+    background-position:center;
+    background-repeat:no-repeat;     
+}
+
+ .dcs-circle-gallery-big .slide img
+{
+    opacity:1.0;
+    filter:alpha(opacity=100);    
+}
+
+.dcs-circle-gallery-big .background
+{
+    width:100%;
+    height:100%;
+    z-index:0;
+}
+
+.dcs-circle-gallery-big .panel
+{
+    width:720px;
+    height:20px;
+    border:0px solid blue;
+    position: absolute;
+    bottom:15px;
+    left:90px;
+    text-align:center;
+}
+
+.dcs-circle-gallery-big .prev
+{
+    padding:0px 5px 0px 5px;
+    height:20px;
+    width:30px;
+    background-color: #FFFFFF;
+    float:left;
+    text-align:center;
+    font:normal 10px/20px Verdana;
+    text-transform: uppercase;
+    color:#111111;
+    cursor:pointer;
+}
+
+.dcs-circle-gallery-big .prev:hover
+{
+   color:#333333;  
+}
+
+.dcs-circle-gallery-big .counter 
+{
+    padding:5px 5px 5px 5px;
+    height:20px;
+    background-color:transparent;
+    font:normal 10px/20px Verdana;
+    color:#888888;      
+}
+
+.dcs-circle-gallery-big .title 
+{
+    padding:5px 0px 5px 0px;
+    height:20px;
+    background-color:transparent;
+    font:normal 10px/20px Verdana;
+    color:#666666;     
+}
+
+.dcs-circle-gallery-big .next
+{
+    padding:0px 5px 0px 5px;
+    height:20px;
+    width:30px;
+    background-color: #FFFFFF;
+    float:right;
+    text-align:center;
+    font:normal 10px/20px Verdana;
+    text-transform: uppercase;
+    color:#111111;
+    cursor:pointer;    
+}
+
+.dcs-circle-gallery-big .next:hover
+{
+   color:#333333;  
+}
+
+.dcs-circle-gallery-big .slide img
+{
+    border:none;
+    width:100%;
+    height:100%;
+}
+
+
+/* circle gallery small */
+.dcs-circle-gallery
+{
+    position: relative;
+    width:600px;
+    height:280px;
+    border:0px solid #CCCCCC;
+    margin:auto;
+    overflow:hidden;
+    margin-top:20px;
+    margin-bottom:20px;
+}
+
+.dcs-circle-gallery .slide
+{
+    width:300px;
+    height:200px;
+    border:1px solid #C8C8C8;
+    padding:5px;
+    background-color:#F9F9F9;
+    position:absolute;
+    left:0px;
+    top:0px;  
+    display:block;
+    background-image:url('../img/ajax/6w.gif');
+    background-position:center;
+    background-repeat:no-repeat;     
+}
+
+.dcs-circle-gallery .slide img
+{
+    opacity:1.0;
+    filter:alpha(opacity=100);    
+}
+
+.dcs-circle-gallery .background
+{
+    width:100%;
+    height:100%;
+    z-index:0;
+}
+
+.dcs-circle-gallery .panel
+{
+    width:480px;
+    height:20px;
+    border:0px solid blue;
+    position: absolute;
+    bottom:15px;
+    left:60px;
+    text-align:center;
+}
+
+.dcs-circle-gallery .prev
+{
+    padding:0px 5px 0px 5px;
+    height:20px;
+    width:30px;
+    background-color: #FFFFFF;
+    float:left;
+    text-align:center;
+    font:normal 10px/20px Verdana;
+    text-transform: uppercase;
+    color:#111111;
+    cursor:pointer;
+}
+
+.dcs-circle-gallery .prev:hover
+{
+   color:#333333;  
+}
+
+.dcs-circle-gallery .counter 
+{
+    padding:5px 5px 5px 5px;
+    height:20px;
+    background-color:transparent;
+    font:normal 10px/20px Verdana;
+    color:#888888;      
+}
+
+.dcs-circle-gallery .title 
+{
+    padding:5px 0px 5px 0px;
+    height:20px;
+    background-color:transparent;
+    font:normal 10px/20px Verdana;
+    color:#666666;     
+}
+
+.dcs-circle-gallery .next
+{
+    padding:0px 5px 0px 5px;
+    height:20px;
+    width:30px;
+    background-color: #FFFFFF;
+    float:right;
+    text-align:center;
+    font:normal 10px/20px Verdana;
+    text-transform: uppercase;
+    color:#111111;
+    cursor:pointer;    
+}
+
+.dcs-circle-gallery .next:hover
+{
+   color:#333333;  
+}
+
+.dcs-circle-gallery .slide img
+{
+    border:none;
+    width:100%;
+    height:100%;
+}
+
+/* simple gallery */
+.dcs-simple-gallery
+{
+    margin:0px;
+    padding:0px;
+    margin-bottom:15px;
+    margin-left:auto;
+    margin-right:auto;         
+}
+
+.dcs-simple-gallery .desc
+{
+    margin-top:3px;
+    margin-bottom:0px;
+    color:#666666;
+    font:9px/12px Verdana;
+    text-align:right;
+    margin-left:auto;
+    margin-right:auto;    
+}
+
+.dcs-simple-gallery .slider
+{
+    overflow:hidden;
+    position:relative;
+    border:0px solid green;
+    margin:auto;    
+}
+
+.dcs-simple-gallery .slide
+{
+    position:absolute;
+    left:0px;
+    top:0px;
+    display:none;    
+}
+
+.dcs-simple-gallery .thumb
+{
+    position:absolute;
+    z-index:30;
+    left:0px;
+    bottom:15px;
+    border:1px solid #FFFFFF;
+    opacity:0.0;
+    filter:alpha(opacity=0);
+    cursor:pointer;
+    display: block;
+    width:50px;
+    height:50px;     
+}
+
+/* simple gallery two */
+.dcs-simple-gallery-thumbs
+{
+    margin:0px;
+    padding:0px;
+    margin-bottom:15px;
+    margin-left:auto;
+    margin-right:auto;    
+}
+
+.dcs-simple-gallery-thumbs .desc
+{
+    margin-top:-5px !important;
+    margin-bottom:5px !important;
+    color:#666666;
+    font:9px/12px Verdana;
+    text-align:right; 
+    margin-left:auto;
+    margin-right:auto;        
+}
+
+.dcs-simple-gallery-thumbs .slider
+{
+    overflow:hidden;
+    position:relative;
+    border:0px solid green;
+    margin:auto;
+    margin-bottom:8px;    
+}
+
+.dcs-simple-gallery-thumbs .slide
+{
+    position:absolute;
+    left:0px;
+    top:0px;
+    display:none;    
+}
+
+.dcs-simple-gallery-thumbs .thumbs-wrapper
+{
+    margin:auto;
+}  
+
+.dcs-simple-gallery-thumbs .thumb
+{
+    z-index:10;
+    float:left;
+    margin-right:5px;
+    margin-bottom:5px;
+    border:1px solid #FFFFFF;
+    cursor:pointer;
+    display:block; 
+    width:40px;
+    height:40px;    
+}
+
+/*********************************************************************
+    POPUP IMAGES CSS
+**********************************************************************/
+
+#dcjp-popupimage
+{
+    position:absolute;
+    padding:0px;
+    margin: 0px;
+    z-index:1000;
+    border: 1px solid #CCC;
+    visibility:visible;
+    overflow: hidden;
+    background-color: #E5E5E5;
+    background-image:url('../img/ajax/6w.gif');
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+}                                                     
+
+#dcjp-popupimage .text
+{
+    height:10px;
+    padding:4px 2px 4px 4px;
+    font: normal 10px/10px Verdana;
+    color:#111111;
+    background-color:#EEEEEE;
+}
+
+#dcjp-popupimage-image
+{
+    margin:0px;
+    padding:0px;
+    overflow: hidden;
+}
+
+#dcjp-popupimage-loader
+{
+    width:20px;
+    height:20px;
+    background-image:url('../img/ajax/6w.gif');
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-color: #F9F9F9;
+    position: absolute;
+    z-index: 1000;
+    visibility: visible;
+    
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+}
+
+/*********************************************************************
+    PROJECT PORTFOLIO CSS
+**********************************************************************/
+
+.portfolio-project
+{
+    background-color:transparent;
+    padding-bottom:10px;
+    padding-top:15px;
+    margin-top:10px;    
+}
+
+.portfolio-project .infobox
+{
+    position: absolute;
+    left:0px;
+    bottom:0px;
+    line-height:11px;  
+}
+
+.portfolio-project .infobar
+{   
+    font: 11px/16px Arial;
+    color:#222222;
+    margin:15px 0px 3px 0px;   
+}
+
+.portfolio-project .infobar span
+{
+    color:#444;
+}
+
+.portfolio-project .infobar span.types
+{
+    text-transform: uppercase;
+}
+
+.portfolio-project .infobar a
+{
+    cursor:pointer;
+    color:#777;
+    font: 11px/12px Arial;
+    text-transform: uppercase;
+    letter-spacing: 0.2px;
+    text-decoration:none;
+}
+
+.portfolio-project .infobar a:hover
+{
+    color:#000;
+    text-decoration:underline;
+}
+
+.portfolio-project .infobar .date
+{
+    background-color: #e5e5e5;
+    padding: 1px 1px 0px 1px;
+    margin-right: 0px;
+}
+
+.portfolio-project .infobar .date:hover
+{
+    text-decoration:none; 
+} 
+
+.portfolio-project .infobar .date-left
+{
+    background-image:url(../img/common_files/round_left.png);
+    background-position: left;
+    padding:1px 0px 0px 7px;
+    margin-right: 0px;
+}
+
+.portfolio-project .infobar .date-right
+{
+    background-image:url(../img/common_files/round_right.png);
+    background-position: right;
+    padding:1px 0px 0px 7px;
+    margin-right: 5px;
+}
+
+.portfolio-project .zoom
+{
+    width:24px;
+    height:24px;
+    position:absolute;
+    right:10px;
+    bottom:10px;
+    opacity:0.4;
+    filter:alpha(opacity=40);
+    border:0px solid red;
+    display:none;
+    background-image:url(../img/common_files/zoom_big2.png);
+}
+
+.portfolio-project .zoom:hover
+{
+    opacity:0.7;
+    filter:alpha(opacity=70);    
+}
+
+/* one column */
+.portfolio-project .one-colum-item
+{
+    margin-bottom:40px;
+    padding:0px;
+    border:0px solid red;
+}
+
+.portfolio-project .one-colum-item .infobar
+{
+    margin-top:0px;
+}
+
+.portfolio-project .one-colum-item  h2
+{
+    margin-top:5px;
+    margin-bottom:10px;
+}
+
+.portfolio-project .one-colum-item  h2 a:hover
+{
+    text-decoration:none;
+}
+
+.portfolio-project .image-460-wrapper
+{
+    width:460px;
+    height:210px;
+    float: left;
+    margin-right:20px;
+    position:relative;
+}
+
+.portfolio-project .image-460-wrapper:hover > .zoom
+{
+    display:block;
+}  
+
+.portfolio-project .image-460-wrapper .loader
+{
+    width:460px;
+    height:210px;    
+    display:block;
+    cursor:pointer;    
+}   
+
+.portfolio-project .image-460-wrapper img
+{
+    border:none;
+}
+
+.portfolio-project .desc-460-wrapper
+{
+    position:relative;
+    width:430px;
+    border:0px solid red;
+    float:right;
+}
+
+.portfolio-project .desc-460-wrapper .infobox
+{
+    width:80%;
+    position:static;
+    padding-top:20px;    
+}
+
+/* two columns */  
+.portfolio-project .two-colum-item
+{
+    width:440px;
+    margin-bottom:40px;
+    padding:0px;
+    border:0px solid red;
+    float:left;
+    margin-right:30px;
+}
+
+.portfolio-project .two-colum-item-last
+{
+    width:440px;
+    margin-bottom:40px;
+    padding:0px;
+    border:0px solid yellow;
+    float:right;
+}
+
+.portfolio-project .two-colum-item-last h2,
+.portfolio-project .two-colum-item  h2
+{
+    margin-top:5px;
+    margin-bottom:10px;
+}
+
+.portfolio-project .two-colum-item-last h2 a:hover,
+.portfolio-project .two-colum-item  h2 a:hover
+{
+    text-decoration:none;
+}
+
+.portfolio-project .image-430-wrapper
+{
+    width:430px;
+    height:210px;
+    position:relative;
+}
+
+.portfolio-project .image-430-wrapper:hover > .zoom
+{
+    display:block;
+}  
+
+.portfolio-project .image-430-wrapper .loader
+{
+    width:430px;
+    height:210px;    
+    display:block;
+    cursor:pointer;
+    overflow:hidden;    
+}   
+
+.portfolio-project .image-430-wrapper img
+{
+    border:none;
+    position: relative;
+    left:-15px;
+}
+
+.portfolio-project .desc-430-wrapper
+{
+    border:0px solid red;
+}
+
+.portfolio-project .desc-430-wrapper .infobox
+{
+    width:70%;
+    position:static;
+    padding-top:20px;
+}
+
+/* three columns */
+.portfolio-project .three-colum-item
+{
+    width:280px;
+    margin-bottom:40px;
+    padding:0px;
+    border:0px solid red;
+    float:left;
+    margin-right:40px;
+}
+
+.portfolio-project .three-colum-item-last
+{
+    width:280px;
+    margin-bottom:38px;
+    padding:0px;
+    border:0px solid yellow;
+    float:right;
+}
+
+.portfolio-project .three-colum-item-last h3,
+.portfolio-project .three-colum-item  h3
+{
+    margin-top:5px;
+    margin-bottom:10px;
+} 
+
+.portfolio-project .three-colum-item-last h3 a:hover,
+.portfolio-project .three-colum-item  h3 a:hover
+{
+    text-decoration:none;
+} 
+
+.portfolio-project .image-270-wrapper
+{
+    width:270px;
+    height:210px;
+    position:relative;
+}
+
+.portfolio-project .image-270-wrapper:hover > .zoom
+{
+    display:block;
+}  
+
+.portfolio-project .image-270-wrapper .loader
+{
+    width:270px;
+    height:210px;    
+    display:block;
+    cursor:pointer;
+    overflow:hidden;    
+}   
+
+.portfolio-project .image-270-wrapper img
+{
+    border:none;
+    position: relative;
+    left:-105px;
+}
+
+.portfolio-project .desc-270-wrapper
+{
+    border:0px solid red;
+}
+
+.portfolio-project .desc-270-wrapper .infobox
+{
+    width:90%;
+    position:static;
+    padding-top:20px;
+}
+
+/* four columns */
+.portfolio-project .four-colum-item
+{
+    width:200px;
+    margin-bottom:40px;
+    padding:0px;
+    border:0px solid red;
+    float:left;
+    margin-right:40px;
+}
+
+.portfolio-project .four-colum-item-last
+{
+    width:200px;
+    margin-bottom:38px;
+    padding:0px;
+    border:0px solid yellow;
+    float:right;
+}
+
+.portfolio-project .four-colum-item-last h3,
+.portfolio-project .four-colum-item  h3
+{
+    margin-top:5px;
+    margin-bottom:10px;
+} 
+
+.portfolio-project .four-colum-item-last h3 a:hover,
+.portfolio-project .four-colum-item  h3 a:hover
+{
+    text-decoration:none;
+} 
+
+.portfolio-project .image-184-wrapper
+{
+    width:184px;
+    height:142px;
+    position:relative;
+}
+
+.portfolio-project .image-184-wrapper:hover > .zoom
+{
+    display:block;
+}  
+
+.portfolio-project .image-184-wrapper .loader
+{
+    width:184px;
+    height:142px;    
+    display:block;
+    cursor:pointer;
+    overflow:hidden;    
+}   
+
+.portfolio-project .image-184wrapper img
+{
+    border:none;
+   /* position: relative;
+    left:-105px;  */
+}
+
+.portfolio-project .desc-184-wrapper
+{
+    border:0px solid red;
+}
+
+.portfolio-project .desc-184-wrapper .infobox
+{
+    width:95%;
+    position:static;
+    padding-top:20px;
+}
+
+/* slider */
+.portfolio-project .slider
+{
+    width:920px;
+    height:480px;
+    border:0px solid red;
+    position:relative;
+    overflow: hidden;
+    padding-bottom:50px;
+} 
+
+.portfolio-project .slider .page
+{
+    width:920px;
+    background-color:transparent;
+    height:480px;
+    position:absolute;
+    left:920px;
+    top:0px;
+}
+
+.portfolio-project .slider .item  
+{
+    width:280px;
+    margin-bottom:40px;
+    padding:0px;
+    border:0px solid red;
+    float:left;
+    margin-right:40px;
+}
+
+.portfolio-project .slider .item-last  
+{
+    width:280px;
+    margin-bottom:38px;
+    padding:0px;
+    border:0px solid yellow;
+    float:right;
+}
+
+.portfolio-project .slider .item-last h3,
+.portfolio-project .slider .item  h3
+{
+    margin-top:5px;
+    margin-bottom:10px;
+    z-index:1;
+    position:relative;
+} 
+
+.portfolio-project .slider .item-last h3 a:hover,
+.portfolio-project .slider .item  h3 a:hover
+{
+    text-decoration:none;
+} 
+
+.portfolio-project .slider .image-270-wrapper
+{
+    width:270px;
+    height:210px;
+    position:relative;
+}
+
+.portfolio-project .slider .image-270-wrapper:hover > .zoom
+{
+    display:block;
+}  
+
+.portfolio-project .slider .image-270-wrapper .loader
+{
+    width:270px;
+    height:210px;    
+    display:block;
+    cursor:pointer;
+    overflow:hidden;    
+}   
+
+.portfolio-project .slider .image-270-wrapper img
+{
+    border:none;
+    position: relative;
+    left:-105px;
+}
+
+.portfolio-project .slider .desc-270-wrapper
+{
+    border:0px solid red;
+}
+
+.portfolio-project .slider .desc-270-wrapper .infobox
+{
+    width:80%;
+    position:static;
+    padding-top:20px;
+}
+
+.portfolio-project .slider .control-panel
+{
+    position:absolute;
+    width:920px;
+    height:20px;
+    left:0px;
+    bottom:0px;
+    text-align: center;    
+}
+
+.portfolio-project .slider .control-panel .pages
+{
+    font: 11/12px Verdana;
+    color:#666666;  
+}
+
+.portfolio-project .slider .control-panel .next
+{ 
+    text-decoration:none;
+    font:14px Verdana;
+    font-weight:bold;
+    line-height:20px;
+    padding-right:10px;
+    cursor:pointer;
+    background-position: right;
+    float:right;
+    text-transform: uppercase; 
+}
+    
+.portfolio-project .slider .control-panel .prev  
+{ 
+    text-decoration:none;
+    text-transform: uppercase;
+    font:14px Verdana;
+    font-weight:bold;
+    line-height:20px;
+    padding-left:10px;
+    cursor:pointer;
+    background-position: left;
+    float:left; 
+}
+
+.portfolio-project .slider .control-panel .next:hover
+{ 
+    cursor:pointer;
+    background-image: url('../img/common_files/white_arrowhead_next.png');
+}    
+
+.portfolio-project .slider .control-panel .prev:hover 
+{ 
+    cursor:pointer;
+    background-image: url('../img/common_files/white_arrowhead_prev.png');
+}   
+
+/*********************************************************************
+    POST PORTFOLIO CSS
+**********************************************************************/
+.portfolio-post
+{
+    background-color:transparent;
+    padding-bottom:10px;
+    padding-top:25px;
+}
+
+.portfolio-post .item
+{
+    width:270px;
+    float:left;
+}
+
+.portfolio-post .item p
+{
+    margin-top:0px;
+    margin-bottom:0px; 
+}
+
+.portfolio-post .item .camera
+{
+    width:32px;
+    height:32px;
+    background-color:transparent;
+    background-image:url('../img/common_files/video.png');
+    background-repeat:no-repeat;
+    background-position:0px 0px;
+    right:5px;
+    bottom:5px;
+    position: absolute;
+    opacity:0.90;
+    filter:alpha(opacity=90); /*IE*/    
+}
+
+.portfolio-post .more
+{
+    color:#888888;
+    text-decoration: none;
+}
+
+.portfolio-post .more:hover
+{
+    color:#000000;
+    text-decoration:underline
+}
+
+
+.portfolio-post .more-link
+{
+    text-decoration: none;
+}
+
+.portfolio-post .more-link:hover
+{
+    text-decoration:underline
+}
+
+
+.portfolio-post .item .image-wrapper
+{
+    width:265px;
+    height:120px;
+    background-color:#FFFFFF;
+    border:0px solid #DEDEDE;
+    position:relative;
+    overflow:hidden;
+    cursor:pointer;
+    margin-bottom:10px;    
+}
+
+.portfolio-post .item .title
+{
+    display:block;
+    position:absolute;
+    left:10px;
+    padding:2px 8px 3px 8px;
+    margin-right:10px;
+    font: bold 10px/14px Verdana;
+    bottom:10px;
+    background-color:#FFFFFF;
+    z-index:10;
+    opacity:0.85;
+    filter: alpha(opacity=85);     
+}
+
+
+.portfolio-post .item .image-wrapper img
+{
+    width:265px;
+    height:120px;
+    position:absolute;
+    top:0px;
+    left:0px;
+    border: 0px solid red;
+    opacity:1.00;
+    filter:alpha(opacity=100); /*IE*/        
+}
+
+.portfolio-post .item .image-wrapper img:hover
+{
+    opacity:0.80;
+    filter:alpha(opacity=80); /*IE*/
+}
+
+.portfolio-post .v-separator
+{
+    width:50px;
+    height:30px;
+    float:left;
+}
+
+.portfolio-post .h-separator
+{
+    width:920px;
+    height:40px;
+    clear:both;
+}
+
+/*********************************************************************
+    GALLERY PAGE WITH SLIDER CSS
+**********************************************************************/
+
+.gallery-slider
+{
+    width:920px;
+    height:570px;
+    margin:0px;
+    margin-top:25px;
+    margin-bottom:25px;
+    padding:0px;
+    padding-bottom:40px;
+    overflow:hidden;
+    position:relative;
+    border:0px solid blue;
+}
+
+.gallery-slider .page
+{
+    width:920px;
+    height:570px;
+    position:absolute;
+    top:0px;
+    left:0px;
+    display:none;    
+}
+
+
+.gallery-slider .thumb-wrapper
+{
+    width:158px;
+    height:158px;
+    float:left;
+    margin-right:32px;
+    margin-bottom:32px;
+    position: relative;    
+}
+
+.gallery-slider .thumb-wrapper-last 
+{
+    width:158px;
+    height:158px;
+    float:left;
+    margin-bottom:32px;
+    position: relative;     
+}
+
+.gallery-slider .thumb-wrapper .img-wrapper
+{
+    width:150px;
+    height:150px;
+}
+
+.gallery-slider .thumb-wrapper-last .loader,
+.gallery-slider .thumb-wrapper .loader
+{
+    width:150px;
+    height:150px;
+    display:block;
+}
+
+.gallery-slider .thumb-wrapper-last .triger,
+.gallery-slider .thumb-wrapper .triger
+{
+    width:150px;
+    height:150px;
+    display:block;
+    position:absolute;
+    top:4px;
+    left:4px;
+    background-color:#FFF;
+    opacity:0.0;
+    filter: alpha(opacity=0);
+    cursor:pointer;
+}
+
+.gallery-slider .thumb-wrapper-last .desc,
+.gallery-slider .thumb-wrapper .desc
+{
+     position: absolute;
+     color:#444;
+     right:3px;
+     bottom:-18px;
+     font: 9px/15px Verdana;
+     cursor: default;
+}
+
+.gallery-slider .thumb-wrapper-last .desc:hover,
+.gallery-slider .thumb-wrapper .desc:hover
+{
+      text-decoration:none;
+      color:#444;
+}
+    
+.gallery-slider .control-panel
+{
+    position:absolute;
+    width:920px;
+    height:20px;
+    left:0px;
+    bottom:0px;
+    text-align: center;    
+}
+
+.gallery-slider .control-panel .pages
+{
+    font: 11/12px Verdana;
+    color:#666666;  
+}
+
+.gallery-slider .control-panel .next
+{ 
+    text-decoration:none;
+    font:14px Verdana;
+    font-weight:bold;
+    line-height:20px;
+    padding-right:10px;
+    cursor:pointer;
+    background-position: right;
+    float:right;
+    text-transform: uppercase; 
+}
+    
+.gallery-slider .control-panel .prev  
+{ 
+    text-decoration:none;
+    text-transform: uppercase;
+    font:14px Verdana;
+    font-weight:bold;
+    line-height:20px;
+    padding-left:10px;
+    cursor:pointer;
+    background-position: left;
+    float:left; 
+}
+
+.gallery-slider .control-panel .next:hover
+{ 
+    cursor:pointer;
+    background-image: url('../img/common_files/white_arrowhead_next.png');
+}    
+
+.gallery-slider .control-panel .prev:hover 
+{ 
+    cursor:pointer;
+    background-image: url('../img/common_files/white_arrowhead_prev.png');
+}    
+
+/*********************************************************************
+    DC SHORTCODES CSS
+**********************************************************************/
+    
+.dcs-box
+{
+    padding:0px;
+    margin:0px;
+    background-image:url(../img/common_files/Spliter_BlogPostTop_574width.png);
+    background-position: center top;
+    clear:both;
+    position: relative;
+}
+
+
+.dcs-thin-spliter
+{
+    height:34px;
+    background-image:url(../img/common_files/Spliter_BlogPostTop_border.png);
+    background-position: center center;
+    clear:both;
+}
+
+.dcs-thin-spliter-big
+{
+    height:34px;
+    background-image:url(../img/common_files/Spliter_BlogPostTop_border_920.png);
+    background-position: center center;
+    clear:both;
+}
+
+.dcs-heading
+{
+    background-image:url(../img/common_files/Spliter_BlogPostTop_border.png);
+    background-position: center bottom;
+    padding-bottom:4px;    
+}
+
+.dcs-heading920
+{
+    background-image:url(../img/common_files/Spliter_BlogPostTop_border_920.png);
+    background-position: center bottom;
+    padding-bottom:4px;    
+}
+
+/* dcs info */
+.dcs-info-name
+{
+    font: bold 10px/11px Trebuchet MS, Helvetica, sans-serif;
+    text-transform: uppercase;
+    color:#999999;    
+}
+
+.dcs-info-value
+{
+    font: normal 10px/11px Verdana;
+    color:#777777;    
+}
+
+.dcs-info-link
+{
+    font: normal 10px/11px Verdana;
+    color:#777777;    
+}
+
+.dcs-info-link:hover
+{
+    color:#222222;
+    text-decoration: underline;    
+}
+
+.dcs-info-postfix
+{
+    color:#BBBBBB;
+}
+
+/* dcs info movie */ 
+.dcs-info-name-movie
+{
+    font: normal 11px/11px Trebuchet MS, Helvetica, sans-serif;
+    color:#666666;    
+}
+
+.dcs-info-value-movie
+{
+    font: normal 14px/18px Tahoma;
+    color:#999999;    
+}
+
+.dcs-info-link-movie
+{
+    font: normal 14px/18px Tahoma;
+    color:#999999;    
+}
+
+.dcs-info-link-movie:hover
+{
+    color:#DDDDDD;
+    text-decoration: underline;    
+}
+
+/* dcs project top */
+.dcs-project-top
+{
+    margin:0px;
+    padding:0px;
+    margin-bottom:15px;
+}
+  
+.dcs-project-top .post-content
+{
+    background-image:url(../img/common_files/Spliter_BlogPostTop_574width.png); 
+    padding-top: 5px;
+    background-position: center top;    
+}  
+
+.dcs-project-top .post-content .comments
+{
+    background-image:url(../img/icons/Comments.png); 
+    margin-right:12px; 
+    width:46px; 
+    height:37px; 
+    color:#888; 
+    font:11px Verdana, Arial, Helvetica, sans-serif; 
+    font-weight: bold;                
+    padding-top:13px; 
+    text-align:center; 
+    line-height:15px;
+    padding-left:29px;
+    float:right;
+    letter-spacing:-1px;
+    display:block;
+    text-decoration:none;
+}
+
+.dcs-project-top .post-content h2
+{
+    margin-top:5px;
+}
+
+.dcs-project-top .post-content .info
+{
+    width: 510px;    
+    font: 12px/15px Arial;
+    color:#DDDDDD;
+    margin:2px 0px 7px;    
+}
+
+.dcs-project-top .post-content .info span
+{
+   color:#888;  
+}
+
+.dcs-project-top .post-content .info a
+{
+    cursor:pointer;
+    color:#888;
+    font: 11px/12px Arial;
+    text-transform: uppercase;
+    letter-spacing: 0.2px;
+    text-decoration:none;
+}
+
+.dcs-project-top .post-content .info a:hover
+{
+    color:#000;
+    text-decoration:underline;
+}
+
+.dcs-project-top .post-content .info .date
+{
+    background-color: #e5e5e5;
+    padding: 1px 1px 0px 1px;
+    margin-right: 0px;
+}
+
+.dcs-project-top .post-content .info .date:hover
+{
+    text-decoration:none; 
+} 
+
+.dcs-project-top .post-content .info .date-left
+{
+    background-image:url(../img/common_files/round_left.png);
+    background-position: left;
+    padding:1px 0px 0px 7px;
+    margin-right: 0px;
+}
+
+.dcs-project-top .post-content .info .date-right
+{
+    background-image:url(../img/common_files/round_right.png);
+    background-position: right;
+    padding:1px 0px 0px 7px;
+    margin-right: 5px;
+}
+
+/* dcs project bottom */ 
+.dcs-project-bottom
+{
+    margin:0px;
+    padding:0px;
+    margin-top:20px;
+    margin-bottom:15px;
+}
+
+/* dcs post bottom */ 
+.dcs-post-top
+{
+    background-image:url(../img/common_files/Spliter_BlogPostTop_574width.png); 
+    padding-top: 5px;
+    background-position: center top;    
+}                                                                                                        
+
+.dcs-post-top .comments
+{
+    background-image:url(../img/icons/Comments.png); 
+    margin-right:12px; 
+    width:46px; 
+    height:37px; 
+    color:#666; 
+    font:11px Verdana, Arial, Helvetica, sans-serif; 
+    font-weight: bold;                
+    padding-top:13px; 
+    text-align:center; 
+    line-height:15px;
+    padding-left:29px;
+    float:right;
+    letter-spacing:-1px;
+    display:block;
+    text-decoration:none;
+}
+
+.dcs-post-top h2
+{
+    margin-top:5px;
+}
+
+.dcs-post-top h2 a
+{
+   color:inherit;
+   text-decoration: none;  
+}
+   
+.dcs-post-top .info
+{
+    width: 510px;    
+    font: 12px/15px Arial;
+    color:#222;
+    margin:2px 0px 7px;    
+}
+
+.dcs-post-top .info a
+{
+    cursor:pointer;
+    color:#666;
+    font: 11px/12px Arial;
+    text-transform: uppercase;
+    letter-spacing: 0.2px;
+    text-decoration:none;
+}
+
+.dcs-post-top .info a:hover
+{
+    color:#000;
+    text-decoration:underline;
+}
+
+.dcs-post-top .info span
+{
+   color:#666;  
+}
+
+.dcs-post-top .info .date
+{
+    background-color: #111;
+    padding: 1px 1px 0px 1px;
+    margin-right: 0px;
+}
+
+.dcs-post-top .info .date:hover
+{
+    text-decoration:none; 
+} 
+
+.dcs-post-top .info .date-left
+{
+    background-image:url(../img/common_files/round_left.png);
+    background-position: left;
+    padding:1px 0px 0px 7px;
+    margin-right: 0px;
+}
+
+.dcs-post-top .info .date-right
+{
+    background-image:url(../img/common_files/round_right.png);
+    background-position: right;
+    padding:1px 0px 0px 7px;
+    margin-right: 5px;
+}
+
+.dcs-post-top .info .author
+{
+    padding: 0px 3px 0px;
+}   
+  
+/* dcs-list */  
+.dcs-list-check, .dcs-list-check2, .dcs-list-check3, .dcs-list-check4, .dcs-list-check5, .dcs-list-check6, .dcs-list-check7, .dcs-list-check8, .dcs-list-check9,   
+.dcs-list-star, .dcs-list-star2, .dcs-list-star3,
+.dcs-list-arrow, .dcs-list-arrow2, .dcs-list-arrow3, .dcs-list-arrow4,
+.dcs-list-exception, .dcs-list-exception2, .dcs-list-exception3, .dcs-list-exception4, 
+.dcs-list-dot-gold, 
+.dcs-list-dot-silver,
+.dcs-list-dot-grey,
+.dcs-list-ring-orange, .dcs-list-ring-white, .dcs-list-ring-green, .dcs-list-ring-purple, .dcs-list-ring-blue, .dcs-list-ring-red, 
+.dcs-list-ring-grey, .dcs-list-ring-yellow
+{
+    margin:0px;                                                                                                                                                           
+    margin-bottom:15px;
+    padding:0px;
+    padding-left:15px;
+}    
+
+.dcs-list-check ul, .dcs-list-check2 ul, .dcs-list-check3 ul, .dcs-list-check4 ul, .dcs-list-check5 ul, .dcs-list-check6 ul, .dcs-list-check7 ul, .dcs-list-check8 ul, .dcs-list-check9 ul,    
+.dcs-list-star ul, .dcs-list-star2 ul, .dcs-list-star3 ul, 
+.dcs-list-arrow ul, .dcs-list-arrow2 ul, .dcs-list-arrow3 ul, .dcs-list-arrow4 ul,
+.dcs-list-exception ul, .dcs-list-exception2 ul, .dcs-list-exception3 ul, .dcs-list-exception4 ul, 
+.dcs-list-dot-gold ul, 
+.dcs-list-dot-silver ul,
+.dcs-list-dot-grey ul,
+.dcs-list-ring-orange ul, .dcs-list-ring-white ul, .dcs-list-ring-green ul, .dcs-list-ring-purple ul, .dcs-list-ring-blue ul, .dcs-list-ring-red ul, 
+.dcs-list-ring-grey ul, .dcs-list-ring-yellow ul 
+{
+    list-style-position:inside;
+    list-style-type:none;
+}
+
+.dcs-list-ring-grey li
+{
+    line-height:18px;
+    padding-left:20px;
+    background-image:url(../img/common_files/lists/grey_ring.png);
+    background-position:left center;    
+}  
+
+.dcs-list-ring-purple li
+{
+    line-height:18px;
+    padding-left:20px;
+    background-image:url(../img/common_files/lists/purple_ring.png);
+    background-position:left center;    
+} 
+
+.dcs-list-ring-orange li
+{
+    line-height:18px;
+    padding-left:20px;
+    background-image:url(../img/common_files/lists/orange_ring.png);
+    background-position:left center;    
+}
+
+.dcs-list-ring-white li
+{
+    line-height:18px;
+    padding-left:20px;
+    background-image:url(../img/common_files/lists/white_ring.png);
+    background-position:left center;    
+}  
+
+.dcs-list-ring-yellow li
+{
+    line-height:18px;
+    padding-left:20px;
+    background-image:url(../img/common_files/lists/yellow_ring.png);
+    background-position:left center;    
+}  
+
+.dcs-list-ring-red li
+{
+    line-height:18px;
+    padding-left:20px;
+    background-image:url(../img/common_files/lists/red_ring.png);
+    background-position:left center;    
+}  
+
+.dcs-list-ring-green li
+{
+    line-height:18px;
+    padding-left:20px;
+    background-image:url(../img/common_files/lists/green_ring.png);
+    background-position:left center;    
+}  
+
+.dcs-list-ring-blue li
+{
+    line-height:18px;
+    padding-left:20px;
+    background-image:url(../img/common_files/lists/blue_ring.png);
+    background-position:left center;    
+}  
+
+.dcs-list-check li  
+{
+    line-height:20px;
+    padding-left:20px;
+    background-image:url(../img/common_files/lists/accept.png);
+    background-position:left center;
+}
+
+.dcs-list-check2 li  
+{
+    line-height:20px;
+    padding-left:20px;
+    background-image:url(../img/common_files/lists/accept2.png);
+    background-position:left center;
+}
+
+.dcs-list-check3 li  
+{
+    line-height:20px;
+    padding-left:20px;
+    background-image:url(../img/common_files/lists/accept3.png);
+    background-position:left center;
+}
+
+.dcs-list-check4 li  
+{
+    line-height:20px;
+    padding-left:20px;
+    background-image:url(../img/common_files/lists/accept4.png);
+    background-position:left center;
+}
+
+.dcs-list-check5 li  
+{
+    line-height:20px;
+    padding-left:20px;
+    background-image:url(../img/common_files/lists/accept5.png);
+    background-position:left center;
+}
+
+.dcs-list-check6 li  
+{
+    line-height:20px;
+    padding-left:20px;
+    background-image:url(../img/common_files/lists/accept6.png);
+    background-position:left center;
+}
+
+.dcs-list-check7 li  
+{
+    line-height:20px;
+    padding-left:20px;
+    background-image:url(../img/common_files/lists/accept7.png);
+    background-position:left center;
+}
+
+.dcs-list-check8 li  
+{
+    line-height:20px;
+    padding-left:20px;
+    background-image:url(../img/common_files/lists/accept8.png);
+    background-position:left center;
+}
+
+.dcs-list-check9 li  
+{
+    line-height:20px;
+    padding-left:20px;
+    background-image:url(../img/common_files/lists/accept9.png);
+    background-position:left center;
+}
+
+.dcs-list-star li  
+{
+    line-height:20px;
+    padding-left:20px;
+    background-image:url(../img/common_files/lists/star.png);
+    background-position:left center;
+}
+
+.dcs-list-star2 li  
+{
+    line-height:20px;
+    padding-left:20px;
+    background-image:url(../img/common_files/lists/star2.png);
+    background-position:left center;
+}
+
+.dcs-list-star3 li  
+{
+    line-height:20px;
+    padding-left:20px;
+    background-image:url(../img/common_files/lists/star3.png);
+    background-position:left center;
+}
+
+.dcs-list-arrow li  
+{
+    line-height:20px;
+    padding-left:20px;
+    background-image:url(../img/common_files/lists/arrow.png);
+    background-position:left center;
+}
+
+.dcs-list-arrow2 li  
+{
+    line-height:20px;
+    padding-left:20px;
+    background-image:url(../img/common_files/lists/arrow2.png);
+    background-position:left center;
+}
+
+.dcs-list-arrow3 li  
+{
+    line-height:20px;
+    padding-left:20px;
+    background-image:url(../img/common_files/lists/arrow3.png);
+    background-position:left center;
+}
+
+.dcs-list-arrow4 li  
+{
+    line-height:20px;
+    padding-left:20px;
+    background-image:url(../img/common_files/lists/arrow4.png);
+    background-position:left center;
+}
+
+.dcs-list-exception li  
+{
+    line-height:20px;
+    padding-left:20px;
+    background-image:url(../img/common_files/lists/exception.png);
+    background-position:left center;
+}
+
+.dcs-list-exception2 li  
+{
+    line-height:20px;
+    padding-left:20px;
+    background-image:url(../img/common_files/lists/exception2.png);
+    background-position:left center;
+}
+
+.dcs-list-exception3 li  
+{
+    line-height:20px;
+    padding-left:20px;
+    background-image:url(../img/common_files/lists/exception3.png);
+    background-position:left center;
+}
+
+.dcs-list-exception4 li  
+{
+    line-height:20px;
+    padding-left:20px;
+    background-image:url(../img/common_files/lists/exception4.png);
+    background-position:left center; 
+}
+
+.dcs-list-dot-gold li  
+{
+    line-height:20px;
+    padding-left:18px;
+    background-image:url(../img/common_files/lists/golden_dot.png);
+    background-position:left center;
+}
+
+.dcs-list-dot-silver li  
+{
+    line-height:20px;
+    padding-left:18px;
+    background-image:url(../img/common_files/lists/silver_dot.png);
+    background-position:left center;
+}
+
+.dcs-list-dot-grey li  
+{
+    line-height:20px;
+    padding-left:18px;
+    background-image:url(../img/common_files/lists/grey_dot.png);
+    background-position:left center;
+}
+  
+/* dcs-list-ordered */  
+.dcs-list-ordered,
+.dcs-list-ordered-gold,
+.dcs-list-ordered-silver,
+.dcs-list-ordered-roman-gold,
+.dcs-list-ordered-roman-silver,
+.dcs-list-ordered-greek-gold,
+.dcs-list-ordered-greek-silver
+{
+    margin:0px;
+    margin-bottom:15px;
+    padding:0px;
+    padding-left:15px;
+}    
+
+.dcs-list-ordered-gold ol,
+.dcs-list-ordered-silver ol
+{
+    list-style-position:inside;
+    list-style-type:decimal;
+    margin:0px;
+    padding:0px;    
+}
+
+.dcs-list-ordered-roman-gold ol,
+.dcs-list-ordered-roman-silver ol
+{
+    list-style-position:inside;
+    list-style-type:upper-roman;
+    margin:0px;
+    padding:0px;       
+}
+
+.dcs-list-ordered-greek-gold ol,
+.dcs-list-ordered-greek-silver ol
+{
+    list-style-position:inside;
+    list-style-type:upper-alpha;
+    margin:0px;
+    padding:0px;       
+}
+
+.dcs-list-ordered-roman-gold ol li, 
+.dcs-list-ordered-greek-gold ol li,
+.dcs-list-ordered-gold ol li
+{
+    color:#CCA230;    
+}
+
+.dcs-list-ordered-roman-silver ol li, 
+.dcs-list-ordered-greek-silver ol li, 
+.dcs-list-ordered-silver ol li
+{
+    color:#777777;    
+}
+
+.dcs-list-ordered-roman-silver ol li p, 
+.dcs-list-ordered-roman-gold ol li p,
+.dcs-list-ordered-greek-silver ol li p, 
+.dcs-list-ordered-greek-gold ol li p,
+.dcs-list-ordered-silver ol li p, 
+.dcs-list-ordered-gold ol li p
+{
+    color:#000000;
+    margin:0px;
+    display:inline;  
+}
+  
+
+.dcs-list-ordered ol
+{
+    list-style-position:inside;
+    list-style-type:none;
+    margin:0px;
+    padding:0px;    
+}  
+   
+.dcs-list-ordered li
+{
+    padding:0px;
+    color:#CCA230;     
+}
+
+.dcs-list-ordered ol li p 
+{
+    color:#FFFFFF;
+    margin:0px;
+    display:inline;     
+}
+
+.dcs-list-ordered li.background
+{
+    padding: 3px 0px 3px;
+    background-image:url(../img/common_files/Spliter_BlogPostTop_574width.png);     
+}
+
+/* dcs columns half */  
+.dcs-one-half
+{
+    width:440px;
+    float:left;
+    margin-right:40px;    
+}
+
+.dcs-one-half-last
+{
+    width:440px;
+    float:left;    
+}
+
+/* dcs columns third */
+.dcs-one-third
+{
+    width:280px;
+    margin-right:40px;
+    float:left;
+}
+
+.dcs-one-third-last
+{
+    width:280px;
+    float:left;
+}
+
+.dcs-two-third
+{
+    width:600px;
+    margin-right:40px;
+    float:left;
+}
+
+.dcs-two-third-last
+{
+    width:600px;
+    float:left;
+}
+
+/* dcs columns fourth */
+.dcs-one-fourth
+{
+    width:200px;
+    margin-right:40px;
+    float:left;
+}
+
+.dcs-one-fourth-last
+{
+    width:200px;
+    float:left;
+}
+
+.dcs-three-fourth
+{
+    width:680px;
+    margin-right:40px;
+    float:left;
+}
+
+.dcs-three-fourth-last
+{
+    width:680px;
+    float:left;
+}
+
+/* dcs columns fifth */
+.dcs-one-fifth
+{
+    width:152px;
+    margin-right:40px;
+    float:left;
+}
+
+.dcs-one-fifth-last
+{
+    width:152px;
+    float:left;
+}
+
+.dcs-four-fifth
+{
+    width:728px;
+    float:left;
+    margin-right:40px;
+} 
+
+.dcs-four-fifth-last
+{
+    width:728px;
+    float:left;
+} 
+
+.dcs-three-fifth
+{
+    width:536px;
+    float:left;
+    margin-right:40px;
+} 
+
+.dcs-three-fifth-last
+{
+    width:536px;
+    float:left;
+}     
+
+/* dcs image switcher */
+
+.dcs-image-switcher
+{    
+    font:9px/10px Arial; 
+    color:#555;      
+}
+
+.dcs-image-switcher .sholder
+{
+    text-decoration:none; 
+    margin:0px auto 0px auto;   
+}
+
+.dcs-image-switcher .slideswrapper
+{
+    position:relative;        
+} 
+
+.dcs-image-switcher .slideswrapper .icon
+{
+    position:absolute;
+    width:16px;
+    height:16px;
+    z-index:10;
+    right:5px;
+    bottom:5px;
+    display:block;
+    background-color:transparent;
+    background-image:url(../img/common_files/switcher.png);
+    background-position:0px 0px;
+    
+    opacity:0.7;
+    filter:alpha(opacity=70); 
+}
+
+.dcs-image-switcher .slide
+{
+    position:absolute;
+    left:0px;
+    top:0px; 
+    display:block;       
+} 
+
+.dcs-image-switcher span.desc
+{
+    display:block;    
+    font:9px/12px Verdana; 
+    color:#888; 
+    margin:2px 0px 0px 0px;    
+}
+
+.dcs-image-switcher span.deschover
+{    
+    font:9px/12px Verdana; 
+    color:#888; 
+    margin:2px 0px 0px 0px;  
+    display:none;  
+}
+
+/* dcs image */
+.dcs-image-center
+{
+    text-align: center;
+    margin:2px auto 15px auto;  
+    
+    font:9px/10px Arial; 
+    color:#555; 
+    text-align:center;       
+}
+
+.dcs-image-center span.desc
+{
+    display:block;
+    text-align: center;
+    
+    font:9px/12px Verdana; 
+    color:#888; 
+    margin:2px 0px 0px 0px;    
+}
+
+.dcs-image-left
+{
+    float:left;
+    margin:2px 20px 15px 0px;
+    
+    font:9px/10px Arial; 
+    color:#555; 
+    text-align:right;         
+}
+
+.dcs-image-left span.desc
+{
+    display:block;
+    text-align:left;
+    
+    font:9px/12px Verdana; 
+    color:#888; 
+    margin:2px 0px 0px 0px;    
+}
+
+.dcs-image-right
+{
+    float:right;    
+    margin:2px 0px 15px 20px;
+    
+    font:9px/10px Arial; 
+    color:#555; 
+    text-align:right;     
+}
+
+.dcs-image-right span.desc
+{
+    display:block;
+    text-align:right;
+    
+    font:9px/12px Verdana; 
+    color:#888; 
+    margin:2px 0px 0px 0px;    
+}
+
+/* dcs photo */
+.dcs-photo
+{
+    margin-top:0px;
+    margin-bottom:15px;
+    margin-left:auto;
+    margin-right:auto;
+    
+    position: relative;
+    
+    font:9px/10px Arial; 
+    color:#555; 
+    text-align:right;     
+}
+
+.dcs-photo.framed
+{
+    background: -moz-linear-gradient(top,  #f5f5f5 20%, #eeeeee 100%) !important;
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0.2, #f5f5f5), color-stop(1, #eeeeee)) !important;    
+    filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#f5f5f5', endColorstr='#eeeeee') !important;
+    
+    border:1px solid #EFEFEF;
+    padding:3px;        
+    
+    -moz-border-radius:3px;
+    -webkit-border-radius:3px;
+    border-radius:3px;
+}
+
+.dcs-photo a img
+{
+    border:none;
+    padding:0px;
+    margin:0px;
+}
+
+.dcs-photo a.triger
+{
+    background-color:black;
+    opacity:0.0;
+    filter:alpha(opacity=0);
+    position: absolute;
+    left:0px;
+    top:0px;
+    z-index:10;
+    cursor: pointer; 
+    
+    background-repeat: no-repeat;
+    background-position: center center;
+         
+}
+
+.dcs-photo a.iplay
+{
+    background-image:url(../img/common_files/play.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+} 
+
+.dcs-photo a.izoom
+{
+    background-image:url(../img/common_files/plus.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+} 
+
+.dcs-photo a.loader
+{
+    margin-bottom:3px;
+    display:block; 
+}
+
+.dcs-photo .loader-wrapper
+{
+    margin-bottom:3px; 
+}
+
+.dcs-photo p
+{
+    font:9px/12px Verdana; 
+    color:#666; 
+    text-align:left;
+    margin: 6px 0px -2px;
+    padding-bottom: 6px;
+    background-image:url(../img/common_files/Spliter_BlogPostTop_border.png);
+    background-position:-240px bottom;    
+}
+
+.dcs-photo.framed p
+{
+   background-image: none; 
+} 
+
+.dcs-photo.framed-white
+{
+    color:#666666;
+}
+
+.dcs-photo.framed-white p
+{
+   background-image: none;
+   color:#444444; 
+}
+
+.dcs-photo.framed-dark
+{
+    color:#999999;
+}
+
+.dcs-photo.framed-dark p
+{
+   background-image: none;
+   color:#888888; 
+}  
+    
+/* dcs toggle */    
+.dcs-toggle
+{
+    margin-bottom:5px;       
+    position: relative;
+    clear:both; 
+}
+
+.dcs-toggle .toggle-icon-img
+{
+     position: absolute;
+     left:8px;
+     top:7px;
+     height:24px;
+     width:24px;
+}
+
+
+.dcs-toggle .toggle-icon-open
+{
+     position: absolute;
+     right:10px;
+     top:12px;
+     height:16px;
+     width:16px;
+     background-image:url(../img/common_files/add.png);
+     background-position: left top;
+}
+
+.dcs-toggle .toggle-icon-close
+{
+     position: absolute;
+     right:10px;
+     top:12px;
+     height:16px;
+     width:16px;
+     background-image:url(../img/common_files/add-close.png);
+     background-position: left top;
+}
+
+.dcs-toggle .toggle-triger
+{
+    border:1px solid #E2E2E2;
+    padding:8px 4px 6px 8px;
+    margin:0px;
+    cursor:pointer;
+    -moz-border-radius:3px;
+    -webkit-border-radius:3px;
+    border-radius:3px;
+    
+    background: -moz-linear-gradient(top,  #FCFCFC 20%, #EFEFEF 100%) !important;
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0.2, #FCFCFC), color-stop(1, #EFEFEF)) !important;    
+    filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#FCFCFC', endColorstr='#EFEFEF') !important;            
+}
+
+.dcs-toggle .toggle-content
+{
+    display:none;
+    padding:15px 10px 15px 10px;
+} 
+   
+/* dcs toggle flat */
+.dcs-toggle-flat
+{
+    margin-bottom:5px;       
+    position: relative;
+    clear:both; 
+}
+
+.dcs-toggle-flat .toggle-flat-icon-open
+{
+     position: absolute;
+     right:10px;
+     top:8px;
+     height:16px;
+     width:16px;
+     background-image:url(../img/common_files/add.png);
+     background-position: left top;
+}
+
+.dcs-toggle-flat .toggle-flat-icon-close
+{
+     position: absolute;
+     right:10px;
+     top:8px;
+     height:16px;
+     width:16px;
+     background-image:url(../img/common_files/add-close.png);
+     background-position: left top;
+}
+
+.dcs-toggle-flat .toggle-flat-triger
+{
+    border:1px solid #E8E8E8;
+    padding:4px 4px 5px 8px;
+    margin:0px;
+    cursor:pointer;
+    background-color:#F5F5F5;
+    display: block;
+    font-weight:bold;
+    
+    -moz-border-radius:2px;
+    -webkit-border-radius:2px;
+    border-radius:2px;                 
+}
+
+.dcs-toggle-flat .toggle-flat-triger:hover  
+{
+    border:1px solid #BBBBBB;     
+}
+
+.dcs-toggle-flat .toggle-flat-content
+{
+    display:none;
+    padding:15px 10px 15px 10px; 
+}
+
+/* dcs toggle btn */
+.dcs-toggle-btn
+{
+    margin-bottom:10px;       
+    position: relative;
+    clear:both;
+}
+
+.dcs-toggle-btn .toggle-btn-icon-open
+{
+      background-image:url(../img/common_files/toggle_plus.png);        
+}
+
+.dcs-toggle-btn .toggle-btn-icon-close
+{
+     background-image:url(../img/common_files/toggle_minus.png);
+}
+
+.dcs-toggle-btn .toggle-btn-triger
+{
+    border:0px solid #181818;
+    padding:2px 0px 0px 28px;
+    margin:0px;
+    cursor:pointer;
+    background-color:transparent;
+    display: block;
+    background-position: left 5px;                
+}
+
+.dcs-toggle-btn .toggle-btn-content
+{
+    display:none;
+    padding:15px 10px 10px 28px;
+}         
+   
+/* dcs toggle framed */
+.dcs-toggle-frame
+{
+    margin-bottom:5px;               
+    position: relative;
+    clear:both; 
+	
+	background: -moz-linear-gradient(top,  #f5f5f5 20%, #eeeeee 100%) !important;
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0.2, #f5f5f5), color-stop(1, #eeeeee)) !important;    
+    filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#f5f5f5', endColorstr='#eeeeee') !important;
+    
+    border:1px solid #EEEEEE;
+    padding:3px;        
+    
+    -moz-border-radius:3px;
+    -webkit-border-radius:3px;
+    border-radius:3px; 
+    
+    -moz-box-shadow:0px 1px 2px #bbb;
+    box-shadow:0px 1px 2px #bbb;
+    -webkit-box-shadow:0px 1px 2px #bbb;
+    -o-box-shadow:0px 1px 2px #bbb;         
+    
+}
+
+
+.dcs-toggle-frame .toggle-frame-icon-open
+{
+      background-image:url(../img/common_files/add.png); 
+}
+
+.dcs-toggle-frame .toggle-frame-icon-close
+{
+     background-image:url(../img/common_files/add-close.png);
+}
+
+.dcs-toggle-frame .toggle-frame-triger
+{
+    border:0px solid #181818;
+    padding:6px 0px 6px 32px;
+    margin:0px;
+    cursor:pointer;
+    background-color:transparent;
+    display: block;
+    font-weight:bold;
+    background-position: 6px 8px;                
+}
+
+.dcs-toggle-frame .toggle-frame-content
+{
+    display:none;
+    padding:10px 10px 10px 24px;
+}    
+    
+/*********************************************************************
+    GALLERY BOX CSS
+**********************************************************************/
+    
+.dcs-gallery-box
+{
+    display:block;        
+} 
+
+.dcs-gallery-box .description
+{
+    float:left;
+    width:230px;
+    margin-right:18px;
+}
+
+.dcs-gallery-box .description h3
+{
+    margin-top:2px;
+}
+
+.dcs-gallery-box .thumb-wrapper
+{
+    margin-right:9px;
+    float:left;
+    display:block;
+    width:158px;
+    height:158px;
+    cursor:pointer;
+    position: relative;
+}
+
+.dcs-gallery-box .img-wrapper
+{
+    display:block;
+    width:150px;
+    height:150px;
+}
+
+.dcs-gallery-box .loader
+{
+    display:block;
+    width:150px;
+    height:150px;
+}
+
+.dcs-gallery-box .loader img
+{
+    border:none;
+} 
+
+.dcs-gallery-box .triger
+{
+    display:block;
+    width:150px;
+    height:150px;
+    position: absolute;
+    top:4px;
+    left:4px;
+    background-color: black;
+    opacity:0.0;
+    filter:alpha(opacity=0);      
+}
+      
+    
+/*********************************************************************
+    SIDEBAR WIDGETS CSS
+**********************************************************************/
+
+.dc-widget-wrapper
+{
+    margin:0px;
+    padding:0px;
+    background:transparent;
+    color:#555555;
+    font-size:11px;
+    line-height:16px;
+}
+
+
+.dc-widget-wrapper .widget-divider-bottom-half
+{
+    height:15px;
+    margin:0px;
+    padding:0px;
+    
+    background-image:url(../img/common_files/sidebar_bg.png);
+    background-repeat: repeat-x;
+    background-position: 0% 0%;         
+}
+
+
+.dc-widget-wrapper .widget-divider-top-half
+{
+    margin:0px;
+    padding:0px;     
+    height:15px; 
+}
+
+/* widget project slider */
+.dc-widget-wrapper .widget-projectslider
+{
+    width:265px;
+    height:210px;
+    padding-bottom:25px;
+    background-color:transparent;
+    position:relative;
+}
+
+.dc-widget-wrapper .widget-projectslider .slide
+{
+    width:265px;
+    height:210px;
+    display:block;
+    overflow:hidden;
+    position:absolute;
+    top:0px;
+    left:0px;
+    z-index:0;
+    display:none;    
+}
+
+.dc-widget-wrapper .widget-projectslider .slide:hover
+{
+    text-decoration:none;
+}
+
+.dc-widget-wrapper .widget-projectslider .slide img
+{
+    position:relative;
+    left:-85px;
+}
+
+.dc-widget-wrapper .widget-projectslider .slide .desc
+{
+    display:block;
+    position:absolute;
+    left:10px;
+    padding:2px 8px 3px 8px;
+    margin-right:10px;
+    font: bold 10px/14px Verdana;
+    bottom:10px;
+    background-color:#FFFFFF;
+    z-index:10;
+    opacity:0.85;
+    filter: alpha(opacity=85);
+}
+
+.dc-widget-wrapper .widget-projectslider .slide .desc:hover
+{
+    text-decoration:underline;  
+}
+
+.dc-widget-wrapper .widget-projectslider .btn-bar
+{
+    width:265px;
+    height:20px;
+    padding-top:5px;
+    position:absolute;
+    bottom:0px;
+    left:0px;
+}
+
+.dc-widget-wrapper .widget-projectslider .btn-active,
+.dc-widget-wrapper .widget-projectslider .btn
+{
+    width:15px;
+    height:15px;
+    border:1px solid #bbb;
+    padding: 2px;
+    text-align:center;
+    font: 10px/16px Verdana;
+    margin-right:5px;
+    display:block;
+    float:left;
+    
+    -moz-border-radius:2px; 
+    -webkit-border-radius:2px; 
+    border-radius:2px;         
+}
+
+.dc-widget-wrapper .widget-projectslider .btn  
+{
+    color:#666666;
+    background-color:transparent;
+    cursor:pointer;
+}
+
+.dc-widget-wrapper .widget-projectslider .btn:hover 
+{
+    color:#111;
+    text-decoration:none;
+    border:1px solid #666;    
+}
+
+.dc-widget-wrapper .widget-projectslider .btn-active  
+{
+    background-color:#ddd;
+    border:1px solid #bbb;
+    cursor:pointer; 
+}
+
+.dc-widget-wrapper .widget-projectslider .btn-active:hover 
+{
+    text-decoration:none;
+}
+
+/* widget post slider */
+.dc-widget-wrapper .widget-postslider
+{
+    width:265px;
+    height:145px;
+    background-color:transparent;
+    position:relative;
+}
+
+.dc-widget-wrapper .widget-postslider .slide
+{
+    width:265px;
+    height:120px;
+    display:block;
+    overflow:hidden;
+    position:absolute;
+    top:0px;
+    left:0px;
+    z-index:0;
+    display:none;      
+}
+
+.dc-widget-wrapper .widget-postslider .slide:hover
+{
+    text-decoration:none;
+}
+
+.dc-widget-wrapper .widget-postslider .slide .desc
+{
+    display:block;
+    position:absolute;
+    left:10px;
+    padding:2px 8px 3px 8px;
+    margin-right:10px;
+    font: bold 10px/14px Verdana;
+    bottom:10px;
+    background-color:#FFFFFF;
+    z-index:10;
+    opacity:0.85;
+    filter: alpha(opacity=85);
+}
+
+.dc-widget-wrapper .widget-postslider .slide .desc:hover
+{
+    text-decoration:underline;  
+}
+
+.dc-widget-wrapper .widget-postslider .btn-bar
+{
+    width:265px;
+    height:20px;
+    padding-top:5px;
+    position:absolute;
+    bottom:0px;
+    left:0px;
+}
+
+.dc-widget-wrapper .widget-postslider .btn-active,
+.dc-widget-wrapper .widget-postslider .btn
+{
+    width:15px;
+    height:15px;
+    border:1px solid #bbb;
+    padding: 2px;
+    text-align:center;
+    font: 10px/16px Verdana;
+    margin-right:5px;
+    display:block;
+    float:left;
+    
+    -moz-border-radius:2px; 
+    -webkit-border-radius:2px; 
+    border-radius:2px;         
+}
+
+.dc-widget-wrapper .widget-postslider .btn  
+{
+    color:#666666;
+    background-color:transparent;
+    cursor:pointer;
+}
+
+.dc-widget-wrapper .widget-postslider .btn:hover 
+{
+    color:#111;
+    text-decoration:none;
+    border:1px solid #666;
+}
+
+.dc-widget-wrapper .widget-postslider .btn-active  
+{
+    background-color:#ddd;
+    border:1px solid #bbb;
+    cursor:pointer; 
+}
+
+.dc-widget-wrapper .widget-postslider .btn-active:hover 
+{
+    text-decoration:none;
+}
+
+/* widget twitter */
+.dc-widget-wrapper .widget-twitter
+{ 
+    width:265px;
+    padding: 0px 25px 0px 0px;
+    overflow: hidden;
+}
+
+.dc-widget-wrapper .widget-twitter .heading
+{
+    background-image:url(../img/icons/twitter.png);
+    background-position: 100% 0px;
+    padding: 5px 0px 20px 64px;
+    margin-bottom: 12px;
+    width: 205px;
+    border-bottom:1px solid #E5E5E5;
+    position: relative;
+}
+
+.dc-widget-wrapper .widget-twitter .heading  .photo
+{
+    width:48px;
+    height:48px;
+    padding:3px;
+    border:1px solid #CCCCCC;
+    background-color:white;
+    position: absolute;
+    left:0px;
+    top:0px;
+}
+
+.dc-widget-wrapper .widget-twitter h3
+{
+    margin-bottom: 2px;
+}
+
+.dc-widget-wrapper .widget-twitter .followers
+{
+    font-size:10px;
+    color:#555555;
+}
+
+.dc-widget-wrapper .widget-twitter .item
+{
+    width: 265px;
+}
+
+.dc-widget-wrapper .widget-twitter .separator
+{
+    background-image:url(../img/common_files/tweets_spliter.png);
+    background-position: center center;
+    height:1px;
+    padding-top:10px;
+    margin-bottom:5px;
+}
+    
+.dc-widget-wrapper .widget-twitter .item p
+{
+    font:11px/14px Verdana;
+    color: #444;
+    margin: 8px 0px 5px;
+}
+
+.dc-widget-wrapper .widget-twitter .time
+{
+    font:10px/11px Verdana;
+    color: #999;   
+}
+
+.dc-widget-wrapper .widget-twitter .from
+{
+    font:11px Verdana;
+    color: #444;
+}
+
+/* widget search */ 
+.dc-widget-wrapper #searchform label
+{
+    color:#000000;
+    display:none;
+}
+
+.dc-widget-wrapper #searchform #s
+{
+    background-color: transparent; 
+    background-image:url(../img/common_files/smallFormBackground.png);
+    background-repeat: repeat-x; 
+    padding: 3px 6px 3px 5px; 
+    border-top:1px solid #fff; 
+    border-left:1px solid #fff; 
+    border-bottom:1px solid #fff; 
+    border-right:1px solid #fff;  
+    margin-top:5px; 
+    font:12px Verdana; 
+    color:#555;
+    width: 182px;  
+} 
+      
+.dc-widget-wrapper #searchform #searchsubmit 
+{
+    text-decoration:none;
+    font:14px Verdana;
+    font-weight:bold;
+    color:#FFE570; 
+    line-height:20px;
+    cursor:pointer;
+    background-position: left;
+    margin-left: 6px;
+    margin-top: 15px;
+    background-color: transparent;
+    border:none;  
+}
+
+.dc-widget-wrapper #searchform #searchsubmit:hover  
+{
+    color:#FFC602; 
+} 
+
+/* widget adv 125 */ 
+.dc-widget-wrapper .widget-adv-125
+{
+    background-color:transparent;
+    padding-top:8px; 
+} 
+
+.dc-widget-wrapper .widget-adv-125  .item
+{
+    width:125px;
+    height:125px;
+    margin-bottom:0px;
+    float:left;
+    border:0px solid red;
+} 
+
+.dc-widget-wrapper .widget-adv-125  .separator
+{
+    height:15px;
+    clear:both;
+} 
+
+.dc-widget-wrapper .widget-adv-125  .item img
+{
+    border:1px solid #CCCCCC;
+}
+
+/* widget adv 255 */ 
+.dc-widget-wrapper .widget-adv-big
+{
+    background-color:transparent;
+    text-align:center;
+    padding-top:8px;
+} 
+
+.dc-widget-wrapper .widget-adv-big img
+{
+    border:1px solid #CCCCCC;
+}
+
+/* widget contact form */ 
+.dc-widget-wrapper .widget-contact
+{
+    background-color:transparent;
+} 
+
+.dc-widget-wrapper .widget-contact .text-ctrl-short 
+{ 
+    background-color: transparent; 
+    background-image:url(../img/common_files/smallFormBackground.png);
+    background-repeat: repeat-x; 
+    padding: 3px 6px 3px 5px; 
+    border-top:1px solid #fff; 
+    border-left:1px solid #fff; 
+    border-bottom:1px solid #fff; 
+    border-right:1px solid #fff;  
+    margin-top:5px; 
+    font:12px Verdana; 
+    color:#444;
+    width: 160px;   
+}
+
+.dc-widget-wrapper .widget-contact .textarea-ctrl 
+{ 
+    background-color: transparent; 
+    background-image:url(../img/common_files/textBoxBackground.png);
+    background-repeat: repeat-x; 
+    padding: 5px 6px 3px 5px; 
+    border-top:1px solid #fff; 
+    border-left:1px solid #fff; 
+    border-bottom:1px solid #fff; 
+    border-right:1px solid #fff;  
+    margin-top:5px; 
+    font:12px Verdana;  
+    color:#444;
+    height: 100px;
+    width: 95%;
+    max-height: 100px;
+    max-width: 95%;  
+}
+
+.dc-widget-wrapper .widget-contact p
+{
+    text-indent: 0px;
+    margin-bottom: 0px;
+    font-size:11px;
+    margin-top:10px;
+}
+
+.dc-widget-wrapper .widget-contact span.required
+{
+    color:#555555;
+}
+
+.dc-widget-wrapper .widget-contact span.result
+{
+    color:#666666;
+    visibility:hidden;
+    font-size:10px;
+    display: block;    
+}
+
+.dc-widget-wrapper .widget-contact .send-email-btn
+{
+    text-decoration:none;
+    font:14px Verdana;
+    font-weight:bold;
+    color:#FFE570; 
+    line-height:20px;
+    padding-left:2px;
+    padding-right:2px;
+    cursor:pointer;
+    background-position: left;
+    margin-right: 4px;
+    background-color: transparent;
+    border:none;  
+}
+
+.dc-widget-wrapper .widget-contact .send-email-btn:hover
+{ 
+    color:#FFC602; 
+}
+
+
+/* widget pages, links, archives, categories */
+.dc-widget-wrapper ul.menu li ul,
+.dc-widget-wrapper ul.widget-pages li ul.children,
+.dc-widget-wrapper ul.widget-categories li ul.children
+{
+    margin-left:15px;
+    display: block;
+    list-style-position:outside;       
+    list-style:none;    
+}
+
+.dc-widget-wrapper ul.menu li ul li a,
+.dc-widget-wrapper ul.widget-pages li ul.children li a,
+.dc-widget-wrapper ul.widget-categories li ul.children li a 
+{
+    font:11px Verdana;
+    color:#666666;    
+}
+
+.dc-widget-wrapper ul.menu li ul li ul li a,
+.dc-widget-wrapper ul.widget-pages li ul.children li ul li a,
+.dc-widget-wrapper ul.widget-categories li ul.children li ul li a 
+{
+    font:11px Verdana;
+    color:#666666;    
+}
+
+.dc-widget-wrapper ul.menu li ul li a:hover,
+.dc-widget-wrapper ul.widget-pages li ul.children li a:hover,
+.dc-widget-wrapper ul.widget-categories li ul.children li a:hover 
+{
+    color:#000000;    
+}
+
+.dc-widget-wrapper ul.menu, 
+.dc-widget-wrapper ul.widget-pages,
+.dc-widget-wrapper ul.blogroll,
+.dc-widget-wrapper ul.widget-archives,
+.dc-widget-wrapper ul.widget-categories
+{
+   list-style-position:outside;       
+   list-style:none;
+}
+
+.dc-widget-wrapper ul.menu li,
+.dc-widget-wrapper ul.widget-pages li,
+.dc-widget-wrapper ul.blogroll li,
+.dc-widget-wrapper ul.widget-archives li,
+.dc-widget-wrapper ul.widget-categories li
+{
+    padding-bottom:0px;    
+    color:#444444;      
+}
+                           
+.dc-widget-wrapper ul.menu li a,                                    
+.dc-widget-wrapper ul.widget-pages li a,
+.dc-widget-wrapper ul.blogroll li a,
+.dc-widget-wrapper ul.widget-archives li a,
+.dc-widget-wrapper ul.widget-categories li a
+{
+    text-decoration:none;
+    font:12px Verdana;  
+    color:#555; 
+    line-height:20px;
+    padding-left:10px;
+    cursor:pointer;
+    background-position: left;
+    background-repeat: no-repeat; 
+}
+
+.dc-widget-wrapper ul.menu li a:hover,
+.dc-widget-wrapper ul.widget-pages li a:hover,
+.dc-widget-wrapper ul.blogroll li a:hover,
+.dc-widget-wrapper ul.widget-archives li a:hover,
+.dc-widget-wrapper ul.widget-categories li a:hover
+{     
+    color:#000;
+    background-image: url('../img/common_files/white_arrowhead.png');  
+}
+
+/* widget selected pages */
+.dc-widget-wrapper ul.widget-selected-pages
+{
+   list-style-position:outside;       
+   list-style:none;             
+} 
+
+.dc-widget-wrapper ul.widget-selected-pages li
+{
+    padding-bottom:0px;
+    height:20px;
+}
+
+.dc-widget-wrapper ul.widget-selected-pages li span
+{
+    font:12px Verdana;        
+}
+
+.dc-widget-wrapper ul.widget-selected-pages li a
+{ 
+    text-decoration:none;
+    font:12px Verdana;  
+    color:#555; 
+    line-height:20px;
+    padding-left:10px;
+    cursor:pointer;
+    background-position: left;
+}
+
+.dc-widget-wrapper ul.widget-selected-pages li a:hover 
+{ 
+    color:#000;
+    background-image: url('../img/common_files/white_arrowhead.png');
+}
+
+/* widget recent posts */
+.dc-widget-wrapper ul.widget-recent-posts
+{
+   list-style-position:outside;       
+   list-style:none;
+}
+
+.dc-widget-wrapper ul.widget-recent-posts li a
+{
+    font-size:12px;
+    text-decoration:none;
+}
+
+.dc-widget-wrapper ul.widget-recent-posts li a:hover
+{ 
+    text-decoration:underline;
+}
+
+.dc-widget-wrapper ul.widget-recent-posts .item 
+{
+    width:265px;
+}
+
+.dc-widget-wrapper ul.widget-recent-posts .separator
+{
+    height:8px;
+} 
+
+.dc-widget-wrapper ul.widget-recent-posts .image 
+{
+    display:block;
+    float:left;
+    margin-right:8px;
+    border:1px solid #CCCCCC;
+    width:50px;
+    height:50px;
+    margin-top:3px;
+    background-color:#FFF;
+    padding:3px;
+}
+
+.dc-widget-wrapper ul.widget-recent-posts .description 
+{
+    float:left;
+    width:195px;
+}
+
+.dc-widget-wrapper ul.widget-recent-posts .date 
+{
+    color:#888888;
+    font-size:10px;
+}
+
+/* widget tags */
+.dc-widget-wrapper .widget-tags ul
+{
+    list-style:none;
+    list-style-position:outside;
+}
+
+.dc-widget-wrapper .widget-tags ul li
+{
+     float:left;
+     margin-right:5px;
+     border:1px solid #CCC;
+     padding: 0px 3px 0px;
+     margin-bottom: 5px;
+     
+     -moz-border-radius:4px;
+     -webkit-border-radius:4px;
+     border-radius:4px;
+}
+
+.dc-widget-wrapper .widget-tags ul li:hover
+{
+     border:1px solid #444444;
+}
+
+.dc-widget-wrapper .widget-tags ul a
+{
+    font:10px/12px Verdana;    
+    color:#666666;
+    text-decoration:none;
+    text-transform:uppercase;
+}
+
+.dc-widget-wrapper .widget-tags ul a:hover
+{
+    color:#000000;
+    text-decoration:none;
+}
+
+/* widget featured posts */
+.dc-widget-wrapper ul.widget-featured-posts
+{
+   list-style-position:outside;       
+   list-style:none;
+}
+
+.dc-widget-wrapper ul.widget-featured-posts .item 
+{
+    width:265px;
+}
+
+.dc-widget-wrapper ul.widget-featured-posts .image 
+{
+    display:block;
+    margin-right:0px;
+    width:265px;
+    height:120px;
+    margin-top:0px;
+    border:none;
+}
+
+.dc-widget-wrapper ul.widget-featured-posts h4 
+{    
+    margin-top:8px;
+    margin-bottom:6px;
+    color:#000000;
+}
+
+.dc-widget-wrapper ul.widget-featured-posts h4 a
+{
+    text-decoration:none;
+}
+
+.dc-widget-wrapper ul.widget-featured-posts .description 
+{
+    width:265px;
+}
+
+.dc-widget-wrapper ul.widget-featured-posts a.read-more 
+{
+    font-size:12px;
+    text-decoration:none;
+}
+
+.dc-widget-wrapper ul.widget-featured-posts a.read-more:hover
+{
+    text-decoration:underline;
+}
+
+/*********************************************************************
+    PAGE MAP PAGE CSS
+**********************************************************************/      
+#page-map
+{
+    background-color:transparent;
+    padding-top:15px;
+    padding-bottom:10px; 
+}
+
+#page-map h3
+{
+    margin-top:0px;
+}
+
+#page-map a
+{
+    color:#666666;
+}
+
+#page-map a:hover
+{
+    color:#111111;
+    text-decoration: none;
+}
+
+#page-map .left-column
+{
+    width:400px;
+    margin-right:120px;
+    float:left;
+}
+
+#page-map .right-column
+{
+    width:400px;
+    float:right;
+}  
+
+/*********************************************************************
+    TAG MAP PAGE CSS
+**********************************************************************/      
+
+#tag-map
+{
+    background-color:transparent;
+    padding-top:15px;
+    padding-bottom:10px; 
+}
+
+#tag-map h3
+{
+    margin-top:0px;
+}
+
+#tag-map .column
+{         
+    width:200px;
+    float:left;       
+}
+
+#tag-map .column-separator
+{         
+    width:40px;
+    height:40px;
+    float:left;       
+}
+
+#tag-map ul
+{         
+    list-style:none;        
+}
+
+#tag-map ul li
+{
+    float:left;
+    margin-right:5px;
+    color:#777777;
+}
+
+#tag-map ul li a
+{
+    color:#666666;
+    text-decoration:none;
+    text-transform:uppercase;
+    font:10px/12px Verdana;    
+}
+
+#tag-map ul li a:hover
+{
+    color:#000000;
+    text-decoration:none;
+}
+
+/*********************************************************************
+    DCS POSTS LIST
+**********************************************************************/
+.dcs-posts-list
+{
+    margin-bottom:15px;
+    color:#AAAAAA;
+}
+
+.dcs-posts-list ul
+{         
+    list-style:disc;
+    list-style-position:outside;
+    padding-left:17px;      
+}
+
+.dcs-posts-list ul li
+{
+    margin-right:5px;
+    color:#BBBBBB;
+}
+
+.dcs-posts-list span.info
+{
+    color:#666666;
+    font-size:11px;
+}
+
+/*********************************************************************
+    PROJECT MAP PAGE CSS
+**********************************************************************/
+.project-map
+{
+    background-color:transparent;
+    padding-top:0px;
+    padding-bottom:0px;
+    margin-bottom:15px;
+}
+
+.project-map h4,
+.project-map h3
+{
+    margin-top:0px;
+}
+
+.project-map .column
+{         
+    width:280px;
+    float:left;       
+}
+
+.project-map .column-separator
+{         
+    width:40px;
+    height:40px;
+    float:left;       
+}
+
+.project-map .h-separator
+{         
+    height:35px;
+    clear: both;       
+}
+
+.project-map ul
+{         
+    list-style:disc;
+    list-style-position:outside;
+    padding-left:17px;      
+}
+
+.project-map ul li
+{
+    margin-right:5px;
+    color:#BBBBBB;
+}
+
+.project-map ul li a
+{
+    color:#666666;
+    text-decoration:none;
+    text-transform:uppercase;
+    font:10px/12px Verdana;    
+}
+
+.project-map ul li a:hover
+{
+    color:#000000;
+    text-decoration:none;
+}
+
+/*********************************************************************
+    CATEGORY MAP PAGE CSS
+**********************************************************************/
+
+#category-map
+{
+    background-color:transparent;
+    padding-top:15px;
+    padding-bottom:10px; 
+}
+
+#category-map h3
+{
+    margin-top: 0px;
+}
+
+#category-map .column
+{         
+    width:200px;
+    float:left;       
+}
+
+#category-map .column-separator
+{         
+    width:40px;
+    height:40px;
+    float:left;       
+}
+
+#category-map ul
+{         
+    list-style:none;        
+}
+
+#category-map ul li
+{
+    float:left;
+    margin-right:5px;
+    color:#BBBBBB;
+}
+
+#category-map ul li a
+{
+    color:#666666;
+    text-decoration:none;
+    text-transform:uppercase;
+    font:10px/12px Verdana;    
+}
+
+#category-map ul li a:hover
+{
+    color:#000000;
+    text-decoration:none;
+}
+
+/*********************************************************************
+    DIVIDER TOP CSS
+**********************************************************************/   
+
+.dcs-divider-top
+{
+    height:1px;
+    padding-top:20px;
+    margin-bottom:35px;
+    border-bottom:1px solid #EAEAEA;
+    position:relative;
+    clear:both; 
+}
+
+
+.dcs-divider-top a  
+{
+    color:#AAAAAA;
+    text-decoration:none;
+    cursor:pointer;
+    font: normal 8px/12px Verdana;
+    text-align: right;
+    height: 20px;
+    position: absolute;
+    right: 0pt;
+    top: 15px;
+    width: 25px;
+    background-color: #FFFFFF;
+    background-image: none;
+    background-repeat: repeat;
+    background-attachment: scroll;
+    background-position: 0% 0%;        
+}
+
+.dcs-divider-top a:hover  
+{
+    color:#444444;
+    text-decoration:none;    
+}
+
+/*********************************************************************
+    BLOG PEGINATION CSS
+**********************************************************************/ 
+
+.blog-pagination
+{
+    padding: 20px 0px 0px 0px;
+    background-position:center 10px;
+    background-repeat:no-repeat;
+    margin-bottom:10px;
+    margin-top:3px;         
+}
+
+.blog-pagination .pages
+{
+    padding: 3px 3px 3px 3px;     
+    color:#555555;
+    float:left;
+    margin-right:4px;
+    font:11px/12px Verdana;
+    text-transform:uppercase; 
+}
+
+.blog-pagination .separator
+{
+    padding: 3px 3px 3px 0px;     
+    color:#BBBBBB;
+    float:left;
+    margin-right:4px;
+    margin-left:6px; 
+}
+
+.blog-pagination a
+{
+    float:left;
+    margin:0px 2px 2px 0px;
+    display: block;
+    padding: 3px 3px 3px 3px;
+    border:0px solid #DEDEDE;
+    background-color:transparent;
+    color:#555555;     
+    text-decoration:none;  
+    font:11px/12px Verdana;
+}
+
+.blog-pagination a:hover
+{
+    text-decoration:underline;       
+}  
+
+.blog-pagination a.current
+{
+    float:left;
+    margin:0px 2px 2px 0px;
+    display: block;
+    padding: 3px 3px 3px 3px;
+    border:0px solid #BBBBBB;
+    background-color:transparent;
+    color:#FFE570;     
+    text-decoration:none;
+    cursor: default;
+    font:12px/12px Verdana;  
+}
+
+.blog-pagination a.current:hover
+{
+    text-decoration:none;       
+}
+
+/*********************************************************************
+    PAGE LINKS CSS
+**********************************************************************/   
+
+.page-links
+{
+    padding: 20px 0px 0px 0px;
+    background-position:center 10px;
+    background-repeat:no-repeat;
+    clear: both;
+    margin-bottom:10px;          
+}
+
+.page-links a span
+{
+    float:left;
+    margin:0px 2px 2px 0px;
+    display: block;
+    padding: 3px 3px 3px 3px;                  
+    border:0px solid #DEDEDE;
+    background-color:transparent;
+    color:#555555;     
+    text-decoration:none;
+    cursor:pointer;
+    font:11px/12px Verdana;   
+}
+
+.page-links a span:hover
+{
+    text-decoration:underline;       
+} 
+
+.page-links a
+{
+    color:#000000;     
+    text-decoration:none;  
+}
+
+.page-links a:hover
+{
+    color:#CCCCCC;
+    text-decoration:underline;       
+} 
+
+.page-links span
+{
+    float:left;
+    margin:0px 2px 2px 0px;
+    display: block;
+    padding: 3px 3px 3px 3px;
+    border:0px solid #BBBBBB;
+    background-color:transparent;
+    color:#FFE570;     
+    text-decoration:none;
+    cursor: default;
+    font:12px/12px Verdana;   
+}
+
+.page-links span:hover
+{
+    text-decoration:none;       
+} 
+
+.page-links .before
+{
+    padding: 3px 6px 3px 0px;     
+    color:#555555;
+    float:left;        
+    margin-right:4px;
+    border:0px solid #DDDDDD;
+    background-color:transparent;
+    text-transform:uppercase;
+    font:11px/12px Verdana;     
+}
+
+/*********************************************************************
+    COMMENTS PAGE LINKS CSS
+**********************************************************************/   
+
+.comments-page-links
+{
+    padding: 20px 0px 0px 0px;
+    background-image: url(../img/common_files/Spliter_BlogPostTop_border.png);
+    background-position:center 10px;
+    background-repeat:no-repeat;
+    font:11px/12px Verdana;
+    height:20px;           
+}
+
+.comments-page-links a
+{
+    margin:0px 2px 2px 0px;
+    padding: 3px 1px 3px 1px;                  
+    border:0px solid #DEDEDE;
+    background-color:transparent;
+    color:#555555;     
+    text-decoration:none;
+    cursor:pointer;
+    font:11px/12px Verdana;   
+}
+
+.comments-page-links a:hover
+{
+    color:#555555;
+    text-decoration:underline;       
+} 
+
+.comments-page-links span
+{
+    margin:0px 2px 2px 0px;
+    padding: 3px 1px 3px 1px;
+    border:0px solid #BBBBBB;
+    background-color:transparent;
+    color:#FFE570;     
+    text-decoration:none;
+    cursor: default;
+    font:12px/12px Verdana;   
+}
+
+.comments-page-links span:hover
+{
+    text-decoration:none;       
+} 
+
+.comments-page-links .before
+{
+    padding: 3px 6px 3px 0px;     
+    color:#555555;       
+    margin-right:4px;
+    border:0px solid #DDDDDD;
+    background-color:transparent;
+    text-transform:uppercase;
+    font:11px/12px Verdana;     
+}
+
+
+/*******************************************************************
+    CLIENT PANEL CSS 
+********************************************************************/
+
+#client-panel
+{
+    width:200px;
+    padding:10px 15px 10px 15px;
+    border:1px solid #CCCCCC;
+    background-color:#FFFFFF;
+    position:absolute;
+    left:15px;
+    top:25px;
+    color:#777777; 
+    z-index:1000;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    line-height:11px;
+    font: normal 11px/16px Arial, Helevtica, Verdana, san-serif;
+    display:block;    
+}
+
+#client-panel .close-btn 
+{
+    position: absolute;
+    width:24px;
+    height:24px;
+    top:-8px;
+    left:-8px;     
+    
+    background-image: url(../img/client_panel/close.png);
+    background-position: left top;
+    background-repeat: no-repeat;
+    cursor:pointer;
+    
+}
+
+#client-panel-open-btn 
+{
+    position: absolute;
+    width:24px;
+    height:24px;
+    top:18px;
+    left:8px;
+    display: none;
+    
+    padding:5px; 
+    border:1px solid #CCCCCC;
+    background-color:#FFFFFF;             
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;       
+    
+    background-image: url(../img/client_panel/open.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    cursor:pointer;
+    
+}
+
+#client-panel strong
+{
+    color:#555555;
+    font-weight:bold;
+} 
+
+#client-panel select
+{
+    border: 1px solid #CCCCCC;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    width:198px;
+    padding:5px;
+    color:#777777;
+    margin: 3px 0px 10px 0px;     
+    
+}
+
+#client-panel select:focus
+{
+    outline:none;
+}
+
+#client-panel input[type=text]
+{
+    margin-top:3px;
+    margin-bottom:6px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    border: 1px solid #CCCCCC;     
+}
+
+#client-panel input[type=text]:focus
+{
+    outline:none;
+}
+
+#client-panel .submit-btn
+{
+    width:198px;
+    height:30px;
+    background-color:#F2F2F2;
+    border:1px solid #CCCCCC;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    cursor:pointer;
+    color:#777777;
+    margin-bottom:10px;    
+}
+
+#client-panel .submit-btn:hover
+{
+    background-color:#DDDDDD;
+    color:#444444;
+}
+
+#client-panel hr
+{
+    width:200px;
+    border-bottom:1px dotted #EEEEEE;
+    margin:5px 0px 10px 0px;
+}
+
+
+/*******************************************************************
+    BLOG CSS 
+********************************************************************/
+
+.blog-post
+{ 
+    padding:0px 0px 0px;
+    margin-bottom: 30px;
+    margin-top: 0px;
+}
+
+.post-no-photo-spliter
+{
+    padding:15px 0px 0px;
+    background-image:url(../img/common_files/Spliter_BlogPostTop_border.png);
+    background-position: center top; 
+}
+
+.blog-post .no-photo-spliter
+{
+    padding:15px 0px 0px;
+    background-image:url(../img/common_files/Spliter_BlogPostTop_border.png);
+    background-position: center top; 
+}
+    
+.blog-post .photo920,
+.blog-post .photo
+{
+    margin-bottom: 5px;
+    padding:15px 0px 0px;
+    background-image:url(../img/common_files/Spliter_BlogPostTop_border.png);
+    background-position: top;
+    width:600px;  
+    font:9px/12px Verdana; 
+    color:#666; 
+    text-align:right; 
+    margin:0px 0px 10px;
+    margin-left:auto;
+    margin-right:auto;  
+}
+
+.blog-post .photo920
+{
+    width:920px;
+}
+
+.blog-post .photo920 a.image,    
+.blog-post .photo a.image
+{
+    width:600px;
+    height:270px;
+    display: block;
+    margin-bottom: 3px;   
+}
+
+.blog-post .photo920 a.image
+{
+    width:920px;
+    height:420px;
+}
+
+.blog-post .photo920 a.image img,
+.blog-post .photo a.image img
+{
+    border:none;   
+}
+
+.blog-post .photo920 p,  
+.blog-post .photo p
+{
+    margin-top:3px;
+    font-size:10px;
+    margin-bottom:0px;
+    text-align: center;   
+}
+
+.blog-post .post-content
+{
+    background-image:url(../img/common_files/Spliter_BlogPostTop_574width.png); 
+    padding-top: 5px;
+    background-position: center top;
+}
+
+.blog-post .post-content h2
+{
+    margin-top:5px;
+}
+
+.blog-post .post-content h2 a
+{
+   color:inherit;
+   text-decoration: none;  
+}
+
+.blog-post .post-content  a.more-link 
+{
+    font:12px/12px Verdana;  
+    cursor:pointer;
+    text-decoration: none;
+}
+
+.blog-post .post-content  a.more-link:hover 
+{ 
+    text-decoration: underline; 
+}
+
+.blog-post .post-content .comments
+{
+    background-image:url(../img/icons/Comments.png); 
+    margin-right:12px; 
+    width:46px; 
+    height:37px; 
+    color:#666; 
+    font:11px Verdana, Arial, Helvetica, sans-serif; 
+    font-weight: bold;                
+    padding-top:13px; 
+    text-align:center; 
+    line-height:15px;
+    padding-left:29px;
+    float:right;
+    letter-spacing:-1px;
+    display:block;
+    text-decoration:none;
+}
+
+
+.blog-post .post-content .info
+{
+    width: 510px;    
+    font: 12px/15px Arial;
+    color:#222222;
+    margin:2px 0px 7px;    
+}
+
+.blog-post .post-content .info a
+{
+    cursor:pointer;
+    color:#444;
+    font: 11px/12px Arial;
+    text-transform: uppercase;
+    letter-spacing: 0.2px;
+    text-decoration:none;
+}
+
+.blog-post .post-content .info a:hover
+{
+    color:#000;
+    text-decoration:underline;
+}
+
+.blog-post .post-content .info span
+{
+   color:#444;  
+}
+
+.blog-post .post-content .info .date
+{
+    background-color: #e5e5e5;
+    padding: 1px 1px 0px 1px;
+    margin-right: 0px;
+}
+
+.blog-post .post-content .info .date:hover
+{
+    text-decoration:none; 
+} 
+
+.blog-post .post-content .info .date-left
+{
+    background-image:url(../img/common_files/round_left.png);
+    background-position: left;
+    padding:1px 0px 0px 7px;
+    margin-right: 0px;
+}
+
+.blog-post .post-content .info .date-right
+{
+    background-image:url(../img/common_files/round_right.png);
+    background-position: right;
+    padding:1px 0px 0px 7px;
+    margin-right: 5px;
+}
+
+.blog-post .post-content .info .author
+{
+    padding: 0px 3px 0px;
+}
+
+/*******************************************************************
+    BLOG POST TAGS CSS 
+********************************************************************/
+
+.blog-post-bottom-wrapper
+{
+  border:0px solid green;
+  margin-top:20px;
+  clear:both;  
+}
+
+.blog-post-bottom-wrapper-single
+{
+  border:0px solid green;
+  margin-top:20px;
+  margin-bottom:80px;
+  clear:both;  
+}
+
+.blog-post-tags
+{  
+    text-decoration:none; 
+    font:11px/14px Arial; 
+    color:#444444; 
+    margin:0px;
+}
+
+.blog-post-tags-single
+{  
+    text-decoration:none; 
+    font:11px/14px Arial; 
+    color:#444444; 
+    margin:0px;
+    width:260px;
+    float:left;
+}
+
+.blog-post-tags-single .name, 
+.blog-post-tags .name
+{
+    color:#555;
+    font-weight: bold;     
+}
+
+.blog-post-tags-single .tag,
+.blog-post-tags .tag
+{
+    text-decoration:none;
+    color:#444;
+}
+
+.blog-post-tags-single .tag:hover,
+.blog-post-tags .tag:hover
+{
+    text-decoration:underline;
+    color:#999;    
+}
+
+/*******************************************************************
+    BLOG POST AUTHOR CSS 
+********************************************************************/
+
+.blog-post-author
+{
+    background-image:url(../img/common_files/Spliter_BlogPostTop_574width.png);
+    background-position: center top;
+    padding: 10px 10px 10px;
+    margin-bottom:0px;
+    margin-top: 60px;
+    clear: both;
+    position:relative;
+}
+
+.blog-post-author h4
+{
+    text-align: center;
+    position: relative;
+    margin-top: -38px;
+}
+
+.blog-post-author p.author 
+{
+    font:bold 11px Verdana;  
+    line-height: 20px; 
+    color:#FFE570;
+    text-align: left;
+    padding-right: 15px;
+    margin:3px 0px 0px;
+}
+
+.blog-post-author p.authorTitle
+{
+    font: 9px Verdana;  
+    line-height: 9px; 
+    color:#666;
+    text-align: left;
+    padding-right: 15px;
+    margin: 0px 0px 6px;
+}
+
+.blog-post-author .desc-wrapper
+{
+    float:left;
+    width:80%; 
+}
+
+.blog-post-author p.desc
+{
+    font: 11px/14px Verdana;   
+    color:#666;
+    text-align: left;
+    padding-right: 0px;
+    margin-top: 0px;
+}
+
+.blog-post-author div.avatar
+{
+    float:left;
+    width: 60px;
+    height: 60px;
+    margin-right: 15px;
+    margin-top: 4px;
+    border:1px solid #DDDDDD;
+    padding:3px;
+}
+
+.blog-post-author div.avatar img
+{
+    width:60px;
+    height:60px;
+    padding:0px;
+}
+
+
+.blog-post-author a.authorLink
+{
+    text-decoration:none; 
+    font:11px/11px Arial; 
+    color:#999; 
+}
+
+.blog-post-author a.authorLink:hover
+{
+    text-decoration:none;
+    color:#444;    
+}
+
+/*******************************************************************
+    BLOG POST COMMUNITY ICONS CSS 
+********************************************************************/
+
+#post-community-icons
+{
+    float:right;
+    width: 290px;
+    height:28px;
+    position: relative;
+    margin: 0px 0px 0px 20px;
+}
+
+#post-community-icons .description
+{
+    bottom:-18px;
+    right:0px;
+    position: absolute;
+    font:11px/14px Arial; 
+    color:#444444;     
+}
+
+#post-community-icons .default
+{
+    display:none;    
+}
+
+#post-community-icons .icon
+{
+    border:0px;
+    height:28px;
+    width:28px;
+    float:right;
+    margin-left: 6px;
+    margin-top: 0px;
+    border:0px solid red;
+    display:block;
+    opacity:0.6;
+    filter: alpha(opacity=60);
+}
+
+#post-community-icons .icon img
+{
+    border: none;
+}
+
+.returnLink
+{
+    padding:0px 0px 4px; 
+    background-image:url(../img/common_files/Spliter_NavigationTree_dark_350x34.png);
+    background-position: -180px bottom;
+}
+
+/***************************************************
+    POST LIST CONTAINER CSS 
+***************************************************/
+
+.posts-list-container
+{
+    width:600px;
+    padding: 0px;  
+    margin-bottom: 30px;    
+}
+
+.posts-list-container .end
+{
+    width:600px;
+    height: 1px;
+    padding: 0px;  
+    background-image:url(../img/common_files/Spliter_BlogPostTop_border.png);
+    background-position:50% 0px;
+    margin-bottom: 30px;    
+}
+
+.posts-list-container h4
+{
+    text-align:center;
+    margin-bottom:10px;
+    margin-top: 0px;
+    background-image:url(../img/common_files/Spliter_BlogPostTop_border.png);
+    background-position:50% 25px;
+    padding-bottom:10px;    
+}
+
+.posts-list-container .post
+{
+    padding-top: 3px;
+    background-image: url(../img/common_files/Spliter_BlogPostTop_574width.png);
+    background-position: center top;
+    margin-bottom: 10px;
+    clear: both;
+}
+
+.posts-list-container .post p
+{
+    color:#DDDDDD;
+    
+}
+
+.posts-list-container .category,  
+.posts-list-container .author
+{
+    cursor:pointer;
+    color:#888;
+    font: 11px/12px Arial;
+    text-transform: uppercase;
+    letter-spacing: 0.2px;
+    text-decoration:none;    
+}
+
+.posts-list-container .category:hover, 
+.posts-list-container .author:hover
+{
+    color:#FFFFFF;
+    text-decoration:underline; 
+}
+
+.posts-list-container img
+{
+    float: left;
+    margin-right: 10px;
+    padding-top: 7px;
+}
+
+.posts-list-container .post h5
+{
+    color: #FFE570;
+    margin-bottom: 0px;
+    text-transform: uppercase;
+}
+
+.posts-list-container .post h5 a
+{
+    text-decoration: none;
+    color: #FFE570;
+} 
+
+.posts-list-container .post p, 
+.posts-list-container .post a.link, 
+.posts-list-container .post a.linkArrow
+{
+    margin-top: 2px;
+    font-size: 10px;
+    line-height: 13px;
+}
+
+.posts-list-container .date
+{
+    font: 9px/12px Verdana;
+    text-transform: uppercase;
+    color: #999;
+    text-decoration: none;
+}
+
+.posts-list-container .date:hover
+{
+    color: #fff;
+    text-decoration: underline;
+}
+
+.posts-list-container .dash
+{
+    font: 9px/12px Verdana;
+    color: #999;
+    text-decoration: none;
+}
+
+.posts-list-container .read-more 
+{
+    font:10px/13px Verdana;  
+    color:#FFE570;
+    cursor:pointer;
+    text-decoration: none;
+}
+
+.posts-list-container .read-more:hover 
+{ 
+    color:#FFC602; 
+    text-decoration: underline; 
+}
+
+/*********************************************************************
+    POST RESPOND/COMMENT FORM
+**********************************************************************/
+
+#respond
+{
+     background-color:transparent;
+     margin-top:5px;
+     padding-bottom:10px;
+     position: relative;
+}
+
+#respond .cancel-respond a
+{
+    font: 10px/16px Verdana;
+    padding-left:2px;
+    color:#666666;
+    text-decoration:none;
+}
+
+#respond .cancel-respond  a:hover
+{
+    color:#111111;
+    text-decoration:none;
+}
+
+/***************************************************
+    COMMNETS CSS 
+***************************************************/
+#comments-section
+{
+    padding: 0px;
+    margin-top:40px;  
+    margin-bottom: 10px;
+    clear: both;    
+}
+
+#comments-section .comment-featured-wrapper
+{
+    margin-top:20px;
+    margin-bottom:30px; 
+	border:1px solid #e5e5e5;
+    
+    -moz-border-radius:3px;
+    -webkit-border-radius:3px;
+    border-radius:3px;
+    
+    background: -moz-linear-gradient(top,  #FDFDFD 20%, #F0F0F0 100%) !important;
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0.2, #FDFDFD), color-stop(1, #F0F0F0)) !important;    
+    filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#FDFDFD', endColorstr='#F0F0F0') !important;     
+}
+
+#comments-section .comment-featured
+{
+    padding:10px;
+    position: relative;
+}
+
+#comments-section .comment-featured .icon
+{
+    z-index:2;
+    top:-20px;
+    left:3px;
+    position:absolute;
+    width:64px;
+    height:64px;
+    background-image:url(../img/common_files/comment_bubble2_v2.png);
+    background-position:left top;
+    background-repeat:no-repeat;
+}
+
+
+
+#comments-section .comment-featured .when
+{
+    color:#777777;
+    font: 9px/10px Verdana;
+    padding-top: 3px;
+    margin-bottom: 3px;
+    float: right;
+    text-transform: uppercase;
+}
+
+#comments-section .comment-featured  span.title
+{
+    margin-bottom:5px;
+    display:block;
+    margin-left:55px;
+    font:bold 10px Verdana;
+    color:#777777;
+    text-transform: uppercase;
+    float:left;  
+}
+
+#comments-section .comment-featured  p
+{
+    font:normal 13px Verdana;  
+    letter-spacing:0px;
+    line-height: 18px; 
+    color:#111111;
+    text-align: left;
+    margin-bottom: 12px;
+    margin-top: 12px;
+    padding-left:20px;
+    padding-right:20px;    
+}
+
+#comments-section .comment-featured span.author
+{
+    font:normal 11px Verdana;  
+    line-height: 20px; 
+    color:#888888;
+    text-align: right;
+    padding-right: 0px;
+    margin:3px 0px 0px;
+    display:block;
+    float:right;    
+} 
+
+#comments-section .comment-list
+{
+    margin-left:0px;
+    padding-left:0px;    
+}
+
+#comments-section .comment-list li
+{
+    list-style:none;
+    padding-top:0px;
+}
+
+#comments-section .comment-list li li 
+{
+    margin-left:40px;
+}
+
+#comments-section h2
+{
+    text-align:left;
+    margin-bottom:10px;
+    margin-top: 0px;
+    padding-bottom:10px;
+    text-transform: uppercase;
+    background-image:url(../img/common_files/Spliter_BlogPostTop_border.png);
+    background-position:center bottom;    
+}
+
+.page-width-920 #comments-section h2 
+{
+   background-image:url(../img/common_files/Spliter_BlogPostTop_border_920.png) !important; 
+}
+
+#comments-section .comment
+{
+    padding-top: 6px;
+    background-image: url(../img/common_files/Spliter_BlogPostTop_574width.png);
+    background-position: center top;
+    margin-bottom: 20px;
+}
+
+#comments-section .comment .content
+{
+    margin-left:80px;
+}
+
+#comments-section .comment .content span.marked
+{
+    font-size:10px;
+    color:#FFE570;
+}
+
+#comments-section .comment .gravatar
+{
+    width: 60px;
+    height: 60px;
+    float: left;
+    margin-right: 0px;
+    margin-top: 4px;
+}
+
+#comments-section .comment .gravatar span.author-url
+{
+    display: block;
+    text-align: center;
+    font:11px/14px Verdana;
+    color: #222222;
+    text-decoration: none;
+    cursor:default;
+}    
+
+#comments-section .comment .gravatar a.author-url
+{
+    display: block;
+    text-align: center;
+    font:11px/14px Verdana;
+    color: #555;
+    text-decoration: none;
+}
+
+#comments-section .comment .gravatar a.author-url:hover
+{
+    color: #bbb;
+}
+
+#comments-section .comment .author
+{
+    font: 14px/14px Verdana;
+    margin-bottom: 4px;
+    text-decoration:none;
+    color:#111111; 
+}
+
+#comments-section .comment .date
+{
+    color:#666;
+    font: 10px Verdana;
+    padding-top: 3px;
+    margin-bottom: 3px;
+}
+
+#comments-section .comment .when
+{
+    color:#777777;
+    font: 9px/10px Verdana;
+    padding-top: 3px;
+    margin-bottom: 3px;
+    float: right;
+    text-transform: uppercase;
+}
+
+#comments-section .comment .text
+{
+    color:#444;
+    font: 11px/16px Verdana;
+}
+
+#comments-section .comment .text p
+{
+   font: 11px/16px Verdana;
+   color:#444;  
+}
+
+#comments-section .reply
+{
+    float: right;
+}
+
+#comments-section .reply a
+{
+    color:#777777;
+    font-size:10px;
+}
+
+#comments-section .reply a:hover
+{
+    color:#111111;
+}
+
+#comments-section .comment .to-approve
+{
+    color:#777777;
+    float:left;
+    font-size:10px;
+}
+
+/************************************************
+*  DCS CHAIN SLIDER
+*************************************************/    
+.chain-slider
+{
+    margin-bottom:15px;
+    background-color:transparent;
+    border:0px solid red;
+}
+
+.chain-slider .slides-wrapper-shadow
+{
+    -moz-box-shadow:0px -1px 10px #666;
+    box-shadow:0px -1px 10px #666;
+    -webkit-box-shadow:0px -1px 10px #666;
+    -o-box-shadow:0px -1px 10px #666;    
+}
+
+.chain-slider .slides-wrapper
+{
+    position:relative;
+    width:600px;
+    height:270px;
+    margin: auto;
+    margin-bottom:10px;
+    overflow: hidden;
+}
+
+.chain-slider .slide
+{
+    display:none;
+    position:absolute;
+    left:0px;
+    top:0px;
+    z-index:0;
+    width:600px;
+    height:270px;
+}
+
+.chain-slider .loader
+{
+    display:block;    
+}
+
+.chain-slider .slide .desc-wrapper
+{
+    background-color:#FFF;
+    opacity:0.9;
+    filter:alpha(opacity=90);
+    position:absolute;    
+    left:0px;
+    bottom:0px;    
+    text-align:center; 
+    padding:15px 20px 10px 20px; 
+} 
+
+.chain-slider .slide .desc
+{
+    color:black;
+    font:10px/11px Verdana;
+    z-index:10;        
+}
+
+.chain-slider .slide .desc-wrapper .title
+{
+    margin:0px;
+    margin-bottom:3px;    
+}
+
+.chain-slider .thumbs-wrapper
+{
+    border:0px solid blue;
+    position: relative;
+    height:22px;
+    overflow:hidden;
+}
+
+.chain-slider .data
+{
+    display:none;
+}
+
+.chain-slider .thumbs-slider
+{
+    position: absolute;
+    left:0px;
+    top:0px;
+    border:0px solid red;
+    width:1100px;   
+}
+
+.chain-slider .thumbs-wrapper ul
+{
+    list-style-type:none;
+    list-style-position:inside;    
+}
+
+.chain-slider .thumbs-wrapper ul li
+{
+    float:left;
+    display:block;
+    width:20px;
+    height:20px;    
+	border:1px solid #eee;
+    background:#EEEEEE;
+    margin-right:5px;
+    cursor: pointer;
+    position:relative;
+    overflow: hidden;
+}
+
+.chain-slider .thumbs-wrapper ul li:hover
+{
+	border:1px solid #ddd;
+}
+
+.chain-slider .thumbs-wrapper ul li span
+{
+    position: absolute;
+    left:0px;
+    top:0px;
+	border:2px solid #ddd;
+    display:block;
+    width:16px;
+    height:16px;
+    z-index:10;
+    background-color:transparent;
+}
+
+
+/*========================================================*/
+/*========================= SERVICES ======================*/
+/*========================================================*/
+
+
+.servicesTopContainer
+{
+width:920px;
+margin-bottom: 30px;
+}
+
+.bigImageList
+{
+    margin-bottom: 30px;
+    padding-top: 10px;
+    clear: both;
+    float: left;
+    width: 920px;        
+}
+
+.bigImageList .header
+{
+    background-image:url(../img/common_files/Spliter_BlogPostTop_border.png);
+    background-position:-180px 25px;
+    padding-bottom: 5px;
+}
+
+.bigImageList .header h4
+{
+    margin-bottom:20px;
+    margin-top: 0px;
+    text-transform: uppercase;
+}
+
+
+.itemBigImgList
+{
+    float: left;
+    width: 920px;
+    height: 180px;
+    margin-bottom: 10px;
+}
+
+.itemBigImgList .serviceImg
+{
+    margin-right: 30px;
+    float: left;
+    padding-top: 0px;
+}
+
+.itemBigImgList .description
+{
+    /*width:690px;*/
+    padding:10px 0px 10px;
+    margin:auto;
+    background-image:url(../img/common_files/Spliter_BlogPostTop_574width.png);
+    background-position: top;
+    /*margin-bottom:36px; */
+    /*float: right;*/
+}
+
+.itemBigImgList .description h2
+{
+    margin-top: 0px;
+}
+
+.itemBigImgList .description p
+{
+    margin-bottom: 0px;
+}
+
+
+
+.smallImageList
+{
+    margin-bottom: 30px;
+    padding-top: 10px;
+    width: 920px;        
+    clear: both;
+    float: left;    
+}
+
+.smallImageList .header
+{
+    background-image:url(../img/common_files/Spliter_BlogPostTop_border.png);
+    background-position:-180px 25px;
+    padding-bottom: 5px;
+}
+
+.smallImageList .header h4
+{
+    margin-bottom:20px;
+    margin-top: 0px;
+    text-transform: uppercase;
+}
+
+.smallImageList .leftColumn
+{
+    float: left;
+    width: 430px;
+}
+
+.smallImageList .rightColumn
+{
+    float: right;
+    width: 430px;
+}
+
+.rightColumn .itemSmallImgList
+{
+    float: left;
+}
+
+.leftColumn .itemSmallImgList
+{
+    float: left;
+}
+
+.itemSmallImgList
+{
+    width: 430px;
+    height: 125px;
+    margin-bottom: 10px;
+    background-image:url(../img/common_files/Spliter_sidebar_265width.png);
+    background-position: 0px top;
+}
+
+.itemSmallImgList .serviceImg
+{
+    margin-right:20px;
+    float: left;
+    padding-top: 10px;
+}
+
+.itemSmallImgList .description
+{
+    /*width:310px;*/
+    padding:10px 0px 10px;
+    margin:auto;
+    /*margin-bottom:36px;*/
+    /*float: right;*/
+}
+
+.itemSmallImgList .description p
+{
+    margin: 12px 0px 0px;
+}
+
+.itemSmallImgList .description h4
+{
+    margin: 0px;
+    color:#FFE570;
+}
+
+
+
+.threeColumnList
+{
+    margin-bottom: 30px;
+    padding-top: 10px;
+    width: 920px;        
+    clear: both;
+    float: left;    
+}
+
+.threeColumnList .header
+{
+    background-image:url(../img/common_files/Spliter_BlogPostTop_border.png);
+    background-position:-180px 25px;
+    padding-bottom: 5px;
+}
+
+.threeColumnList .header h4
+{
+    margin-bottom:20px;
+    margin-top: 0px;
+    text-transform: uppercase;
+}
+
+.itemThreeColumnList
+{
+    width: 306px;
+    /*height: 130px;*/
+    margin-bottom: 10px;
+    float: left;
+    /*margin-right: 40px;*/
+    text-align: center;
+}
+
+.itemThreeColumnList .serviceImg
+{
+    margin:20px 0px 20px;
+}
+
+.itemThreeColumnList .description
+{
+    padding:7px 0px 10px;
+    background-image:url(../img/common_files/Spliter_sidebar_265width.png);
+    background-position: 0px top;
+    margin:auto;
+    margin-top: 10px;
+    margin-bottom: 6px;
+    text-align: left;
+    width: 276px;
+}
+
+.itemThreeColumnList .description p
+{
+    margin: 12px 0px 0px;
+}
+
+.itemThreeColumnList .description h4
+{
+    margin: 0px;
+    color:#FFE570;
+    text-align: left;
+}
+
+
+/*========================================================*/
+/*========================= CONTACT ======================*/
+/*========================================================*/
+
+#locationMap
+{
+    background-image: url(../img/temp_files/localizationsEurope.png);
+    background-position: 0px 20px;
+    /*background-position: 0px bottom;*/ 
+    height: 566px;
+    /*height: 670px;*/
+    margin-bottom: 20px;
+}
+
+#locationMapUSA
+{
+    background-image: url(../img/temp_files/localizationsUSA.png);
+    background-position: 0px 0px; 
+    height: 425px;
+    margin-bottom: 10px;
+}
+
+#locationDescription
+{
+    padding:20px 0px 10px;
+    background-image:url(../img/common_files/Spliter_BlogPostTop_574width.png);
+    background-position: top;
+    margin-bottom:36px;    
+}
+
+#locationDescription h2
+{
+    margin-top: 0px;
+}
+
+.locationLeft
+{
+    width: 280px; 
+    float: left;
+    background-image:url(../img/common_files/Spliter_BlogPostTop_border.png);
+    background-position: bottom;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+}
+
+.locationRight
+{
+    width: 280px; 
+    float: right;
+    background-image:url(../img/common_files/Spliter_BlogPostTop_border.png);
+    background-position: bottom;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+}
+
+.locationLeft .description, .locationRight .description
+{
+    height: 150px;
+}
+
+.info p
+{
+    font:11px/18px Verdana;
+    margin:0px;
+    color: #999;
+}
+
+.info h4
+{
+    margin-top: 0px;
+}
+
+#headquarterInfo .contactInfo
+{
+    margin: 0px 0px 20px; 
+    background-image:url(../img/common_files/Spliter_BlogPostTop_574width.png);
+    padding:10px 40px 0px; 
+    background-position: top;
+    width: 520px;
+    float: left;
+}
+
+#headquarterInfo h5
+{
+    margin-bottom:0px;
+    text-indent: 15px;
+}
+
+
+
+							
+
+

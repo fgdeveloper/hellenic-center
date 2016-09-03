@@ -1,0 +1,12 @@
+[23-Jan-2013 20:02:25] PHP Fatal error:  Call to undefined function  add_action() in /home2/hellenj6/public_html/wp-content/plugins/contact-form-7/includes/controller.php on line 3
+[24-Jan-2013 14:10:32] PHP Fatal error:  Call to undefined function  add_action() in /home2/hellenj6/public_html/wp-content/plugins/contact-form-7/includes/controller.php on line 3
+[08-May-2013 14:56:59] PHP Fatal error:  Call to undefined function  add_action() in /home4/hellenj7/public_html/wp-content/plugins/contact-form-7/includes/controller.php on line 3
+[25-Aug-2013 06:14:02] PHP Fatal error:  Call to undefined function  add_action() in /home4/hellenj7/public_html/wp-content/plugins/contact-form-7/includes/controller.php on line 3
+[25-Aug-2013 06:14:12] PHP Fatal error:  Call to undefined function  add_filter() in /home4/hellenj7/public_html/wp-content/plugins/contact-form-7/includes/capabilities.php on line 3
+[03-Dec-2013 02:31:41] PHP Fatal error:  Call to undefined function  add_action() in /home4/hellenj7/public_html/wp-content/plugins/contact-form-7/includes/controller.php on line 3
+[27-Feb-2014 09:46:26 America/Denver] PHP Fatal error:  Call to undefined function add_action() in /home4/hellenj7/public_html/wp-content/plugins/contact-form-7/includes/controller.php on line 3
+[01-Aug-2014 22:47:23 America/Denver] PHP Fatal error:  Call to undefined function add_action() in /home4/hellenj7/public_html/wp-content/plugins/contact-form-7/includes/controller.php on line 3
+[03-Mar-2015 07:44:51 America/Denver] PHP Fatal error:  Call to undefined function add_action() in /home4/hellenj7/public_html/wp-content/plugins/contact-form-7/includes/controller.php on line 3
+[26-Sep-2015 20:58:07 America/Denver] PHP Fatal error:  Call to undefined function add_action() in /home4/hellenj7/public_html/wp-content/plugins/contact-form-7/includes/controller.php on line 3
+[07-Jul-2016 06:00:22 America/Denver] PHP Fatal error:  Call to undefined function add_action() in /home4/hellenj7/public_html/wp-content/plugins/contact-form-7/includes/controller.php on line 3
+[15-Aug-2016 23:03:03 America/Denver] PHP Fatal error:  Call to undefined function add_action() in /home4/hellenj7/public_html/wp-content/plugins/contact-form-7/includes/controller.php on line 3

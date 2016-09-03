@@ -1,0 +1,58 @@
+body { 
+  background-color: #DB8F00;
+}
+a,a:link,a:visited {
+  color:#F7A100;
+  text-decoration:none;
+}
+#slide-wrapper {
+  border-top: 4px solid #F7A100;
+  border-bottom: 2px solid #F7A100;
+  background: #CF8600;
+}
+.featuresbox,
+.quotebox {
+  background-color: #F3B700;
+  background-image: url(orange/orange.jpg);
+  background-position:  bottom center;
+  background-repeat:  repeat-x;
+  border-bottom: 2px solid #F7A100;  
+}
+.featuresbox ul li { 
+  background: url(orange/divider-orange.png) center left no-repeat;
+}   
+.mainbox h4,
+.mainbox2 h4 {
+  color: #F7A100;
+  margin-bottom: 10px;
+}
+.mainbox h4 a,
+.mainbox2 h4 a {
+  color: #F7A100;
+}
+#page-heading {
+  border-top: 4px solid #F7A100;
+  border-bottom: 2px solid #F7A100;
+  background: #CF8600;
+}
+.jqueryslidemenu ul li.current_page_item a, .jqueryslidemenu ul li.current_page_parent a,.jqueryslidemenu ul li.current_page_ancestor a {
+  color: #F7A100;
+}
+.jqueryslidemenu ul li a:hover{
+  color: #F7A100;
+}
+.jqueryslidemenu ul li ul li a:hover{ /*sub menus hover style*/
+  color: #F7A100;
+}
+a.button {
+  color: #666666;  
+}
+.wpapi_pagination a:hover{
+  background: #F7A100;
+}
+.wpapi_pagination .current{
+  background: #F7A100;
+}
+.nivo-caption a {
+  color: #ffffff; 
+}

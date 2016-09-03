@@ -1,0 +1,57 @@
+body { 
+  background-color: #2B2B2B;
+}
+a,a:link,a:visited {
+  color:#333333;
+}
+#slide-wrapper {
+  border-top: 4px solid #363636;
+  border-bottom: 2px solid #363636;
+  background: #2B2B2B;
+}
+.featuresbox,
+.quotebox {
+  background-color: #444444;
+  background-image: url(dark/dark.jpg);
+  background-position:  bottom center;
+  background-repeat:  repeat-x;
+  border-bottom: 2px solid #363636;
+}
+.featuresbox ul li {
+  background: url(dark/divider-dark.png) center left no-repeat;
+}   
+.mainbox h4,
+.mainbox2 h4 {
+  color: #333333;
+  margin-bottom: 10px;
+}
+.mainbox h4 a,
+.mainbox2 h4 a {
+  color: #333333;
+}
+#page-heading {
+  border-top: 4px solid #363636;
+  border-bottom: 2px solid #363636;
+  background: #2B2B2B;
+}
+.jqueryslidemenu ul li.current_page_item a, .jqueryslidemenu ul li.current_page_parent a,.jqueryslidemenu ul li.current_page_ancestor a {
+  color: #333333;
+}
+.jqueryslidemenu ul li a:hover{
+  color: #333333;
+}
+.jqueryslidemenu ul li ul li a:hover{ /*sub menus hover style*/
+  color: #333333;
+}
+a.button {
+  color: #666666;  
+}
+.wpapi_pagination a:hover{
+  background: #333333;
+}
+.wpapi_pagination .current{
+  background: #333333;
+}
+.nivo-caption a {
+  color: #ffffff; 
+}

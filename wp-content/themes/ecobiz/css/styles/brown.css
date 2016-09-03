@@ -1,0 +1,57 @@
+body { 
+  background-color: #BF4C17;
+}
+a,a:link,a:visited {
+  color:#D64400;
+}
+#slide-wrapper { 
+  border-top: 4px solid #C24C15;
+  border-bottom: 2px solid #C24C15;
+  background: #BF4C17;
+}
+.featuresbox,
+.quotebox {
+  background-color: #EB6325;
+  background-image: url(brown/brown.jpg);
+  background-position:  bottom center;
+  background-repeat:  repeat-x;
+  border-bottom: 2px solid #C24C15; 
+}
+.featuresbox ul li {
+  background: url(brown/divider-brown.png) center left no-repeat;
+}    
+.mainbox h4,
+.mainbox2 h4 {
+  color: #D64400;
+  margin-bottom: 10px;
+}
+.mainbox h4 a,
+.mainbox2 h4 a {
+  color: #D64400;
+}
+#page-heading {
+  border-top: 4px solid #C24C15;
+  border-bottom: 2px solid #C24C15;
+  background: #BF4C17;
+}
+.jqueryslidemenu ul li.current_page_item a, .jqueryslidemenu ul li.current_page_parent a,.jqueryslidemenu ul li.current_page_ancestor a {
+  color: #D64400;
+}
+.jqueryslidemenu ul li a:hover{
+  color: #D64400;
+}
+.jqueryslidemenu ul li ul li a:hover{ /*sub menus hover style*/
+  color: #D64400;
+}
+a.button {
+  color: #666666;  
+}
+.wpapi_pagination a:hover{
+  background: #D64400;
+}
+.wpapi_pagination .current{
+  background: #D64400;
+}
+.nivo-caption a {
+  color: #ffffff; 
+}

@@ -1,0 +1,327 @@
+/********************************************************************
+    File:   
+        slider_a.css
+    Brief:  
+        -
+    Author:
+        DigitalCavalry
+    Author URI:
+        http://themeforest.net/user/DigitalCavalry
+*********************************************************************/
+
+/*********************************************************************
+    SLIDER A CSS STYLES
+**********************************************************************/
+
+#slider-a-container-wrapper 
+{
+    width:920px;
+    height:420px;
+    margin-top:30px;
+    margin-bottom:20px;
+    margin-left:auto;
+    margin-right:auto;
+    padding:7px;      
+    background-image:url(../img/slider_progress/frame.png);
+    background-repeat:no-repeat;
+    background-position:left top;  
+    border:0px solid red;    
+}
+
+#slider-a-container
+{
+    width:920px;
+    height:420px;
+    background-color:#FFFFFF;
+    overflow:hidden;
+    position:relative;
+}
+
+#slider-a-container .slide
+{
+    width:920px;
+    height:420px;
+    position:absolute;
+    top:420px;
+    left:0px;
+    display:block;
+    background-color:#F9F9F9;
+}
+
+#slider-a-container .slide img
+{
+    border:none;
+}
+
+#slider-a-container .prev
+{
+    width:20px;
+    height:20px;
+    z-index:20;
+    position:absolute;
+    bottom:9px;
+    right:70px;
+    display:block;
+    background-color:transparent;
+    background-image:url(../img/slider_progress/prev.png);
+    background-position:0px 0px;
+    background-repeat:no-repeat;
+    opacity:0.4;
+    filter:alpha(opacity=40);
+    cursor:pointer;
+}
+
+#slider-a-container .prev:hover
+{
+    opacity:1.0;
+    filter:alpha(opacity=100);
+}  
+
+#slider-a-container .next
+{
+    width:20px;
+    height:20px;
+    z-index:20;
+    position:absolute;
+    bottom:9px;
+    right:20px;
+    display:block;
+    background-color:transparent;
+    background-image:url(../img/slider_progress/next.png);
+    background-position:0px 0px;
+    background-repeat:no-repeat;        
+    opacity:0.4;
+    filter:alpha(opacity=40);
+    cursor:pointer;
+}
+
+#slider-a-container .next:hover
+{
+    opacity:1.0;
+    filter:alpha(opacity=100);
+}
+
+#slider-a-container .play
+{
+    width:20px;
+    height:20px;
+    z-index:20;
+    position:absolute;
+    bottom:9px;
+    right:45px;
+    display:block;
+    background-color:transparent;
+    background-image:url(../img/slider_progress/play.png);
+    background-position:0px 0px;
+    background-repeat:no-repeat;        
+    opacity:0.4;
+    filter:alpha(opacity=40);
+    cursor:pointer;
+    display: none;
+}
+
+#slider-a-container .play:hover
+{
+    opacity:1.0;
+    filter:alpha(opacity=100);
+}
+
+#slider-a-container .pause
+{
+    width:20px;
+    height:20px;
+    z-index:20;
+    position:absolute;
+    bottom:9px;
+    right:45px;
+    display:block;
+    background-color:transparent;
+    background-image:url(../img/slider_progress/pause.png);
+    background-position:0px 0px;
+    background-repeat:no-repeat;        
+    opacity:0.4;
+    filter:alpha(opacity=40);
+    cursor:pointer;
+}
+
+#slider-a-container .pause:hover
+{
+    opacity:1.0;
+    filter:alpha(opacity=100);
+}
+
+#slider-a-container .black-bar
+{
+    width:960px;
+    height:38px;
+    position:absolute;
+    bottom:0px;
+    left:0px;
+    background-color:#000;
+    opacity:0.75;
+    filter:alpha(opacity=75);
+    z-index:15;
+    border-top:0px solid #111;
+}
+
+#slider-a-container .thumb-bar
+{
+    width:955px;
+    height:38px;
+    position:absolute;
+    bottom:0px;
+    padding-left:15px;
+    left:0px;
+    background-color:transparent;
+    z-index:16;
+}
+
+#slider-a-container .thumb
+{
+    width:59px;
+    height:26px;
+    display:block;
+    background-color:#000000;
+    border:1px solid #000000;
+    margin-top:5px;
+    margin-left:5px;
+    float:left;
+    cursor:pointer;
+    overflow: hidden;
+    position: relative;
+} 
+
+#slider-a-container .thumb .color
+{
+    display: block;
+    position: absolute;
+    left:0px;
+    top:0px;
+    width:59px;
+    height:26px;
+    display:none;
+    overflow: hidden;
+}     
+
+#slider-a-container .thumb .black
+{
+    display: block;
+    position: absolute;
+    left:0px;
+    top:0px;
+    width:59px;
+    height:26px;
+    opacity:0.6;
+    filter:alpha(opacity=60);    
+}
+
+#slider-a-container .desc
+{
+    z-index:10;
+    display:none;
+    position:absolute;
+    left:0px;
+    top:0px; 
+    opacity:0.95;
+    filter:alpha(opacity=95);         
+}
+
+#slider-a-container .desc .btn-bar
+{
+    height:22px;
+    background-color:transparent;
+    margin-top:3px;
+}
+
+#slider-a-container .desc .btn-left
+{    
+    padding-left:15px;
+    padding-right:15px;
+    padding-top:2px;
+    padding-bottom:2px;
+    height:22px;
+    display:block;
+    float: left;
+    background-color:#FFFFFF;       
+    margin-right:3px;
+    text-align: center;
+    text-decoration: none;
+    font: normal 12px/22px Verdana; 
+    color:#000000;
+    
+}
+
+#slider-a-container .desc .btn-right
+{    
+    padding-left:15px;
+    padding-right:15px;
+    padding-top:2px;
+    padding-bottom:2px;    
+    height:22px;
+    display:block;
+    float: right;
+    background-color:#FFFFFF;       
+    margin-left:3px;
+    text-align: center;
+    text-decoration: none;
+    font: normal 12px/22px Verdana; 
+    color:#000000;
+    
+}
+
+#slider-a-container .desc .btn-left:hover, 
+#slider-a-container .desc .btn-right:hover
+{ 
+    color:#FFF;
+    background-color:#FFE570;
+}
+
+#slider-a-container .desc .head
+{
+    width: 240px;
+    padding-left:15px;
+    padding-right:15px;
+    padding-top:5px;
+    padding-bottom:5px;
+    background-color: #ECECEC;
+    display:table-cell;
+}
+
+#slider-a-container .desc .head h3
+{
+   font: normal 24px/24px 'Lucida Grande','Lucida Sans Unicode',Tahoma,Arial,san-serif;
+   vertical-align: middle;   
+   margin-bottom:0px;
+   padding:0px;     
+}
+
+#slider-a-container .desc .foot
+{
+    background-color:#FFFFFF;  
+    padding:15px;
+    width:240px;
+    margin-top:3px;    
+}
+
+#slider-a-container .desc .foot .h3
+{
+    font: normal 24px/24px 'Lucida Grande','Lucida Sans Unicode',Tahoma,Arial,san-serif;
+    margin-bottom:5px;
+    margin-top:0px;
+    padding:0px;
+}
+
+#slider-a-container .desc .foot .text
+{
+    color:#333333; 
+    font: normal 12px/18px Verdana;    
+}
+
+#slider-a-container .desc .x, 
+#slider-a-container .desc .y, 
+#slider-a-container .desc .width,
+#slider-a-container .desc .hbgcolor,
+#slider-a-container .desc .hcolor 
+{
+    display:none;
+}    

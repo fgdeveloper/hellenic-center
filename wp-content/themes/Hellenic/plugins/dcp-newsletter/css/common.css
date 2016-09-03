@@ -1,0 +1,153 @@
+/**********************************************************************
+* DIGITAL CAVALRY WP NEWSLETTER SYSTEM PLUGIN 
+* (WP voting system)   
+* 
+* File name:   
+*      common.css
+* Brief:       
+*      Plugin css file
+* Author:      
+*      DigitalCavalry
+* Author URI:
+*      http://themeforest.net/user/DigitalCavalry
+* Contact:
+*      digitalcavalry@gmail.com 
+**********************************************************************/  
+
+.dcwp-newsletter
+{
+    background-color:transparent;
+    border:0px solid green;
+    padding:0px 25px 0px 0px;
+}
+
+.dcwp-newsletter .input-wrapper
+{
+   margin-right:2px;
+}
+
+.dcwp-newsletter input
+{
+    width:100%;
+    padding-left:0px;
+    padding-right:0px;
+}
+
+.dcwp-newsletter .desc 
+{
+    font:11px/14px Verdana;
+    color:#555;    
+}
+
+.dcwp-newsletter p.label
+{
+    font-size:11px;
+    margin-top:10px;
+    margin-bottom:2px;
+    font-style:italic;
+    color:#666666;    
+}
+
+.dcwp-newsletter .btn-bar
+{
+    margin-top:10px;
+    padding:0px;
+    width:240px;
+} 
+
+.dcwp-newsletter .btn-bar a
+{
+    color:#666;    
+} 
+
+.dcwp-newsletter .btn-bar a:hover
+{
+    text-decoration:none;
+}  
+
+.dcwp-newsletter .wrap-register
+{
+    width:110px;
+    height:22px;
+    border:1px solid #ccc;
+    float:left;
+    text-align: center;
+    cursor:pointer;
+    background-color:#e4e4e4;
+    line-height:22px;    
+}
+
+.dcwp-newsletter .wrap-register-wide
+{
+    width:110px;
+    float:left;
+    height:22px;
+    border:1px solid #ccc;
+    text-align: center;
+    cursor:pointer;
+    background-color:#e4e4e4;
+    line-height:22px;
+    margin:auto;    
+}
+
+.dcwp-newsletter .wrap-register-wide:hover, 
+.dcwp-newsletter .wrap-register:hover
+{
+    border-color:#eee;    
+}
+
+.dcwp-newsletter .wrap-register-wide:hover a, 
+.dcwp-newsletter .wrap-register:hover a
+{
+    color:#222;    
+}
+
+.dcwp-newsletter .wrap-unregister
+{
+    width:110px;
+    height:22px;
+    border:1px solid #ccc;
+    float:right;
+    text-align: center;
+    cursor:pointer;
+    background-color:#e4e4e4;
+    line-height:22px;     
+}
+
+.dcwp-newsletter .wrap-unregister:hover
+{
+    border-color:#eee;    
+}
+
+.dcwp-newsletter .wrap-unregister:hover a
+{
+    color:#222;    
+}
+
+.dcwp-newsletter .result
+{
+    margin-top:8px;
+    height:11px;
+    float:left;
+    width:240px;
+}
+
+.dcwp-newsletter .result .info
+{
+    font: italic 10px/10px Verdana;
+    color:#666666;
+    float:right;
+    display:none;
+}
+
+.dcwp-newsletter .result .ajax
+{
+    width:25px;
+    height:11px;
+    background-image:url(../img/ajax.gif);
+    background-repeat: no-repeat;
+    background-position:left top;
+    float:left;
+    display:none;
+}
+

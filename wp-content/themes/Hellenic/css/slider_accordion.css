@@ -1,0 +1,164 @@
+/********************************************************************
+    File:   
+        slider_accordion.css
+    Brief:  
+        -
+    Author:
+        DigitalCavalry
+    Author URI:
+        http://themeforest.net/user/DigitalCavalry
+*********************************************************************/
+
+#accordion-container-wrapper 
+{  
+    width:920px;
+    height:420px;
+    margin-top:30px;
+    margin-bottom:20px;
+    margin-left:auto;
+    margin-right:auto;
+    padding:7px;      
+    background-image:url(../img/slider_accordion/frame.png);
+    background-repeat:no-repeat;
+    background-position:left top;  
+    border:0px solid red;
+}
+
+
+#accordion-container {
+    width:920px; 
+    height:420px; 
+    overflow:hidden; 
+    background-color:#000; 
+    position:relative;
+    border:none;           
+}
+
+#accordion-container .slide 
+{
+    width:860px;  
+    height:420px; 
+    position: absolute;  
+    border-left:1px solid #fff;  
+    left:0px; 
+    top:0px;
+    background-color:black; 
+    
+}
+
+#accordion-container .slide .stripe 
+{
+    display:block;
+    position: absolute;
+    left:0px;
+    top:0px;
+    width:920px;
+    height:420px;
+}
+
+#accordion-container .slide .stripe:hover
+{
+    text-decoration:none;
+}   
+
+#accordion-container .slide .strip-title
+{
+  position: absolute;
+  left: 0px;
+  bottom:30px;
+  z-index:2;
+  vertical-align: middle;
+  text-transform:none;
+  color: #333; 
+  background-color:#eee;
+  padding:10px;
+  margin:0px; 
+  width:100px;
+  opacity:0.90;
+  filter:alpha(opacity=90); /* IE */  
+}
+
+#accordion-container .slide .shadow
+{
+    width:30px;
+    height:420px;
+    background-image:url('../img/slider_accordion/shadow.png');
+    background-repeat:no-repeat;
+    background-color:transparent;
+    background-position:0px 0px;
+    position:absolute;
+    left:-30px;
+    top:0px;
+    overflow: hidden;
+}
+
+#accordion-container .slide .image 
+{
+    border-left: 0px solid #AAA; 
+    width:860px; 
+    height:420px;
+	display:block;
+    
+   background-image: url('../img/ajax/6w.gif');
+   background-repeat: no-repeat;
+   background-position: 50% 50%; 
+}    
+
+#accordion-container .slide .image img
+{
+    border:none;
+}
+
+#accordion-container .slide .text-back 
+{
+    bottom:-95px;
+    margin-left:0px;
+    margin-top:0px;
+    position:absolute;
+    left:0px;
+    width:1000px;
+    height:95px;
+    opacity:0.0;
+    filter:alpha(opacity=0); /* IE */ 
+    background-color:#DDD;
+    border-top:1px solid #FFF;
+	
+	background-image:url(../img/slider_accordion/back_gradient.png);
+	background-repeat:repeat-x;
+    background-position: top;
+}
+
+#accordion-container .slide .text 
+{
+    padding-top:0px;
+    padding-left:15px;
+    text-align:left;
+    color:#000;
+    bottom:-95px;
+    margin-left:0px;
+    margin-top:0px;
+    position:absolute;
+    left:0px;
+    width:640px;
+    height:95px;
+    opacity:0.0;
+    filter:alpha(opacity=0); /* IE */ 
+    background:none;
+    border:0px solid red;
+}
+
+#accordion-container .slide h3 
+{
+    font-weight:bold;
+    margin-top:8px;
+    margin-bottom:4px;
+    font: normal 28px/28px Verdana;
+}
+
+    
+
+
+
+
+
+
